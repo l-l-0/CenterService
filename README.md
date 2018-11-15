@@ -26,7 +26,7 @@ git merge master
 git push --set-upstream origin BJTT
 
 # 删除分支
-git merge master
+git checkout master
 git branch -d BJTT
 git push origin :BJTT
 
