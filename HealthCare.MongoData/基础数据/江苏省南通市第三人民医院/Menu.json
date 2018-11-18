@@ -1,0 +1,368 @@
+{ 
+    "_id" : "platform",
+    "displayName" : "平台管理", 
+    "displayOrder" : NumberInt(1), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "platform", 
+    "icon" : "fa fa-jsfiddle", 
+    "isModule" : true
+}
+{ 
+    "_id" : "/platform/setting-cabinet-ownership",
+    "displayName" : "客户信息管理", 
+    "displayOrder" : NumberInt(11), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "setting-cabinet-ownership/NTSY", 
+    "icon" : "fa fa-gg", 
+    "isModule" : false, 
+    "parentId" : "platform"
+}
+{ 
+    "_id" : "/platform/running-message",
+    "displayName" : "本地系统消息", 
+    "displayOrder" : NumberInt(12), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "running-message", 
+    "icon" : "fa fa-home", 
+    "isModule" : false, 
+    "parentId" : "platform"
+}
+{ 
+    "_id" : "/platform/user-mgr",
+    "displayName" : "系统用户管理", 
+    "displayOrder" : NumberInt(13), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "user-mgr/NTSY?allowFace=false", 
+    "icon" : "fa fa-users", 
+    "isModule" : false, 
+    "parentId" : "platform"
+}
+{ 
+    "_id" : "/platform/role-mgr",
+    "displayName" : "角色权限管理", 
+    "displayOrder" : NumberInt(14), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "role-mgr/NTSY", 
+    "icon" : "fa fa-superpowers", 
+    "isModule" : false, 
+    "parentId" : "platform"
+}
+{ 
+    "_id" : "data",
+    "displayName" : "数据管理", 
+    "displayOrder" : NumberInt(2), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "data", 
+    "icon" : "fa fa-database", 
+    "isModule" : true
+}
+{ 
+    "_id" : "/data/goods-mgr",
+    "displayName" : "药品信息管理", 
+    "displayOrder" : NumberInt(21), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "goods-mgr/NTSY", 
+    "icon" : "fa fa-medkit", 
+    "isModule" : false, 
+    "parentId" : "data"
+}
+{ 
+    "_id" : "/data/goods-category-mgr",
+    "displayName" : "药品分组管理", 
+    "displayOrder" : NumberInt(22), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "goods-category-mgr/NTSY", 
+    "icon" : "fa fa-object-group", 
+    "isModule" : false, 
+    "parentId" : "data"
+}
+{ 
+    "_id" : "/data/department-mgr",
+    "displayName" : "科室病区管理", 
+    "displayOrder" : NumberInt(23), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "department-mgr/NTSY", 
+    "icon" : "fa fa-university", 
+    "isModule" : false, 
+    "parentId" : "data"
+}
+{ 
+    "_id" : "/data/employee-mgr",
+    "displayName" : "员工信息管理", 
+    "displayOrder" : NumberInt(24), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "employee-mgr/NTSY", 
+    "icon" : "fa fa-address-card", 
+    "isModule" : false, 
+    "parentId" : "data"
+}
+{ 
+    "_id" : "storage",
+    "displayName" : "存储配置", 
+    "displayOrder" : NumberInt(3), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "storage", 
+    "icon" : "fa fa-gears", 
+    "isModule" : true
+}
+{ 
+    "_id" : "/storage/cabinet-testing",
+    "displayName" : "智能药柜测试", 
+    "displayOrder" : NumberInt(30), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "cabinet-testing?environment=hardware", 
+    "icon" : "fa fa-heart", 
+    "isModule" : false, 
+    "parentId" : "storage"
+}
+{ 
+    "_id" : "/storage/setting-goods-scope",
+    "displayName" : "终端药品配置", 
+    "displayOrder" : NumberInt(31), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "setting-goods-scope/NTSY?unit=usage", 
+    "icon" : "fa fa-windows", 
+    "isModule" : false, 
+    "parentId" : "storage"
+}
+{ 
+    "_id" : "/storage/setting-intelligent-storage",
+    "displayName" : "智能药柜配置", 
+    "displayOrder" : NumberInt(32), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "setting-intelligent-storage/NTSY?manual=false&unit=usage&allowMixDrug=false", 
+    "icon" : "fa fa-building", 
+    "isModule" : false, 
+    "parentId" : "storage"
+}
+{ 
+    "_id" : "/storage/setting-storage-unit",
+    "displayName" : "终端药品占位", 
+    "displayOrder" : NumberInt(33), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "setting-storage-unit/NTSY?manual=false&unit=usage&allowMixDrug=false", 
+    "icon" : "fa fa-shopping-basket", 
+    "isModule" : false, 
+    "parentId" : "storage"
+}
+{ 
+    "_id" : "inventory",
+    "displayName" : "库存管理", 
+    "displayOrder" : NumberInt(4), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "inventory", 
+    "icon" : "fa fa-cubes", 
+    "isModule" : true
+}
+{
+    "_id" : "/inventory/pharmacy-transfer",
+    "displayName" : "调拨出入库",
+    "displayOrder" : NumberInt(44),
+    "isDisabled" : false,
+    "filter" : "Menu",
+    "uri" : "pharmacy-transfer/NTSY?unit=usage",
+    "icon" : "fa fa-cloud-download",
+    "isModule" : false,
+    "parentId" : "inventory"
+}
+{
+    "_id" : "/inventory/storage-transfer",
+    "displayName" : "位置出入库",
+    "displayOrder" : NumberInt(45),
+    "isDisabled" : false,
+    "filter" : "Menu",
+    "uri" : "storage-transfer/NTSY?manual=true&unit=usage",
+    "icon" : "fa fa-cube",
+    "isModule" : false,
+    "parentId" : "inventory"
+}
+{
+    "_id" : "/inventory/goods-transfer",
+    "displayName" : "药品出入库",
+    "displayOrder" : NumberInt(46),
+    "isDisabled" : false,
+    "filter" : "Menu",
+    "uri" : "goods-transfer/NTSY?manual=true&unit=usage",
+    "icon" : "fa fa-clipboard",
+    "isModule" : false,
+    "parentId" : "inventory"
+}
+{
+    "_id" : "/inventory/storage-check",
+    "displayName" : "库 存 清 点",
+    "displayOrder" : NumberInt(47),
+    "isDisabled" : false,
+    "filter" : "Menu",
+    "uri" : "storage-check/NTSY?unit=usage",
+    "icon" : "fa fa-hand-paper-o",
+    "isModule" : false,
+    "parentId" : "inventory"
+}
+{ 
+    "_id" : "/inventory/pharmacy-internal-transfer",
+    "displayName" : "库 存 调 整", 
+    "displayOrder" : NumberInt(49), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "pharmacy-internal-transfer/NTSY?unit=usage", 
+    "icon" : "fa fa-briefcase", 
+    "isModule" : false, 
+    "parentId" : "inventory"
+}
+{ 
+    "_id" : "prescription",
+    "displayName" : "药品取退", 
+    "displayOrder" : NumberInt(5), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "prescription", 
+    "icon" : "fa fa-eyedropper", 
+    "isModule" : true
+}
+{
+    "_id" : "/prescription/take-return",
+    "displayName" : "医嘱执行",
+    "displayOrder" : NumberInt(51),
+    "isDisabled" : false,
+    "filter" : "Menu",
+    "uri" : "take-return/NTSY?limit=all&unit=usage",
+    "icon" : "fa fa-first-order",
+    "isModule" : false,
+    "parentId" : "prescription"
+}
+{ 
+    "_id" : "report",
+    "displayName" : "报表管理", 
+    "displayOrder" : NumberInt(6), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "report", 
+    "icon" : "fa fa-line-chart", 
+    "isModule" : true
+}
+{ 
+    "_id" : "/report/daily-consumption-details",
+    "displayName" : "药品用量月报", 
+    "displayOrder" : NumberInt(61), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "NTSY/daily-consumption-details", 
+    "icon" : "fa fa-viacoin", 
+    "isModule" : false, 
+    "parentId" : "report"
+}
+{ 
+    "_id" : "/report/daily-consumption-statistics",
+    "displayName" : "逐日消耗统计", 
+    "displayOrder" : NumberInt(62), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "NTSY/daily-consumption-statistics", 
+    "icon" : "fa fa-krw", 
+    "isModule" : false, 
+    "parentId" : "report"
+}
+{ 
+    "_id" : "/report/prescription-details",
+    "displayName" : "历史处方明细", 
+    "displayOrder" : NumberInt(63), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "NTSY/prescription-details", 
+    "icon" : "fa fa-th", 
+    "isModule" : false, 
+    "parentId" : "report"
+}
+{ 
+    "_id" : "/report/goods-use-details",
+    "displayName" : "药品专册登记", 
+    "displayOrder" : NumberInt(64), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "NTSY/goods-use-details", 
+    "icon" : "fa fa-pie-chart", 
+    "isModule" : false, 
+    "parentId" : "report"
+}
+{ 
+    "_id" : "/report/prescription-covers",
+    "displayName" : "特殊药品处方封面", 
+    "displayOrder" : NumberInt(65), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "NTSY/prescription-covers/00:00:00/23:59:59",
+    "icon" : "fa fa-hourglass-half", 
+    "isModule" : false, 
+    "parentId" : "report"
+}
+{ 
+    "_id" : "/report/action-details",
+    "displayName" : "操作记录明细", 
+    "displayOrder" : NumberInt(66), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "NTSY/action-details", 
+    "icon" : "fa fa-area-chart", 
+    "isModule" : false, 
+    "parentId" : "report"
+}
+{ 
+    "_id" : "/report/inventory-details",
+    "displayName" : "入库记录明细", 
+    "displayOrder" : NumberInt(67), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "NTSY/inventory-details", 
+    "icon" : "fa fa-bar-chart", 
+    "isModule" : false, 
+    "parentId" : "report"
+}
+{ 
+    "_id" : "/report/transfer-details",
+    "displayName" : "库存清点记录", 
+    "displayOrder" : NumberInt(68), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "NTSY/transfer-details", 
+    "icon" : "fa fa-ils", 
+    "isModule" : false, 
+    "parentId" : "report"
+}
+{
+    "_id" : "/report/goods-quota-details",
+    "displayName" : "药品基数明细", 
+    "displayOrder" : NumberInt(69), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "NTSY/goods-quota-details", 
+    "icon" : "fa fa-pie-chart", 
+    "isModule" : false, 
+    "parentId" : "report"
+}
+{
+    "_id" : "/report/daily-recycle-details",
+    "displayName" : "安瓿废贴回收记录", 
+    "displayOrder" : NumberInt(70), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "NTSY/daily-recycle-details", 
+    "icon" : "fa fa-table", 
+    "isModule" : false, 
+    "parentId" : "report"
+}

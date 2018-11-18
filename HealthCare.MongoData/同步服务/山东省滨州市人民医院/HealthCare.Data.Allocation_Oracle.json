@@ -1,0 +1,226 @@
+﻿{
+  "AssemblyPath": "setting\\HealthCare.Data.Allocation.dll",
+  "IsLocked": false,
+  "IsSelected": false,
+  "IsTestPassed": true,
+  "ObjectFullName": "HealthCare.Data.Allocation",
+  "ObjectName": "Allocation",
+  "SelectedSource": {
+    "IsEffect": false,
+    "ResourceAddress": "SELECT A.DOCUMENT_NO||'@'||b.ITEM_NO as UniqueId, \r\nA.DOCUMENT_NO,B.QUANTITY,B.DRUG_CODE || '|' || B.PACKAGE_SPEC || B.firm_id as DRUG_CODE, B.BATCH_NO,B.EXPIRE_DATE,B.PACKAGE_UNITS, '调拨入库' allocMode, -- A.IMPORT_CLASS,\r\n(select dept_code from dept_dict where dept_name = a.supplier AND ROWNUM =1) as SourceId, a.storage as DestinationId, -- supplier 出库部门，storage 接收部门\r\na.import_date as DeliveryTime, a.account_indicator --  0是未记账，1是记账，2是作废\r\nFROM DRUG_IMPORT_MASTER A,DRUG_IMPORT_DETAIL B\r\nWHERE A.DOCUMENT_NO = B.DOCUMENT_NO\r\nand a.IMPORT_date >= TO_DATE('2018-01-01','YYYY-MM-DD')\r\nAND A.STORAGE IN ('020710','020805')\r\n\r\nUNION ALL\r\n\r\n-- 出库\r\nSELECT C.DOCUMENT_NO||'@'||D.ITEM_NO as UniqueId, \r\nC.DOCUMENT_NO,D.QUANTITY,D.DRUG_CODE || '|' || D.PACKAGE_SPEC || D.firm_id as DRUG_CODE, D.BATCH_NO,D.EXPIRE_DATE,D.PACKAGE_UNITS,'调拨出库' allocMode, -- C.EXPORT_CLASS,\r\nC.STORAGE as SourceId,  (select dept_code from dept_dict where dept_name = C.RECEIVER AND ROWNUM =1) as  DestinationId, -- STORAGE 出库部门，RECEIVER 接收部门\r\nC.EXPORT_DATE as DeliveryTime, C.ACCOUNT_INDICATOR\r\nFROM DRUG_EXPORT_MASTER C,DRUG_EXPORT_DETAIL D\r\nWHERE C.DOCUMENT_NO = D.DOCUMENT_NO\r\nAND C.EXPORT_DATE >= TO_DATE('2018-01-01','YYYY-MM-DD')\r\nAND C.STORAGE IN ('020710','020805')\r\n\r\n\r\n",
+    "SourceEnum": 1
+  },
+  "TargetMemberDetails": [
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "#UNIQUEID",
+      "ExpressionValue": "DQYGR00005@7",
+      "ExpressionValueType": "String",
+      "FullPropertyName": "Allocation.UniqueId",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "",
+      "ExpressionValue": null,
+      "ExpressionValueType": null,
+      "FullPropertyName": "Allocation.DisplayName",
+      "IsErrorExpression": null,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": null,
+      "ExpressionValue": -1,
+      "ExpressionValueType": "Int32",
+      "FullPropertyName": "Allocation.DisplayOrder",
+      "IsErrorExpression": null,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "#ACCOUNT_INDICATOR != 1",
+      "ExpressionValue": false,
+      "ExpressionValueType": "Boolean",
+      "FullPropertyName": "Allocation.IsDisabled",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": null,
+      "ExpressionValue": "2018-06-11T14:01:27.2681273+08:00",
+      "ExpressionValueType": "DateTime",
+      "FullPropertyName": "Allocation.CreatedTime",
+      "IsErrorExpression": null,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "#DOCUMENT_NO",
+      "ExpressionValue": "DQYGR00005",
+      "ExpressionValueType": "String",
+      "FullPropertyName": "Allocation.ApplyId",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "#QUANTITY",
+      "ExpressionValue": 2.0,
+      "ExpressionValueType": "Double",
+      "FullPropertyName": "Allocation.ApplyQty",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": null,
+      "ExpressionValue": null,
+      "ExpressionValueType": null,
+      "FullPropertyName": "Allocation.ExchangeBarcode",
+      "IsErrorExpression": null,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "#SOURCEID",
+      "ExpressionValue": "720128",
+      "ExpressionValueType": "String",
+      "FullPropertyName": "Allocation.DepartmentSourceId",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": null,
+      "ExpressionValue": null,
+      "ExpressionValueType": null,
+      "FullPropertyName": "Allocation.DeliveryNumber",
+      "IsErrorExpression": null,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "#DELIVERYTIME",
+      "ExpressionValue": "2018-06-11T10:49:08",
+      "ExpressionValueType": "DateTime",
+      "FullPropertyName": "Allocation.DeliverTime",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "#DESTINATIONID",
+      "ExpressionValue": "020805",
+      "ExpressionValueType": "String",
+      "FullPropertyName": "Allocation.DepartmentDestinationId",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "#DELIVERYTIME",
+      "ExpressionValue": "2018-06-11T10:49:08",
+      "ExpressionValueType": "DateTime",
+      "FullPropertyName": "Allocation.TimeFilter",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "#DRUG_CODE",
+      "ExpressionValue": "0804012PJ0|0.5mg*100山东信谊",
+      "ExpressionValueType": "String",
+      "FullPropertyName": "Allocation.GoodsId",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "#BATCH_NO",
+      "ExpressionValue": "171206",
+      "ExpressionValueType": "String",
+      "FullPropertyName": "Allocation.BatchNumber",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "#EXPIRE_DATE == null ? DateTime.MaxValue.Date : #EXPIRE_DATE",
+      "ExpressionValue": "2019-05-31T00:00:00",
+      "ExpressionValueType": "DateTime",
+      "FullPropertyName": "Allocation.ExpiredDate",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "#ALLOCMODE ==\"调拨入库\" ?ExchangeMode.CheckIn:ExchangeMode.CheckOut;",
+      "ExpressionValue": 1,
+      "ExpressionValueType": "ExchangeMode",
+      "FullPropertyName": "Allocation.Mode",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "#PACKAGE_UNITS",
+      "ExpressionValue": "瓶",
+      "ExpressionValueType": "String",
+      "FullPropertyName": "Allocation.GoodsUnit",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": null,
+      "ExpressionValue": null,
+      "ExpressionValueType": "Double",
+      "FullPropertyName": "Allocation.Qty",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": null,
+      "ExpressionValue": null,
+      "ExpressionValueType": null,
+      "FullPropertyName": "Allocation.GoodsBarcodes",
+      "IsErrorExpression": null,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "#ALLOCMODE",
+      "ExpressionValue": "调拨入库",
+      "ExpressionValueType": "String",
+      "FullPropertyName": "Allocation.RecordType",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    }
+  ],
+  "IsSyncing": false
+}

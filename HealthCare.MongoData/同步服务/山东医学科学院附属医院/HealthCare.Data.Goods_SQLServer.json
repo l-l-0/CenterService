@@ -1,0 +1,226 @@
+﻿{
+    "AssemblyPath": "setting\\HealthCare.Data.Goods.dll",
+    "IsLocked": false,
+    "IsSelected": false,
+    "IsTestPassed": true,
+    "ObjectFullName": "HealthCare.Data.Goods",
+    "ObjectName": "Goods",
+    "SelectedSource": {
+        "IsEffect": false,
+        "ResourceAddress": "SELECT ArcimCode,ArcimDesc,TradeName,Manuactory,UnitPrice ,DosageForm as DrugType ,SPECIFICATION as Specification,PackNumber,PackUnit ,最小包装 as MiniUnit\r\n  FROM  YP",
+        "SourceEnum": 0
+    },
+    "TargetMemberDetails": [
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": "#ArcimCode.ToString();",
+            "ExpressionValue": "1371845",
+            "ExpressionValueType": "String",
+            "FullPropertyName": "Goods.UniqueId",
+            "IsErrorExpression": false,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": null,
+            "ExpressionValue": null,
+            "ExpressionValueType": null,
+            "FullPropertyName": "Goods.GenericName",
+            "IsErrorExpression": null,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": null,
+            "ExpressionValue": null,
+            "ExpressionValueType": null,
+            "FullPropertyName": "Goods.TradeName",
+            "IsErrorExpression": null,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": "#ArcimDesc",
+            "ExpressionValue": "盐酸羟考酮注射液",
+            "ExpressionValueType": "String",
+            "FullPropertyName": "Goods.DisplayName",
+            "IsErrorExpression": false,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": "#ArcimCode.ToString();",
+            "ExpressionValue": "1371845",
+            "ExpressionValueType": "String",
+            "FullPropertyName": "Goods.Code",
+            "IsErrorExpression": false,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": null,
+            "ExpressionValue": -1,
+            "ExpressionValueType": "Int32",
+            "FullPropertyName": "Goods.DisplayOrder",
+            "IsErrorExpression": null,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": "",
+            "ExpressionValue": null,
+            "ExpressionValueType": null,
+            "FullPropertyName": "Goods.IsDisabled",
+            "IsErrorExpression": null,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": "\"Drug\"",
+            "ExpressionValue": "Drug",
+            "ExpressionValueType": "String",
+            "FullPropertyName": "Goods.Filter",
+            "IsErrorExpression": false,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": "#PackUnit",
+            "ExpressionValue": "盒",
+            "ExpressionValueType": "String",
+            "FullPropertyName": "Goods.SmallPackageUnit",
+            "IsErrorExpression": false,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": "#PackNumber",
+            "ExpressionValue": 5.0,
+            "ExpressionValueType": "Double",
+            "FullPropertyName": "Goods.Conversion",
+            "IsErrorExpression": false,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": "#MiniUnit",
+            "ExpressionValue": "支",
+            "ExpressionValueType": "String",
+            "FullPropertyName": "Goods.UsedUnit",
+            "IsErrorExpression": false,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": "#Specification",
+            "ExpressionValue": "10mg 1ml/支",
+            "ExpressionValueType": "String",
+            "FullPropertyName": "Goods.Specification",
+            "IsErrorExpression": false,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": "#Manuactory",
+            "ExpressionValue": "英国HAMOL LIMITED",
+            "ExpressionValueType": "String",
+            "FullPropertyName": "Goods.Manufacturer",
+            "IsErrorExpression": false,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": "#TradeName",
+            "ExpressionValue": "",
+            "ExpressionValueType": "String",
+            "FullPropertyName": "Goods.Trader",
+            "IsErrorExpression": false,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": "#UnitPrice",
+            "ExpressionValue": 1230.0,
+            "ExpressionValueType": "Double",
+            "FullPropertyName": "Goods.Price",
+            "IsErrorExpression": false,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": null,
+            "ExpressionValue": null,
+            "ExpressionValueType": null,
+            "FullPropertyName": "Goods.PriceSerialNumber",
+            "IsErrorExpression": null,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": "#DrugType",
+            "ExpressionValue": "注射液",
+            "ExpressionValueType": "String",
+            "FullPropertyName": "Goods.GoodsType",
+            "IsErrorExpression": false,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": null,
+            "ExpressionValue": null,
+            "ExpressionValueType": null,
+            "FullPropertyName": "Goods.Dosage",
+            "IsErrorExpression": null,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": null,
+            "ExpressionValue": null,
+            "ExpressionValueType": null,
+            "FullPropertyName": "Goods.DosageForm",
+            "IsErrorExpression": null,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": "false",
+            "ExpressionValue": false,
+            "ExpressionValueType": "Boolean",
+            "FullPropertyName": "Goods.IsAmpoule",
+            "IsErrorExpression": false,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": null,
+            "ExpressionValue": null,
+            "ExpressionValueType": null,
+            "FullPropertyName": "Goods.Reimburse",
+            "IsErrorExpression": null,
+            "SelectedSubType": null
+        }
+    ],
+    "IsSyncing": false
+}

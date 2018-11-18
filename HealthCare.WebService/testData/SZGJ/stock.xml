@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ROWSET>
+  <ROW>
+    <DRUG_ID>4513</DRUG_ID>
+    <!--药品ID-->
+    <CODE>2001018</CODE>
+    <!--药品编码-->
+    <NAME>盐酸丁咯地尔注射液（世多泰）</NAME>
+    <!--药品名称-->
+    <REGU>5ml:50mg</REGU>
+    <!--药品规格-->
+    <INPRICE>7.83</INPRICE>
+    <!--进价-->
+    <OUTPRICE>9</OUTPRICE>
+    <!--单价-->
+    <AMOUNT>2</AMOUNT>
+    <!--数量-->
+    <UNIT>支</UNIT>
+    <!--单位-->
+    <APPLY>海南惠普森医药生物技术有限公司</APPLY>
+    <!--生产厂家-->
+    <sendDepart>409</sendDepart>
+    <sendName>中心药房</sendName>
+    <reciveDepart>8201</reciveDepart>
+    <reciveName>一病区</reciveName>
+  </ROW>
+  <ROW>
+    <DRUG_ID>2058</DRUG_ID>
+    <CODE>2000223</CODE>
+    <NAME>氯化钠注射液(0.9%*500ml)</NAME>
+    <REGU>0.9%*500ml</REGU>
+    <INPRICE>2.63</INPRICE>
+    <OUTPRICE>3</OUTPRICE>
+    <AMOUNT>1</AMOUNT>
+    <UNIT>瓶</UNIT>
+    <BATCH>1</BATCH>
+    <EXPIREDATE>2012-12-31 00:00:00.0</EXPIREDATE>
+    <APPLY>华裕（无锡）制药有限公司</APPLY>
+    <sendDepart>409</sendDepart>
+    <sendName>中心药房</sendName>
+    <reciveDepart>8201</reciveDepart>
+    <reciveName>一病区</reciveName>
+  </ROW>
+</ROWSET>

@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+此文件由 Web 项目的发布/打包过程使用。可以通过编辑此 MSBuild 文件
+自定义此过程的行为。为了解与此相关的更多内容，请访问 https://go.microsoft.com/fwlink/?LinkID=208121。 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>D:\publish\WebService</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/App_global.asax.compiled">
+      <publishTime>09/11/2018 16:26:56</publishTime>
+    </File>
+    <File Include="bin/App_global.asax.dll">
+      <publishTime>09/11/2018 16:26:56</publishTime>
+    </File>
+    <File Include="bin/ChnCharInfo.dll">
+      <publishTime>05/06/2015 16:47:46</publishTime>
+    </File>
+    <File Include="bin/Common.Logging.Core.dll">
+      <publishTime>08/16/2017 06:51:46</publishTime>
+    </File>
+    <File Include="bin/Common.Logging.Core.pdb">
+      <publishTime>08/16/2017 06:51:46</publishTime>
+    </File>
+    <File Include="bin/Common.Logging.dll">
+      <publishTime>08/16/2017 06:51:42</publishTime>
+    </File>
+    <File Include="bin/Common.Logging.pdb">
+      <publishTime>08/16/2017 06:51:42</publishTime>
+    </File>
+    <File Include="bin/DnsClient.dll">
+      <publishTime>08/15/2018 23:48:00</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>10/23/2017 13:15:18</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>10/23/2017 13:15:20</publishTime>
+    </File>
+    <File Include="bin/HealthCare.MongoData.dll">
+      <publishTime>09/11/2018 16:26:35</publishTime>
+    </File>
+    <File Include="bin/HealthCare.MongoData.dll.config">
+      <publishTime>09/07/2018 12:24:15</publishTime>
+    </File>
+    <File Include="bin/HealthCare.MongoData.pdb">
+      <publishTime>09/11/2018 16:26:35</publishTime>
+    </File>
+    <File Include="bin/HealthCare.WebService.dll">
+      <publishTime>09/11/2018 16:26:53</publishTime>
+    </File>
+    <File Include="bin/HealthCare.WebService.pdb">
+      <publishTime>09/11/2018 16:26:53</publishTime>
+    </File>
+    <File Include="bin/HealthCare.WebService.xml">
+      <publishTime>09/11/2018 16:26:53</publishTime>
+    </File>
+    <File Include="bin/HealthCare.WebService.XmlSerializers.dll">
+      <publishTime>09/11/2018 16:26:54</publishTime>
+    </File>
+    <File Include="bin/log4net.dll">
+      <publishTime>03/08/2017 19:26:22</publishTime>
+    </File>
+    <File Include="bin/MongoDB.Bson.dll">
+      <publishTime>06/27/2018 01:23:46</publishTime>
+    </File>
+    <File Include="bin/MongoDB.Driver.Core.dll">
+      <publishTime>06/27/2018 01:23:56</publishTime>
+    </File>
+    <File Include="bin/MongoDB.Driver.dll">
+      <publishTime>06/27/2018 01:24:04</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>03/24/2018 17:44:14</publishTime>
+    </File>
+    <File Include="bin/Oracle.ManagedDataAccess.dll">
+      <publishTime>08/24/2018 15:44:36</publishTime>
+    </File>
+    <File Include="bin/Oracle.ManagedDataAccess.EntityFramework.dll">
+      <publishTime>08/24/2018 15:44:38</publishTime>
+    </File>
+    <File Include="bin/Quartz.dll">
+      <publishTime>02/18/2017 09:28:06</publishTime>
+    </File>
+    <File Include="bin/Quartz.pdb">
+      <publishTime>02/18/2017 09:28:06</publishTime>
+    </File>
+    <File Include="bin/System.Buffers.dll">
+      <publishTime>05/15/2018 13:29:34</publishTime>
+    </File>
+    <File Include="bin/System.Runtime.InteropServices.RuntimeInformation.dll">
+      <publishTime>11/05/2016 04:57:00</publishTime>
+    </File>
+    <File Include="bin/System.ValueTuple.dll">
+      <publishTime>05/15/2018 13:29:52</publishTime>
+    </File>
+    <File Include="bin/wwwroot/AppSettings.json">
+      <publishTime>09/11/2018 16:14:02</publishTime>
+    </File>
+    <File Include="bin/wwwroot/bjtt_rooms.csv">
+      <publishTime>09/11/2018 16:14:02</publishTime>
+    </File>
+    <File Include="bin/wwwroot/init.bat">
+      <publishTime>09/07/2018 10:01:12</publishTime>
+    </File>
+    <File Include="bin/wwwroot/sdtz_agent.csv">
+      <publishTime>09/07/2018 10:01:12</publishTime>
+    </File>
+    <File Include="bin/wwwroot/szgj_department.csv">
+      <publishTime>09/07/2018 10:01:12</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>09/07/2018 10:01:11</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>11/16/2017 10:53:02</publishTime>
+    </File>
+    <File Include="InternalApi/SyncDataInternal.asmx">
+      <publishTime>09/07/2018 10:01:11</publishTime>
+    </File>
+    <File Include="log4net.config">
+      <publishTime>09/07/2018 10:01:11</publishTime>
+    </File>
+    <File Include="PrecompiledApp.config">
+      <publishTime>09/11/2018 16:26:54</publishTime>
+    </File>
+    <File Include="testData/BJFC/Department_20170811131133.xml">
+      <publishTime>09/07/2018 10:01:11</publishTime>
+    </File>
+    <File Include="testData/BJFC/Department_20170811131134.xml">
+      <publishTime>09/07/2018 10:01:11</publishTime>
+    </File>
+    <File Include="testData/BJFC/Department_20170811132711.xml">
+      <publishTime>09/07/2018 10:01:12</publishTime>
+    </File>
+    <File Include="testData/BJFC/Department_20170811142809.xml">
+      <publishTime>09/07/2018 10:01:12</publishTime>
+    </File>
+    <File Include="testData/BJFC/Department_20170811145240774.xml">
+      <publishTime>09/07/2018 10:01:12</publishTime>
+    </File>
+    <File Include="testData/BJFC/Doctor_20170811133320.xml">
+      <publishTime>09/07/2018 10:01:12</publishTime>
+    </File>
+    <File Include="testData/BJFC/Doctor_20170811142941.xml">
+      <publishTime>09/07/2018 10:01:12</publishTime>
+    </File>
+    <File Include="testData/BJFC/Doctor_20170811145655611.xml">
+      <publishTime>09/07/2018 10:01:12</publishTime>
+    </File>
+    <File Include="testData/BJFC/Doctor_20170811145655845.xml">
+      <publishTime>09/07/2018 10:01:12</publishTime>
+    </File>
+    <File Include="testData/BJFC/Doctor_20170811161843388.xml">
+      <publishTime>09/07/2018 10:01:12</publishTime>
+    </File>
+    <File Include="testData/BJFC/Doctor_20170811161843684.xml">
+      <publishTime>09/07/2018 10:01:12</publishTime>
+    </File>
+    <File Include="testData/BJFC/Doctor_20170811162336356.xml">
+      <publishTime>09/07/2018 10:01:12</publishTime>
+    </File>
+    <File Include="testData/BJFC/Doctor_20170811162336590.xml">
+      <publishTime>09/07/2018 10:01:12</publishTime>
+    </File>
+    <File Include="testData/BJFC/Doctor_20170814161904888.xml">
+      <publishTime>09/07/2018 10:01:12</publishTime>
+    </File>
+    <File Include="testData/BJFC/Doctor_20170814161905154.xml">
+      <publishTime>09/07/2018 10:01:12</publishTime>
+    </File>
+    <File Include="testData/BJFC/Drug_20170811151153542.xml">
+      <publishTime>09/07/2018 10:01:12</publishTime>
+    </File>
+    <File Include="testData/BJFC/Drug_20170811151154228.xml">
+      <publishTime>09/07/2018 10:01:12</publishTime>
+    </File>
+    <File Include="testData/BJFC/Drug_20170814140619348.xml">
+      <publishTime>09/07/2018 10:01:12</publishTime>
+    </File>
+    <File Include="testData/BJFC/Drug_20170814140619972.xml">
+      <publishTime>09/07/2018 10:01:12</publishTime>
+    </File>
+    <File Include="testData/BJFC/Drug_20170814145316822.xml">
+      <publishTime>09/07/2018 10:01:12</publishTime>
+    </File>
+    <File Include="testData/BJFC/Supply_20170811145853732.xml">
+      <publishTime>09/07/2018 10:01:12</publishTime>
+    </File>
+    <File Include="testData/BJFC/Supply_20180423135729361.xml">
+      <publishTime>09/07/2018 10:01:12</publishTime>
+    </File>
+    <File Include="testData/BJFC/Supply_20180423135730028.xml">
+      <publishTime>09/07/2018 10:01:12</publishTime>
+    </File>
+    <File Include="testData/BJFC/Supply_20180423135730630.xml">
+      <publishTime>09/07/2018 10:01:12</publishTime>
+    </File>
+    <File Include="testData/BJFC/Supply_20180423135731313.xml">
+      <publishTime>09/07/2018 10:01:12</publishTime>
+    </File>
+    <File Include="testData/BJFC/Supply_20180423135732022.xml">
+      <publishTime>09/07/2018 10:01:12</publishTime>
+    </File>
+    <File Include="testData/BJFC/Supply_20180423135732672.xml">
+      <publishTime>09/07/2018 10:01:12</publishTime>
+    </File>
+    <File Include="testData/BJFC/Supply_20180423135733304.xml">
+      <publishTime>09/07/2018 10:01:12</publishTime>
+    </File>
+    <File Include="testData/BJFC/Supply_20180423135733909.xml">
+      <publishTime>09/07/2018 10:01:12</publishTime>
+    </File>
+    <File Include="testData/BJFC/Supply_20180423135734031.xml">
+      <publishTime>09/07/2018 10:01:12</publishTime>
+    </File>
+    <File Include="testData/SZGJ/apply.xml">
+      <publishTime>09/07/2018 10:01:12</publishTime>
+    </File>
+    <File Include="testData/SZGJ/drug.xml">
+      <publishTime>09/07/2018 10:01:12</publishTime>
+    </File>
+    <File Include="testData/SZGJ/emp.xml">
+      <publishTime>09/07/2018 10:01:12</publishTime>
+    </File>
+    <File Include="testData/SZGJ/pats.xml">
+      <publishTime>09/07/2018 10:01:12</publishTime>
+    </File>
+    <File Include="testData/SZGJ/pres.xml">
+      <publishTime>09/07/2018 10:01:12</publishTime>
+    </File>
+    <File Include="testData/SZGJ/stock.xml">
+      <publishTime>09/07/2018 10:01:12</publishTime>
+    </File>
+    <File Include="Web References/BJFC/Reference.map">
+      <publishTime>09/07/2018 10:01:11</publishTime>
+    </File>
+    <File Include="Web References/com.biohis/Reference.map">
+      <publishTime>09/07/2018 10:01:11</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>09/11/2018 16:26:54</publishTime>
+    </File>
+    <File Include="WebService/BaseWebService.asmx">
+      <publishTime>09/07/2018 10:01:11</publishTime>
+    </File>
+    <File Include="WebService/BJFCWebService.asmx">
+      <publishTime>09/07/2018 10:01:11</publishTime>
+    </File>
+    <File Include="WebService/GuangJiWebService.asmx">
+      <publishTime>09/07/2018 10:01:11</publishTime>
+    </File>
+    <File Include="WebService/SDBZWebService.asmx">
+      <publishTime>09/07/2018 10:01:11</publishTime>
+    </File>
+    <File Include="WebService/SDSLBYWebService.asmx">
+      <publishTime>09/07/2018 10:01:11</publishTime>
+    </File>
+    <File Include="wwwroot/AppSettings.json">
+      <publishTime>09/11/2018 16:14:02</publishTime>
+    </File>
+    <File Include="wwwroot/bjtt_rooms.csv">
+      <publishTime>09/11/2018 16:14:02</publishTime>
+    </File>
+    <File Include="wwwroot/department.csv">
+      <publishTime>01/02/2018 12:52:28</publishTime>
+    </File>
+    <File Include="wwwroot/init.bat">
+      <publishTime>09/07/2018 10:01:12</publishTime>
+    </File>
+    <File Include="wwwroot/sdtz_agent.csv">
+      <publishTime>09/07/2018 10:01:12</publishTime>
+    </File>
+    <File Include="wwwroot/szgj_department.csv">
+      <publishTime>09/07/2018 10:01:12</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

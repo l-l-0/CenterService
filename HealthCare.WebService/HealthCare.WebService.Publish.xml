@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="C:\web" deleteExistingFiles="True" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="配置文件1" publishMethod="FileSystem" replaceMatchingFiles="False" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="bin/Newtonsoft.Json.dll" publishTime="08/25/2017 16:32:11" />
+    <file relUrl="Web.config" publishTime="08/30/2017 16:59:03" />
+    <file relUrl="bin/HealthCare.WebService.dll" publishTime="08/30/2017 16:58:50" />
+    <file relUrl="bin/HealthCare.WebService.pdb" publishTime="08/30/2017 16:58:50" />
+    <file relUrl="data.xml" publishTime="08/30/2017 14:50:16" />
+    <file relUrl="HISWebService.asmx" publishTime="08/30/2017 13:46:07" />
+  </publishProfile>
+</publishData>

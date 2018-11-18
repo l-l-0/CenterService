@@ -1,0 +1,226 @@
+﻿{
+    "AssemblyPath": "setting\\HealthCare.Data.Allocation.dll",
+    "IsLocked": false,
+    "IsSelected": false,
+    "IsTestPassed": true,
+    "ObjectFullName": "HealthCare.Data.Allocation",
+    "ObjectName": "Allocation",
+    "SelectedSource": {
+        "IsEffect": false,
+        "ResourceAddress": " SELECT InputKey as InputKey,InPutNumber as InPutNumber,OutPutDeptCode as OutPutDeptCode,InPutDeptCode as InPutDeptCode,DrugCode as DrugCode\r\n      ,DrugQTY as DrugQTY\r\n      ,Mode as Mode\r\n      ,MiniUnit as MiniUnit\r\n      ,Serial as Serial\r\n      ,ExpirationDateTime as ExpirationDateTime\r\n      ,ExecutionTime as ExecutionTime\r\n      ,UserAccount as UserAccount\r\n  FROM DB\r\nWHERE DrugCode IN ('11331', '306469', '375469', '104131', '100002174433', '19534', '28031', '601534', '11431', '345402')",
+        "SourceEnum": 0
+    },
+    "TargetMemberDetails": [
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": "#InputKey.ToString();",
+            "ExpressionValue": "10010343028020140715",
+            "ExpressionValueType": "String",
+            "FullPropertyName": "Allocation.UniqueId",
+            "IsErrorExpression": false,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": null,
+            "ExpressionValue": null,
+            "ExpressionValueType": null,
+            "FullPropertyName": "Allocation.DisplayName",
+            "IsErrorExpression": null,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": null,
+            "ExpressionValue": -1,
+            "ExpressionValueType": "Int32",
+            "FullPropertyName": "Allocation.DisplayOrder",
+            "IsErrorExpression": null,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": "",
+            "ExpressionValue": null,
+            "ExpressionValueType": null,
+            "FullPropertyName": "Allocation.IsDisabled",
+            "IsErrorExpression": null,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": "#InputKey.ToString();",
+            "ExpressionValue": "10010343028020140715",
+            "ExpressionValueType": "String",
+            "FullPropertyName": "Allocation.ApplyId",
+            "IsErrorExpression": false,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": "Math.Abs(double.Parse(#DrugQTY.ToString()))",
+            "ExpressionValue": 300.0,
+            "ExpressionValueType": "Double",
+            "FullPropertyName": "Allocation.ApplyQty",
+            "IsErrorExpression": false,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": null,
+            "ExpressionValue": null,
+            "ExpressionValueType": null,
+            "FullPropertyName": "Allocation.ExchangeBarcode",
+            "IsErrorExpression": null,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": "#OutPutDeptCode.ToString();",
+            "ExpressionValue": "37",
+            "ExpressionValueType": "String",
+            "FullPropertyName": "Allocation.DepartmentSourceId",
+            "IsErrorExpression": false,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": "#InputKey.ToString();",
+            "ExpressionValue": "10010343028020140715",
+            "ExpressionValueType": "String",
+            "FullPropertyName": "Allocation.DeliveryNumber",
+            "IsErrorExpression": false,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": "#ExecutionTime",
+            "ExpressionValue": "2015-05-26T08:41:28.05",
+            "ExpressionValueType": "DateTime",
+            "FullPropertyName": "Allocation.DeliverTime",
+            "IsErrorExpression": false,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": "#InPutDeptCode.ToString();",
+            "ExpressionValue": "38",
+            "ExpressionValueType": "String",
+            "FullPropertyName": "Allocation.DepartmentDestinationId",
+            "IsErrorExpression": false,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": "#ExecutionTime",
+            "ExpressionValue": "2015-05-26T08:41:28.05",
+            "ExpressionValueType": "DateTime",
+            "FullPropertyName": "Allocation.TimeFilter",
+            "IsErrorExpression": false,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": "",
+            "ExpressionValue": null,
+            "ExpressionValueType": null,
+            "FullPropertyName": "Allocation.DoctorId",
+            "IsErrorExpression": null,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": null,
+            "ExpressionValue": null,
+            "ExpressionValueType": null,
+            "FullPropertyName": "Allocation.PatientId",
+            "IsErrorExpression": null,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": "#DrugCode.ToString();",
+            "ExpressionValue": "28031",
+            "ExpressionValueType": "String",
+            "FullPropertyName": "Allocation.GoodsId",
+            "IsErrorExpression": false,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": "#Serial",
+            "ExpressionValue": "20140715",
+            "ExpressionValueType": "String",
+            "FullPropertyName": "Allocation.BatchNumber",
+            "IsErrorExpression": false,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": "#ExpirationDateTime",
+            "ExpressionValue": "2017-06-30T00:00:00",
+            "ExpressionValueType": "DateTime",
+            "FullPropertyName": "Allocation.ExpiredDate",
+            "IsErrorExpression": false,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": "#Mode == \"入库\"? ExchangeMode.CheckIn :  ExchangeMode.CheckOut;",
+            "ExpressionValue": 1,
+            "ExpressionValueType": "ExchangeMode",
+            "FullPropertyName": "Allocation.Mode",
+            "IsErrorExpression": false,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": "",
+            "ExpressionValue": null,
+            "ExpressionValueType": null,
+            "FullPropertyName": "Allocation.Qty",
+            "IsErrorExpression": null,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": null,
+            "ExpressionValue": null,
+            "ExpressionValueType": null,
+            "FullPropertyName": "Allocation.GoodsBarcodes",
+            "IsErrorExpression": null,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": "\"HIS 调拨\"",
+            "ExpressionValue": "HIS 调拨",
+            "ExpressionValueType": "String",
+            "FullPropertyName": "Allocation.RecordType",
+            "IsErrorExpression": false,
+            "SelectedSubType": null
+        }
+    ],
+    "IsSyncing": false
+}

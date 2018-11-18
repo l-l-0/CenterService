@@ -1,0 +1,86 @@
+﻿{
+  "AssemblyPath": "setting\\HealthCare.Data.Department.dll",
+  "IsLocked": false,
+  "IsSelected": false,
+  "IsTestPassed": true,
+  "ObjectFullName": "HealthCare.Data.Department",
+  "ObjectName": "Department",
+  "SelectedSource": {
+    "IsEffect": false,
+    "ResourceAddress": "MSH|^~\\&|HRP||SFRA||20180619160800||MFN^M01|HRP_3644674851|P|2.4|||AL|AL|CHN\r\nMFI|Department^科室信息^HRP||UPD|||AL\r\nMFE|MUP||||CE\r\nZ01|1130|麻醉住院|Anesthesiology|麻醉住院|I|0|1|0|1||MZZY|||20180619160727\r\n",
+    "SourceEnum": 3
+  },
+  "TargetMemberDetails": [
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "#Z01_1",
+      "ExpressionValue": "1130",
+      "ExpressionValueType": "String",
+      "FullPropertyName": "Department.UniqueId",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "#Z01_2",
+      "ExpressionValue": "麻醉住院",
+      "ExpressionValueType": "String",
+      "FullPropertyName": "Department.DisplayName",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "#Z01_1",
+      "ExpressionValue": "1130",
+      "ExpressionValueType": "String",
+      "FullPropertyName": "Department.Code",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "",
+      "ExpressionValue": null,
+      "ExpressionValueType": null,
+      "FullPropertyName": "Department.DisplayOrder",
+      "IsErrorExpression": null,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "#Z01_9 != \"1\"",
+      "ExpressionValue": false,
+      "ExpressionValueType": "Boolean",
+      "FullPropertyName": "Department.IsDisabled",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": null,
+      "ExpressionValue": "2018-10-16T19:23:14.0964736+08:00",
+      "ExpressionValueType": "DateTime",
+      "FullPropertyName": "Department.CreatedTime",
+      "IsErrorExpression": null,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": null,
+      "ExpressionValue": "Department",
+      "ExpressionValueType": "String",
+      "FullPropertyName": "Department.Filter",
+      "IsErrorExpression": null,
+      "SelectedSubType": null
+    }
+  ],
+  "IsSyncing": false
+}

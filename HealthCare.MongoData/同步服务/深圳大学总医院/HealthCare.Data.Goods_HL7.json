@@ -1,0 +1,236 @@
+﻿{
+  "AssemblyPath": "setting\\HealthCare.Data.Goods.dll",
+  "IsLocked": false,
+  "IsSelected": false,
+  "IsTestPassed": true,
+  "ObjectFullName": "HealthCare.Data.Goods",
+  "ObjectName": "Goods",
+  "SelectedSource": {
+    "IsEffect": false,
+    "ResourceAddress": "MSH|^~\\&|HIS||SFRA||20180914193600||MFN^M01|4178205|P|2.4|||AL|AL|CHN\r\nMFI|Undrug^非药品物价信息^HIS||UPD|20180914193600|20180914193600|AL\r\nMFE|MUP|||F00000005279|CE\r\nZ04|F00000005279|330100001|⊙局部浸润麻醉（含表面麻醉）|UC|251|||25|次|0|0|0|1|||0|含表面麻醉|0|JBJRMZHBMMZ|NUIIYSWGDYS|500060|20180914193600|||0|0|0|0\r\n",
+    "SourceEnum": 3
+  },
+  "TargetMemberDetails": [
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "#Z04_1 ?? #Z06_1",
+      "ExpressionValue": "F00000005279",
+      "ExpressionValueType": "String",
+      "FullPropertyName": "Goods.UniqueId",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "#Z06_4",
+      "ExpressionValue": null,
+      "ExpressionValueType": null,
+      "FullPropertyName": "Goods.GenericName",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "#Z06_2",
+      "ExpressionValue": null,
+      "ExpressionValueType": null,
+      "FullPropertyName": "Goods.TradeName",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "#Z04_3 ?? string.Join(\"\", #Z06_2, \"(\", #Z06_4, \")\")",
+      "ExpressionValue": "⊙局部浸润麻醉（含表面麻醉）",
+      "ExpressionValueType": "String",
+      "FullPropertyName": "Goods.DisplayName",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "#Z04_1 ?? #Z06_1",
+      "ExpressionValue": "F00000005279",
+      "ExpressionValueType": "String",
+      "FullPropertyName": "Goods.Code",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": null,
+      "ExpressionValue": -1,
+      "ExpressionValueType": "Int32",
+      "FullPropertyName": "Goods.DisplayOrder",
+      "IsErrorExpression": null,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": null,
+      "ExpressionValue": null,
+      "ExpressionValueType": null,
+      "FullPropertyName": "Goods.IsDisabled",
+      "IsErrorExpression": null,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "",
+      "ExpressionValue": null,
+      "ExpressionValueType": null,
+      "FullPropertyName": "Goods.CreatedTime",
+      "IsErrorExpression": null,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "#Z04_0 != null ? \"MedicalConsume\" : \"Drug\"",
+      "ExpressionValue": "MedicalConsume",
+      "ExpressionValueType": "String",
+      "FullPropertyName": "Goods.Filter",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "#Z06_22",
+      "ExpressionValue": null,
+      "ExpressionValueType": null,
+      "FullPropertyName": "Goods.SmallPackageUnit",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "Double.Parse(#Z04_0 != null ? \"1\" : #Z06_23.ToString())",
+      "ExpressionValue": 1.0,
+      "ExpressionValueType": "Double",
+      "FullPropertyName": "Goods.Conversion",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "#Z06_24",
+      "ExpressionValue": null,
+      "ExpressionValueType": null,
+      "FullPropertyName": "Goods.UsedUnit",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "#Z04_14",
+      "ExpressionValue": "",
+      "ExpressionValueType": "String",
+      "FullPropertyName": "Goods.Specification",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "#Z06_41 ?? #Z06_42",
+      "ExpressionValue": null,
+      "ExpressionValueType": null,
+      "FullPropertyName": "Goods.Manufacturer",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": null,
+      "ExpressionValue": null,
+      "ExpressionValueType": null,
+      "FullPropertyName": "Goods.Trader",
+      "IsErrorExpression": null,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "Double.Parse((#Z04_8 ?? #Z06_20).ToString())",
+      "ExpressionValue": 25.0,
+      "ExpressionValueType": "Double",
+      "FullPropertyName": "Goods.Price",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": null,
+      "ExpressionValue": null,
+      "ExpressionValueType": null,
+      "FullPropertyName": "Goods.PriceSerialNumber",
+      "IsErrorExpression": null,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "#Z04_0 != null ? \"耗材\" : #Z06_17",
+      "ExpressionValue": "耗材",
+      "ExpressionValueType": "String",
+      "FullPropertyName": "Goods.GoodsType",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": null,
+      "ExpressionValue": null,
+      "ExpressionValueType": null,
+      "FullPropertyName": "Goods.Dosage",
+      "IsErrorExpression": null,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": null,
+      "ExpressionValue": null,
+      "ExpressionValueType": null,
+      "FullPropertyName": "Goods.DosageForm",
+      "IsErrorExpression": null,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": null,
+      "ExpressionValue": null,
+      "ExpressionValueType": null,
+      "FullPropertyName": "Goods.IsAmpoule",
+      "IsErrorExpression": null,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": null,
+      "ExpressionValue": null,
+      "ExpressionValueType": null,
+      "FullPropertyName": "Goods.Reimburse",
+      "IsErrorExpression": null,
+      "SelectedSubType": null
+    }
+  ],
+  "IsSyncing": false
+}

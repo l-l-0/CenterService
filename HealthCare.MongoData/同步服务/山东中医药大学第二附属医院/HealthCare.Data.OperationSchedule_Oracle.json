@@ -1,0 +1,236 @@
+﻿{
+    "AssemblyPath": "setting\\HealthCare.Data.OperationSchedule.dll",
+    "IsLocked": false,
+    "IsSelected": false,
+    "IsTestPassed": true,
+    "ObjectFullName": "HealthCare.Data.OperationSchedule",
+    "ObjectName": "OperationSchedule",
+    "SelectedSource": {
+        "IsEffect": false,
+        "ResourceAddress": "select * from hisrun.v_gzhc_operationschedule\r\nwhere APPLYTIME >= To_DATE(to_char(sysdate - 1, 'yyyy-MM-dd'), 'yyyy-MM-dd')",
+        "SourceEnum": 1
+    },
+    "TargetMemberDetails": [
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": "#UNIQUEID.ToString()",
+            "ExpressionValue": "1652618",
+            "ExpressionValueType": "String",
+            "FullPropertyName": "OperationSchedule.UniqueId",
+            "IsErrorExpression": false,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": null,
+            "ExpressionValue": null,
+            "ExpressionValueType": null,
+            "FullPropertyName": "OperationSchedule.DisplayName",
+            "IsErrorExpression": null,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": null,
+            "ExpressionValue": -1,
+            "ExpressionValueType": "Int32",
+            "FullPropertyName": "OperationSchedule.DisplayOrder",
+            "IsErrorExpression": null,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": null,
+            "ExpressionValue": null,
+            "ExpressionValueType": null,
+            "FullPropertyName": "OperationSchedule.IsDisabled",
+            "IsErrorExpression": null,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": "#PATIENTID.ToString()",
+            "ExpressionValue": "364482",
+            "ExpressionValueType": "String",
+            "FullPropertyName": "OperationSchedule.PatientId",
+            "IsErrorExpression": false,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": "#APPLYTIME",
+            "ExpressionValue": "2018-03-26T17:00:22",
+            "ExpressionValueType": "DateTime",
+            "FullPropertyName": "OperationSchedule.ApplyTime",
+            "IsErrorExpression": false,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": null,
+            "ExpressionValue": null,
+            "ExpressionValueType": null,
+            "FullPropertyName": "OperationSchedule.OperationState",
+            "IsErrorExpression": null,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": "#OPERATIONTYPE",
+            "ExpressionValue": "急诊",
+            "ExpressionValueType": "String",
+            "FullPropertyName": "OperationSchedule.OperationType",
+            "IsErrorExpression": false,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": null,
+            "ExpressionValue": null,
+            "ExpressionValueType": null,
+            "FullPropertyName": "OperationSchedule.IdentityBarcode",
+            "IsErrorExpression": null,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": "#ROOMID",
+            "ExpressionValue": null,
+            "ExpressionValueType": null,
+            "FullPropertyName": "OperationSchedule.RoomId",
+            "IsErrorExpression": false,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": "#EXECUTIONBEGINTIME",
+            "ExpressionValue": "2018-03-26T20:10:00",
+            "ExpressionValueType": "DateTime",
+            "FullPropertyName": "OperationSchedule.ExecutionBeginTime",
+            "IsErrorExpression": false,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": "#ISCANCELLED!=\"未取消\"",
+            "ExpressionValue": false,
+            "ExpressionValueType": "Boolean",
+            "FullPropertyName": "OperationSchedule.IsCancelled",
+            "IsErrorExpression": false,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": "#ISCANCELLED",
+            "ExpressionValue": "未取消",
+            "ExpressionValueType": "String",
+            "FullPropertyName": "OperationSchedule.Remark",
+            "IsErrorExpression": false,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": null,
+            "ExpressionValue": null,
+            "ExpressionValueType": null,
+            "FullPropertyName": "OperationSchedule.AnesthesiaMode",
+            "IsErrorExpression": null,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": null,
+            "ExpressionValue": null,
+            "ExpressionValueType": null,
+            "FullPropertyName": "OperationSchedule.AnesthetistId",
+            "IsErrorExpression": null,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": "#PRIMARYDOCTORID",
+            "ExpressionValue": "1139",
+            "ExpressionValueType": "String",
+            "FullPropertyName": "OperationSchedule.PrimaryDoctorId",
+            "IsErrorExpression": false,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": "#PRIMARYASSISTANTID",
+            "ExpressionValue": null,
+            "ExpressionValueType": null,
+            "FullPropertyName": "OperationSchedule.PrimaryAssistantId",
+            "IsErrorExpression": false,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": "#PRIMARYHANDWASHINGNURSEID",
+            "ExpressionValue": null,
+            "ExpressionValueType": null,
+            "FullPropertyName": "OperationSchedule.PrimaryHandwashingNurseId",
+            "IsErrorExpression": false,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": null,
+            "ExpressionValue": null,
+            "ExpressionValueType": null,
+            "FullPropertyName": "OperationSchedule.PrimaryTourNurseId",
+            "IsErrorExpression": null,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": "#SECONDARYASSISTANTID",
+            "ExpressionValue": null,
+            "ExpressionValueType": null,
+            "FullPropertyName": "OperationSchedule.SecondaryAssistantId",
+            "IsErrorExpression": false,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": "#SECONDARYHANDWASHINGNURSEID",
+            "ExpressionValue": null,
+            "ExpressionValueType": null,
+            "FullPropertyName": "OperationSchedule.SecondaryHandwashingNurseId",
+            "IsErrorExpression": false,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": "#SECONDARYTOURNURSEID",
+            "ExpressionValue": null,
+            "ExpressionValueType": null,
+            "FullPropertyName": "OperationSchedule.SecondaryTourNurseId",
+            "IsErrorExpression": false,
+            "SelectedSubType": null
+        }
+    ],
+    "IsSyncing": false
+}

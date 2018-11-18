@@ -1,0 +1,226 @@
+﻿{
+  "AssemblyPath": "setting\\HealthCare.Data.Goods.dll",
+  "IsLocked": false,
+  "IsSelected": false,
+  "IsTestPassed": true,
+  "ObjectFullName": "HealthCare.Data.Goods",
+  "ObjectName": "Goods",
+  "SelectedSource": {
+    "IsEffect": false,
+    "ResourceAddress": "POST：http://localhost/HISWebService.asmx/getDrug\r\nPATH：response.drug\r\nBODY：\r\n",
+    "SourceEnum": 2
+  },
+  "TargetMemberDetails": [
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "null",
+      "ExpressionValue": null,
+      "ExpressionValueType": null,
+      "FullPropertyName": "Goods.TradeName",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "false",
+      "ExpressionValue": false,
+      "ExpressionValueType": "Boolean",
+      "FullPropertyName": "Goods.IsAmpoule",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "\"\"",
+      "ExpressionValue": "",
+      "ExpressionValueType": "String",
+      "FullPropertyName": "Goods.PrescriptionType",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "null",
+      "ExpressionValue": null,
+      "ExpressionValueType": null,
+      "FullPropertyName": "Goods.Trader",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "#unitConversions[\"unitConvert\"][0][\"@UNIT\"]==#UNIT?#unitConversions[\"unitConvert\"][1][\"@UNIT\"]:#unitConversions[\"unitConvert\"][0][\"@UNIT\"]",
+      "ExpressionValue": "盒",
+      "ExpressionValueType": "String",
+      "FullPropertyName": "Goods.SmallPackageUnit",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "#UNIT",
+      "ExpressionValue": "粒",
+      "ExpressionValueType": "String",
+      "FullPropertyName": "Goods.UsedUnit",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "double.Parse(#OUTPRICE.ToString())",
+      "ExpressionValue": 0.025,
+      "ExpressionValueType": "Double",
+      "FullPropertyName": "Goods.Price",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "null",
+      "ExpressionValue": null,
+      "ExpressionValueType": null,
+      "FullPropertyName": "Goods.GenericName",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "#TYPE",
+      "ExpressionValue": "心血管系统用药",
+      "ExpressionValueType": "String",
+      "FullPropertyName": "Goods.GoodsType",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "#REGU",
+      "ExpressionValue": "10mg*100s",
+      "ExpressionValueType": "String",
+      "FullPropertyName": "Goods.Specification",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "#APPLY",
+      "ExpressionValue": "常州康普药业",
+      "ExpressionValueType": "String",
+      "FullPropertyName": "Goods.Manufacturer",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "#DOSAGE",
+      "ExpressionValue": "10",
+      "ExpressionValueType": "String",
+      "FullPropertyName": "Goods.Dosage",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "#DOSETYPE",
+      "ExpressionValue": "片剂",
+      "ExpressionValueType": "String",
+      "FullPropertyName": "Goods.DosageForm",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "double.Parse((#unitConversions[\"unitConvert\"][0][\"@UNIT\"]==#UNIT?#unitConversions[\"unitConvert\"][1][\"@CONVERSION\"]:#unitConversions[\"unitConvert\"][0][\"@CONVERSION\"]).ToString())",
+      "ExpressionValue": 24.0,
+      "ExpressionValueType": "Double",
+      "FullPropertyName": "Goods.Conversion",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "null",
+      "ExpressionValue": null,
+      "ExpressionValueType": null,
+      "FullPropertyName": "Goods.Reimburse",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "null",
+      "ExpressionValue": null,
+      "ExpressionValueType": null,
+      "FullPropertyName": "Goods.CasCode",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "null",
+      "ExpressionValue": null,
+      "ExpressionValueType": null,
+      "FullPropertyName": "Goods.Chemical",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "\"Drug\"",
+      "ExpressionValue": "Drug",
+      "ExpressionValueType": "String",
+      "FullPropertyName": "Goods.Filter",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "#CODE",
+      "ExpressionValue": "2001332",
+      "ExpressionValueType": "String",
+      "FullPropertyName": "Goods.Code",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "#NAME",
+      "ExpressionValue": "硝苯地平片（常州康普）",
+      "ExpressionValueType": "String",
+      "FullPropertyName": "Goods.DisplayName",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "#ID",
+      "ExpressionValue": "19647",
+      "ExpressionValueType": "String",
+      "FullPropertyName": "Goods.UniqueId",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    }
+  ],
+  "IsSyncing": false
+}

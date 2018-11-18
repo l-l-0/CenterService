@@ -1,0 +1,246 @@
+﻿{
+  "AssemblyPath": "setting\\HealthCare.Data.OperationSchedule.dll",
+  "IsLocked": false,
+  "IsSelected": false,
+  "IsTestPassed": true,
+  "ObjectFullName": "HealthCare.Data.OperationSchedule",
+  "ObjectName": "OperationSchedule",
+  "SelectedSource": {
+    "IsEffect": false,
+    "ResourceAddress": "MSH|^~\\&|DoCare|Clinical|SFRA|FZKJ|201806191718||SIU^S12|01000000207831|P|2.4\r\nSCH||^1||||^^^1|||||^^^20180615153200|||||||||Admin||||||256241\r\nZOP||2008|2008#01|1|||全身麻醉（未插管）|0|0|100012#100074|100025#|||300007#|300066#|||||||||双眼角膜炎|⊙※角膜移植术(穿透)|||||||||||20180615153200\r\n",
+    "SourceEnum": 3
+  },
+  "TargetMemberDetails": [
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "#SCH_26 ?? #ORC_2",
+      "ExpressionValue": "256241",
+      "ExpressionValueType": "String",
+      "FullPropertyName": "OperationSchedule.UniqueId",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "#ZOP_25",
+      "ExpressionValue": "⊙※角膜移植术(穿透)",
+      "ExpressionValueType": "String",
+      "FullPropertyName": "OperationSchedule.DisplayName",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": null,
+      "ExpressionValue": -1,
+      "ExpressionValueType": "Int32",
+      "FullPropertyName": "OperationSchedule.DisplayOrder",
+      "IsErrorExpression": null,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": null,
+      "ExpressionValue": null,
+      "ExpressionValueType": null,
+      "FullPropertyName": "OperationSchedule.IsDisabled",
+      "IsErrorExpression": null,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": null,
+      "ExpressionValue": "2018-10-17T15:32:03.8731505+08:00",
+      "ExpressionValueType": "DateTime",
+      "FullPropertyName": "OperationSchedule.CreatedTime",
+      "IsErrorExpression": null,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "#PID_2",
+      "ExpressionValue": null,
+      "ExpressionValueType": null,
+      "FullPropertyName": "OperationSchedule.PatientId",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "#SCH_11 != null ? DateTime.ParseExact(#SCH_11.ToString(),  \"^^^yyyyMMddHHmmss\", CultureInfo.InvariantCulture): DateTime.MinValue",
+      "ExpressionValue": "2018-06-15T15:32:00",
+      "ExpressionValueType": "DateTime",
+      "FullPropertyName": "OperationSchedule.ApplyTime",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": null,
+      "ExpressionValue": null,
+      "ExpressionValueType": null,
+      "FullPropertyName": "OperationSchedule.OperationState",
+      "IsErrorExpression": null,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "#ZOP_8 == \"0\" ? \"择期\" : #ZOP_8 == \"1\" ? \"急诊\" : \"\"",
+      "ExpressionValue": "择期",
+      "ExpressionValueType": "String",
+      "FullPropertyName": "OperationSchedule.OperationType",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": null,
+      "ExpressionValue": null,
+      "ExpressionValueType": null,
+      "FullPropertyName": "OperationSchedule.IdentityBarcode",
+      "IsErrorExpression": null,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "#ZOP_2",
+      "ExpressionValue": "2008",
+      "ExpressionValueType": "String",
+      "FullPropertyName": "OperationSchedule.RoomId",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": null,
+      "ExpressionValue": null,
+      "ExpressionValueType": null,
+      "FullPropertyName": "OperationSchedule.ExecutionBeginTime",
+      "IsErrorExpression": null,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "#ORC_1 == \"OC\" || #ORC_1 == \"CA\"",
+      "ExpressionValue": false,
+      "ExpressionValueType": "Boolean",
+      "FullPropertyName": "OperationSchedule.IsCancelled",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "#ORC_1",
+      "ExpressionValue": null,
+      "ExpressionValueType": null,
+      "FullPropertyName": "OperationSchedule.Remark",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": null,
+      "ExpressionValue": null,
+      "ExpressionValueType": null,
+      "FullPropertyName": "OperationSchedule.AnesthesiaMode",
+      "IsErrorExpression": null,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": null,
+      "ExpressionValue": null,
+      "ExpressionValueType": null,
+      "FullPropertyName": "OperationSchedule.AnesthetistId",
+      "IsErrorExpression": null,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": null,
+      "ExpressionValue": null,
+      "ExpressionValueType": null,
+      "FullPropertyName": "OperationSchedule.PrimaryDoctorId",
+      "IsErrorExpression": null,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": null,
+      "ExpressionValue": null,
+      "ExpressionValueType": null,
+      "FullPropertyName": "OperationSchedule.PrimaryAssistantId",
+      "IsErrorExpression": null,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": null,
+      "ExpressionValue": null,
+      "ExpressionValueType": null,
+      "FullPropertyName": "OperationSchedule.PrimaryHandwashingNurseId",
+      "IsErrorExpression": null,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": null,
+      "ExpressionValue": null,
+      "ExpressionValueType": null,
+      "FullPropertyName": "OperationSchedule.PrimaryTourNurseId",
+      "IsErrorExpression": null,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": null,
+      "ExpressionValue": null,
+      "ExpressionValueType": null,
+      "FullPropertyName": "OperationSchedule.SecondaryAssistantId",
+      "IsErrorExpression": null,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": null,
+      "ExpressionValue": null,
+      "ExpressionValueType": null,
+      "FullPropertyName": "OperationSchedule.SecondaryHandwashingNurseId",
+      "IsErrorExpression": null,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": null,
+      "ExpressionValue": null,
+      "ExpressionValueType": null,
+      "FullPropertyName": "OperationSchedule.SecondaryTourNurseId",
+      "IsErrorExpression": null,
+      "SelectedSubType": null
+    }
+  ],
+  "IsSyncing": false
+}

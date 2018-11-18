@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ROWSET>
+  <ROW>
+    <workNO>4513</workNO>
+    <!--职工工号-->
+    <name>小二</name>
+    <!--职工姓名-->
+    <departCode>8201</departCode>
+    <!--科室代码-->
+    <departName>一病区</departName>
+    <!--科室名称-->
+    <position>护士</position>
+    <!--岗位-->
+  </ROW>
+  <ROW>
+    <workNO>4514</workNO>
+    <!--职工工号-->
+    <name>小三</name>
+    <!--职工姓名-->
+    <departCode>8201</departCode>
+    <!--科室代码-->
+    <departName>一病区</departName>
+    <!--科室名称-->
+    <position>护士</position>
+    <!--岗位-->
+  </ROW>
+</ROWSET>

@@ -1,0 +1,288 @@
+﻿{
+    "AssemblyPath": "setting\\HealthCare.Data.Patient.dll",
+    "IsLocked": false,
+    "IsSelected": false,
+    "IsTestPassed": true,
+    "ObjectFullName": "HealthCare.Data.Patient",
+    "ObjectName": "Patient",
+    "SelectedSource": {
+        "IsEffect": false,
+        "ResourceAddress": "SELECT PatientNo,OutpatientNumber,HospitalNumber,CardNumber,PatientName,Gender,Nation ,Citizenship,\r\nBedNo ,UnitCode ,AdmitDateTime,Diagnosis  ,NationalID ,BirthDateTime  ,PatientType \r\n  FROM HZ",
+        "SourceEnum": 0
+    },
+    "TargetMemberDetails": [
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": "#PatientNo.ToString()",
+            "ExpressionValue": "100028273",
+            "ExpressionValueType": "String",
+            "FullPropertyName": "Patient.UniqueId",
+            "IsErrorExpression": false,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": "#PatientName",
+            "ExpressionValue": "杨立存",
+            "ExpressionValueType": "String",
+            "FullPropertyName": "Patient.DisplayName",
+            "IsErrorExpression": false,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": "#PatientNo.ToString()",
+            "ExpressionValue": "100028273",
+            "ExpressionValueType": "String",
+            "FullPropertyName": "Patient.Code",
+            "IsErrorExpression": false,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": null,
+            "ExpressionValue": -1,
+            "ExpressionValueType": "Int32",
+            "FullPropertyName": "Patient.DisplayOrder",
+            "IsErrorExpression": null,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": "false",
+            "ExpressionValue": false,
+            "ExpressionValueType": "Boolean",
+            "FullPropertyName": "Patient.IsDisabled",
+            "IsErrorExpression": false,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [
+                {
+                    "ChildTargetMemberDetails": [],
+                    "ErrorMsg": null,
+                    "Expression": "",
+                    "ExpressionValue": null,
+                    "ExpressionValueType": null,
+                    "FullPropertyName": "Patient.Clinic.UniqueId",
+                    "IsErrorExpression": null,
+                    "SelectedSubType": null
+                },
+                {
+                    "ChildTargetMemberDetails": [],
+                    "ErrorMsg": null,
+                    "Expression": "#OutpatientNumber.ToString()",
+                    "ExpressionValue": "100098344",
+                    "ExpressionValueType": "String",
+                    "FullPropertyName": "Patient.Clinic.SerialNumber",
+                    "IsErrorExpression": false,
+                    "SelectedSubType": null
+                }
+            ],
+            "ErrorMsg": null,
+            "Expression": null,
+            "ExpressionValue": null,
+            "ExpressionValueType": null,
+            "FullPropertyName": "Patient.Clinic",
+            "IsErrorExpression": null,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": "#Diagnosis",
+            "ExpressionValue": "乏力",
+            "ExpressionValueType": "String",
+            "FullPropertyName": "Patient.Diagnostic",
+            "IsErrorExpression": false,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [
+                {
+                    "ChildTargetMemberDetails": [],
+                    "ErrorMsg": null,
+                    "Expression": "",
+                    "ExpressionValue": null,
+                    "ExpressionValueType": null,
+                    "FullPropertyName": "Patient.Hospitalization.UniqueId",
+                    "IsErrorExpression": null,
+                    "SelectedSubType": null
+                },
+                {
+                    "ChildTargetMemberDetails": [],
+                    "ErrorMsg": null,
+                    "Expression": "#UnitCode",
+                    "ExpressionValue": "100000041",
+                    "ExpressionValueType": "String",
+                    "FullPropertyName": "Patient.Hospitalization.AdmittedDepartmentId",
+                    "IsErrorExpression": false,
+                    "SelectedSubType": null
+                },
+                {
+                    "ChildTargetMemberDetails": [],
+                    "ErrorMsg": null,
+                    "Expression": "#AdmitDateTime",
+                    "ExpressionValue": "2016-08-08T08:21:35.16",
+                    "ExpressionValueType": "DateTime",
+                    "FullPropertyName": "Patient.Hospitalization.InitiationTime",
+                    "IsErrorExpression": false,
+                    "SelectedSubType": null
+                },
+                {
+                    "ChildTargetMemberDetails": [],
+                    "ErrorMsg": null,
+                    "Expression": null,
+                    "ExpressionValue": null,
+                    "ExpressionValueType": null,
+                    "FullPropertyName": "Patient.Hospitalization.CumulativeCount",
+                    "IsErrorExpression": null,
+                    "SelectedSubType": null
+                },
+                {
+                    "ChildTargetMemberDetails": [],
+                    "ErrorMsg": null,
+                    "Expression": "#HospitalNumber.ToString();",
+                    "ExpressionValue": "",
+                    "ExpressionValueType": "String",
+                    "FullPropertyName": "Patient.Hospitalization.HospitalNumber",
+                    "IsErrorExpression": false,
+                    "SelectedSubType": null
+                },
+                {
+                    "ChildTargetMemberDetails": [],
+                    "ErrorMsg": null,
+                    "Expression": "#UnitCode",
+                    "ExpressionValue": "100000041",
+                    "ExpressionValueType": "String",
+                    "FullPropertyName": "Patient.Hospitalization.ResidedAreaId",
+                    "IsErrorExpression": false,
+                    "SelectedSubType": null
+                },
+                {
+                    "ChildTargetMemberDetails": [],
+                    "ErrorMsg": null,
+                    "Expression": null,
+                    "ExpressionValue": null,
+                    "ExpressionValueType": null,
+                    "FullPropertyName": "Patient.Hospitalization.RoomId",
+                    "IsErrorExpression": null,
+                    "SelectedSubType": null
+                },
+                {
+                    "ChildTargetMemberDetails": [],
+                    "ErrorMsg": null,
+                    "Expression": "#BedNo.ToString();",
+                    "ExpressionValue": "",
+                    "ExpressionValueType": "String",
+                    "FullPropertyName": "Patient.Hospitalization.BedNo",
+                    "IsErrorExpression": false,
+                    "SelectedSubType": null
+                }
+            ],
+            "ErrorMsg": null,
+            "Expression": null,
+            "ExpressionValue": null,
+            "ExpressionValueType": null,
+            "FullPropertyName": "Patient.Hospitalization",
+            "IsErrorExpression": null,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": null,
+            "ExpressionValue": null,
+            "ExpressionValueType": null,
+            "FullPropertyName": "Patient.MedicareNumber",
+            "IsErrorExpression": null,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": null,
+            "ExpressionValue": null,
+            "ExpressionValueType": null,
+            "FullPropertyName": "Patient.RegisterNumber",
+            "IsErrorExpression": null,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": "",
+            "ExpressionValue": null,
+            "ExpressionValueType": null,
+            "FullPropertyName": "Patient.Age",
+            "IsErrorExpression": null,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": "#BirthDateTime",
+            "ExpressionValue": "1966-08-08T08:16:45",
+            "ExpressionValueType": "DateTime",
+            "FullPropertyName": "Patient.Birthday",
+            "IsErrorExpression": false,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": "#Gender",
+            "ExpressionValue": "男",
+            "ExpressionValueType": "String",
+            "FullPropertyName": "Patient.Gender",
+            "IsErrorExpression": false,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": "#Nation",
+            "ExpressionValue": "汉族",
+            "ExpressionValueType": "String",
+            "FullPropertyName": "Patient.Nation",
+            "IsErrorExpression": false,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": "#Citizenship",
+            "ExpressionValue": "中国",
+            "ExpressionValueType": "String",
+            "FullPropertyName": "Patient.Nationality",
+            "IsErrorExpression": false,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": "#NationalID",
+            "ExpressionValue": "",
+            "ExpressionValueType": "String",
+            "FullPropertyName": "Patient.CertificateCode",
+            "IsErrorExpression": false,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": null,
+            "ExpressionValue": null,
+            "ExpressionValueType": null,
+            "FullPropertyName": "Patient.CertificateType",
+            "IsErrorExpression": null,
+            "SelectedSubType": null
+        }
+    ],
+    "IsSyncing": false
+}

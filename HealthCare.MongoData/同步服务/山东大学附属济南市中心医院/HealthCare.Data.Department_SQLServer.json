@@ -1,0 +1,76 @@
+﻿{
+    "AssemblyPath": "setting\\HealthCare.Data.Department.dll",
+    "IsLocked": false,
+    "IsSelected": false,
+    "IsTestPassed": true,
+    "ObjectFullName": "HealthCare.Data.Department",
+    "ObjectName": "Department",
+    "SelectedSource": {
+        "IsEffect": false,
+        "ResourceAddress": "SELECT * from dbo.[comm.sfra_unit]\r\n",
+        "SourceEnum": 0
+    },
+    "TargetMemberDetails": [
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": "#UnitCode",
+            "ExpressionValue": "2020",
+            "ExpressionValueType": "String",
+            "FullPropertyName": "Department.UniqueId",
+            "IsErrorExpression": false,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": "#UnitName.ToString().Trim()",
+            "ExpressionValue": "701A病区",
+            "ExpressionValueType": "String",
+            "FullPropertyName": "Department.DisplayName",
+            "IsErrorExpression": false,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": "#UnitCode",
+            "ExpressionValue": "2020",
+            "ExpressionValueType": "String",
+            "FullPropertyName": "Department.Code",
+            "IsErrorExpression": false,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": null,
+            "ExpressionValue": -1,
+            "ExpressionValueType": "Int32",
+            "FullPropertyName": "Department.DisplayOrder",
+            "IsErrorExpression": null,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": "",
+            "ExpressionValue": null,
+            "ExpressionValueType": null,
+            "FullPropertyName": "Department.IsDisabled",
+            "IsErrorExpression": null,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": null,
+            "ExpressionValue": "Department",
+            "ExpressionValueType": "String",
+            "FullPropertyName": "Department.Filter",
+            "IsErrorExpression": null,
+            "SelectedSubType": null
+        }
+    ],
+    "IsSyncing": false
+}

@@ -1,0 +1,66 @@
+﻿{
+  "AssemblyPath": "setting\\HealthCare.Data.Room.dll",
+  "IsLocked": false,
+  "IsSelected": false,
+  "IsTestPassed": true,
+  "ObjectFullName": "HealthCare.Data.Room",
+  "ObjectName": "Room",
+  "SelectedSource": {
+    "IsEffect": false,
+    "ResourceAddress": "select * from View_HaoCai_Room",
+    "SourceEnum": 0
+  },
+  "TargetMemberDetails": [
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": null,
+      "ExpressionValue": "Room",
+      "ExpressionValueType": "String",
+      "FullPropertyName": "Room.Filter",
+      "IsErrorExpression": null,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": null,
+      "ExpressionValue": null,
+      "ExpressionValueType": null,
+      "FullPropertyName": "Room.Code",
+      "IsErrorExpression": null,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "#name",
+      "ExpressionValue": "OR16",
+      "ExpressionValueType": "String",
+      "FullPropertyName": "Room.DisplayName",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": null,
+      "ExpressionValue": null,
+      "ExpressionValueType": null,
+      "FullPropertyName": "Room.IsDisabled",
+      "IsErrorExpression": null,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "#id.ToString()",
+      "ExpressionValue": "16",
+      "ExpressionValueType": "String",
+      "FullPropertyName": "Room.UniqueId",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    }
+  ],
+  "IsSyncing": false
+}
