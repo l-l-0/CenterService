@@ -1,0 +1,236 @@
+﻿{
+  "AssemblyPath": "setting\\HealthCare.Data.Goods.dll",
+  "IsLocked": false,
+  "IsSelected": false,
+  "IsTestPassed": true,
+  "ObjectFullName": "HealthCare.Data.Goods",
+  "ObjectName": "Goods",
+  "SelectedSource": {
+    "IsEffect": false,
+    "ResourceAddress": "select a.drug_code || '|' || b.package_spec || b.firm_id as drug_code, a.drug_name, b.package_spec specification, \n    b.firm_id, a.toxi_property, b.package_units, a.units, b.sub_package_1, b.purchase_price from drug_dict a, drug_stock b\nwhere a.drug_code = b.drug_code and a.drug_spec=b.drug_spec and b.quantity>0\nunion\nselect a.drug_code || '|' || b.drug_spec || b.firm_id as drug_code, a.drug_name, a.drug_spec specification, \n    b.firm_id, a.toxi_property, b.package_units, a.units, b.sub_package_1, b.purchase_price from drug_dict a, drug_stock b\nwhere a.drug_code = b.drug_code and a.drug_spec=b.drug_spec and b.quantity>0",
+    "SourceEnum": 1
+  },
+  "TargetMemberDetails": [
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "#DRUG_CODE",
+      "ExpressionValue": "1009007SS|0.25g法国百科达",
+      "ExpressionValueType": "String",
+      "FullPropertyName": "Goods.UniqueId",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": null,
+      "ExpressionValue": null,
+      "ExpressionValueType": null,
+      "FullPropertyName": "Goods.GenericName",
+      "IsErrorExpression": null,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": null,
+      "ExpressionValue": null,
+      "ExpressionValueType": null,
+      "FullPropertyName": "Goods.TradeName",
+      "IsErrorExpression": null,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "#DRUG_NAME",
+      "ExpressionValue": "布拉氏酵母菌散",
+      "ExpressionValueType": "String",
+      "FullPropertyName": "Goods.DisplayName",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "#DRUG_CODE",
+      "ExpressionValue": "1009007SS|0.25g法国百科达",
+      "ExpressionValueType": "String",
+      "FullPropertyName": "Goods.Code",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": null,
+      "ExpressionValue": -1,
+      "ExpressionValueType": "Int32",
+      "FullPropertyName": "Goods.DisplayOrder",
+      "IsErrorExpression": null,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": null,
+      "ExpressionValue": null,
+      "ExpressionValueType": null,
+      "FullPropertyName": "Goods.IsDisabled",
+      "IsErrorExpression": null,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": null,
+      "ExpressionValue": "2018-06-11T17:22:24.132814+08:00",
+      "ExpressionValueType": "DateTime",
+      "FullPropertyName": "Goods.CreatedTime",
+      "IsErrorExpression": null,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "\"Drug\"",
+      "ExpressionValue": "Drug",
+      "ExpressionValueType": "String",
+      "FullPropertyName": "Goods.Filter",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "#PACKAGE_UNITS",
+      "ExpressionValue": "盒",
+      "ExpressionValueType": "String",
+      "FullPropertyName": "Goods.SmallPackageUnit",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "#SUB_PACKAGE_1",
+      "ExpressionValue": 6.0,
+      "ExpressionValueType": "Double",
+      "FullPropertyName": "Goods.Conversion",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "#UNITS",
+      "ExpressionValue": "袋",
+      "ExpressionValueType": "String",
+      "FullPropertyName": "Goods.UsedUnit",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "#SPECIFICATION",
+      "ExpressionValue": "0.25g",
+      "ExpressionValueType": "String",
+      "FullPropertyName": "Goods.Specification",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "#FIRM_ID",
+      "ExpressionValue": "法国百科达",
+      "ExpressionValueType": "String",
+      "FullPropertyName": "Goods.Manufacturer",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": null,
+      "ExpressionValue": null,
+      "ExpressionValueType": null,
+      "FullPropertyName": "Goods.Trader",
+      "IsErrorExpression": null,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "#PURCHASE_PRICE",
+      "ExpressionValue": 50.5,
+      "ExpressionValueType": "Double",
+      "FullPropertyName": "Goods.Price",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": null,
+      "ExpressionValue": null,
+      "ExpressionValueType": null,
+      "FullPropertyName": "Goods.PriceSerialNumber",
+      "IsErrorExpression": null,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "#TOXI_PROPERTY",
+      "ExpressionValue": "普通药品",
+      "ExpressionValueType": "String",
+      "FullPropertyName": "Goods.GoodsType",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": null,
+      "ExpressionValue": null,
+      "ExpressionValueType": null,
+      "FullPropertyName": "Goods.Dosage",
+      "IsErrorExpression": null,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": null,
+      "ExpressionValue": null,
+      "ExpressionValueType": null,
+      "FullPropertyName": "Goods.DosageForm",
+      "IsErrorExpression": null,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": null,
+      "ExpressionValue": null,
+      "ExpressionValueType": null,
+      "FullPropertyName": "Goods.IsAmpoule",
+      "IsErrorExpression": null,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": null,
+      "ExpressionValue": null,
+      "ExpressionValueType": null,
+      "FullPropertyName": "Goods.Reimburse",
+      "IsErrorExpression": null,
+      "SelectedSubType": null
+    }
+  ],
+  "IsSyncing": false
+}

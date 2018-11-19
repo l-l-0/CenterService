@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:s0="http://tempuri.org" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.xmlsoap.org/wsdl/" targetNamespace="http://tempuri.org" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org">
+      <s:element name="AddOrdInfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" name="Input" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AddOrdInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element name="AddOrdInfoResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPatInfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" name="Input" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPatInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element name="GetPatInfoResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendDeptnfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" name="Input" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendDeptnfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element name="SendDeptnfoResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendDrugDicInfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" name="Input" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendDrugDicInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element name="SendDrugDicInfoResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendTarItemInfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" name="Input" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendTarItemInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element name="SendTarItemInfoResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendUserInfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" name="Input" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendUserInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element name="SendUserInfoResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="AddOrdInfoSoapIn">
+    <wsdl:part name="parameters" element="s0:AddOrdInfo" />
+  </wsdl:message>
+  <wsdl:message name="AddOrdInfoSoapOut">
+    <wsdl:part name="parameters" element="s0:AddOrdInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPatInfoSoapIn">
+    <wsdl:part name="parameters" element="s0:GetPatInfo" />
+  </wsdl:message>
+  <wsdl:message name="GetPatInfoSoapOut">
+    <wsdl:part name="parameters" element="s0:GetPatInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="SendDeptnfoSoapIn">
+    <wsdl:part name="parameters" element="s0:SendDeptnfo" />
+  </wsdl:message>
+  <wsdl:message name="SendDeptnfoSoapOut">
+    <wsdl:part name="parameters" element="s0:SendDeptnfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="SendDrugDicInfoSoapIn">
+    <wsdl:part name="parameters" element="s0:SendDrugDicInfo" />
+  </wsdl:message>
+  <wsdl:message name="SendDrugDicInfoSoapOut">
+    <wsdl:part name="parameters" element="s0:SendDrugDicInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="SendTarItemInfoSoapIn">
+    <wsdl:part name="parameters" element="s0:SendTarItemInfo" />
+  </wsdl:message>
+  <wsdl:message name="SendTarItemInfoSoapOut">
+    <wsdl:part name="parameters" element="s0:SendTarItemInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="SendUserInfoSoapIn">
+    <wsdl:part name="parameters" element="s0:SendUserInfo" />
+  </wsdl:message>
+  <wsdl:message name="SendUserInfoSoapOut">
+    <wsdl:part name="parameters" element="s0:SendUserInfoResponse" />
+  </wsdl:message>
+  <wsdl:portType name="AddOrdInfoServiceSoap">
+    <wsdl:operation name="AddOrdInfo">
+      <wsdl:input message="s0:AddOrdInfoSoapIn" />
+      <wsdl:output message="s0:AddOrdInfoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPatInfo">
+      <wsdl:input message="s0:GetPatInfoSoapIn" />
+      <wsdl:output message="s0:GetPatInfoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendDeptnfo">
+      <wsdl:input message="s0:SendDeptnfoSoapIn" />
+      <wsdl:output message="s0:SendDeptnfoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendDrugDicInfo">
+      <wsdl:input message="s0:SendDrugDicInfoSoapIn" />
+      <wsdl:output message="s0:SendDrugDicInfoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendTarItemInfo">
+      <wsdl:input message="s0:SendTarItemInfoSoapIn" />
+      <wsdl:output message="s0:SendTarItemInfoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendUserInfo">
+      <wsdl:input message="s0:SendUserInfoSoapIn" />
+      <wsdl:output message="s0:SendUserInfoSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="AddOrdInfoServiceSoap" type="s0:AddOrdInfoServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="AddOrdInfo">
+      <soap:operation soapAction="http://tempuri.org/DHC.ZNYG.BS.AddOrdInfo.AddOrdInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPatInfo">
+      <soap:operation soapAction="http://tempuri.org/DHC.ZNYG.BS.AddOrdInfo.GetPatInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendDeptnfo">
+      <soap:operation soapAction="http://tempuri.org/DHC.ZNYG.BS.AddOrdInfo.SendDeptnfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendDrugDicInfo">
+      <soap:operation soapAction="http://tempuri.org/DHC.ZNYG.BS.AddOrdInfo.SendDrugDicInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendTarItemInfo">
+      <soap:operation soapAction="http://tempuri.org/DHC.ZNYG.BS.AddOrdInfo.SendTarItemInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendUserInfo">
+      <soap:operation soapAction="http://tempuri.org/DHC.ZNYG.BS.AddOrdInfo.SendUserInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="AddOrdInfoService">
+    <wsdl:port name="AddOrdInfoServiceSoap" binding="s0:AddOrdInfoServiceSoap">
+      <soap:address location="http://192.168.0.71/csp/i-operation/DHC.ZNYG.BS.AddOrdInfo.cls" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

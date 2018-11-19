@@ -1,0 +1,226 @@
+﻿{
+    "AssemblyPath": "setting\\HealthCare.Data.Goods.dll",
+    "IsLocked": false,
+    "IsSelected": false,
+    "IsTestPassed": true,
+    "ObjectFullName": "HealthCare.Data.Goods",
+    "ObjectName": "Goods",
+    "SelectedSource": {
+        "IsEffect": false,
+        "ResourceAddress": "SELECT DISTINCT(CONCAT(GENERICNAME, CONCAT(\"SPECIFICATION\", MANUFACTURER))) AS UNIQUEID,\r\n  GENERICNAME, TRADENAME, GOODSTYPE, \"SPECIFICATION\", MANUFACTURER, TRADER, USEDUNIT, PRICE, PRICESERIALNUMBER\r\nFROM HISRUN.V_GZHC_GOODS\r\nORDER BY GENERICNAME",
+        "SourceEnum": 1
+    },
+    "TargetMemberDetails": [
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": "#UNIQUEID",
+            "ExpressionValue": "球囊2.75*8美国波士顿科学公司",
+            "ExpressionValueType": "String",
+            "FullPropertyName": "Goods.UniqueId",
+            "IsErrorExpression": false,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": null,
+            "ExpressionValue": null,
+            "ExpressionValueType": null,
+            "FullPropertyName": "Goods.GenericName",
+            "IsErrorExpression": null,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": null,
+            "ExpressionValue": null,
+            "ExpressionValueType": null,
+            "FullPropertyName": "Goods.TradeName",
+            "IsErrorExpression": null,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": "#GENERICNAME",
+            "ExpressionValue": "球囊",
+            "ExpressionValueType": "String",
+            "FullPropertyName": "Goods.DisplayName",
+            "IsErrorExpression": false,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": "#UNIQUEID",
+            "ExpressionValue": "球囊2.75*8美国波士顿科学公司",
+            "ExpressionValueType": "String",
+            "FullPropertyName": "Goods.Code",
+            "IsErrorExpression": false,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": null,
+            "ExpressionValue": -1,
+            "ExpressionValueType": "Int32",
+            "FullPropertyName": "Goods.DisplayOrder",
+            "IsErrorExpression": null,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": null,
+            "ExpressionValue": null,
+            "ExpressionValueType": null,
+            "FullPropertyName": "Goods.IsDisabled",
+            "IsErrorExpression": null,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": "\"MedicalConsume\"",
+            "ExpressionValue": "MedicalConsume",
+            "ExpressionValueType": "String",
+            "FullPropertyName": "Goods.Filter",
+            "IsErrorExpression": false,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": "#USEDUNIT",
+            "ExpressionValue": "套",
+            "ExpressionValueType": "String",
+            "FullPropertyName": "Goods.SmallPackageUnit",
+            "IsErrorExpression": false,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": "1.0",
+            "ExpressionValue": 1.0,
+            "ExpressionValueType": "Double",
+            "FullPropertyName": "Goods.Conversion",
+            "IsErrorExpression": false,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": "#USEDUNIT",
+            "ExpressionValue": "套",
+            "ExpressionValueType": "String",
+            "FullPropertyName": "Goods.UsedUnit",
+            "IsErrorExpression": false,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": "#SPECIFICATION",
+            "ExpressionValue": "2.75*8",
+            "ExpressionValueType": "String",
+            "FullPropertyName": "Goods.Specification",
+            "IsErrorExpression": false,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": "#MANUFACTURER",
+            "ExpressionValue": "美国波士顿科学公司",
+            "ExpressionValueType": "String",
+            "FullPropertyName": "Goods.Manufacturer",
+            "IsErrorExpression": false,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": "#TRADER.ToString().Trim('\"')",
+            "ExpressionValue": "北京天健君安经贸有限公司",
+            "ExpressionValueType": "String",
+            "FullPropertyName": "Goods.Trader",
+            "IsErrorExpression": false,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": "#PRICE",
+            "ExpressionValue": 3548.0,
+            "ExpressionValueType": "Double",
+            "FullPropertyName": "Goods.Price",
+            "IsErrorExpression": false,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": "#PRICESERIALNUMBER.ToString()",
+            "ExpressionValue": "9794",
+            "ExpressionValueType": "String",
+            "FullPropertyName": "Goods.PriceSerialNumber",
+            "IsErrorExpression": false,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": "#GOODSTYPE",
+            "ExpressionValue": "材料费",
+            "ExpressionValueType": "String",
+            "FullPropertyName": "Goods.GoodsType",
+            "IsErrorExpression": false,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": null,
+            "ExpressionValue": null,
+            "ExpressionValueType": null,
+            "FullPropertyName": "Goods.Dosage",
+            "IsErrorExpression": null,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": null,
+            "ExpressionValue": null,
+            "ExpressionValueType": null,
+            "FullPropertyName": "Goods.DosageForm",
+            "IsErrorExpression": null,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": "",
+            "ExpressionValue": null,
+            "ExpressionValueType": null,
+            "FullPropertyName": "Goods.IsAmpoule",
+            "IsErrorExpression": null,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": "",
+            "ExpressionValue": null,
+            "ExpressionValueType": null,
+            "FullPropertyName": "Goods.Reimburse",
+            "IsErrorExpression": null,
+            "SelectedSubType": null
+        }
+    ],
+    "IsSyncing": false
+}

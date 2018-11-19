@@ -1,0 +1,246 @@
+﻿{
+    "AssemblyPath": "setting\\HealthCare.Data.Prescription.dll",
+    "IsLocked": false,
+    "IsSelected": false,
+    "IsTestPassed": true,
+    "ObjectFullName": "HealthCare.Data.Prescription",
+    "ObjectName": "Prescription",
+    "SelectedSource": {
+        "IsEffect": false,
+        "ResourceAddress": "  SELECT OeOrderRowID,PrescriptionOrder,OrderTypeCode,StartDateTime ,StopDateTime ,OrderDeptCode,\r\nOrderReptCode,ExecutionTime,OeOrderDocCode,PatientNumber\r\n      ,DrugCode,MiniUnit,DrugNumber,mode ,UseWay ,Frequency ,Serial\r\n  FROM YZ\r\nWHERE DrugCode IN ('11331', '306469', '375469', '104131', '100002174433', '19534', '28031', '601534', '11431', '345402')",
+        "SourceEnum": 0
+    },
+    "TargetMemberDetails": [
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": "#OeOrderRowID.ToString();",
+            "ExpressionValue": "106046635",
+            "ExpressionValueType": "String",
+            "FullPropertyName": "Prescription.UniqueId",
+            "IsErrorExpression": false,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": null,
+            "ExpressionValue": null,
+            "ExpressionValueType": null,
+            "FullPropertyName": "Prescription.DisplayName",
+            "IsErrorExpression": null,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": null,
+            "ExpressionValue": -1,
+            "ExpressionValueType": "Int32",
+            "FullPropertyName": "Prescription.DisplayOrder",
+            "IsErrorExpression": null,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": null,
+            "ExpressionValue": null,
+            "ExpressionValueType": null,
+            "FullPropertyName": "Prescription.IsDisabled",
+            "IsErrorExpression": null,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": "#PrescriptionOrder.ToString();",
+            "ExpressionValue": "106923017",
+            "ExpressionValueType": "String",
+            "FullPropertyName": "Prescription.TrackNumber",
+            "IsErrorExpression": false,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": null,
+            "ExpressionValue": null,
+            "ExpressionValueType": null,
+            "FullPropertyName": "Prescription.ExchangeBarcode",
+            "IsErrorExpression": null,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": "#OrderTypeCode",
+            "ExpressionValue": "临时医嘱",
+            "ExpressionValueType": "String",
+            "FullPropertyName": "Prescription.Description",
+            "IsErrorExpression": false,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": "#Frequency",
+            "ExpressionValue": "st",
+            "ExpressionValueType": "String",
+            "FullPropertyName": "Prescription.UsedFrequency",
+            "IsErrorExpression": false,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": null,
+            "ExpressionValue": null,
+            "ExpressionValueType": null,
+            "FullPropertyName": "Prescription.UsedPurpose",
+            "IsErrorExpression": null,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": "#StartDateTime",
+            "ExpressionValue": "2018-03-21T09:46:25.61",
+            "ExpressionValueType": "DateTime",
+            "FullPropertyName": "Prescription.IssuedTime",
+            "IsErrorExpression": false,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": "#ExecutionTime",
+            "ExpressionValue": "2018-03-21T10:19:59.967",
+            "ExpressionValueType": "DateTime",
+            "FullPropertyName": "Prescription.TimeFilter",
+            "IsErrorExpression": false,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": "#OeOrderDocCode",
+            "ExpressionValue": "HEWN",
+            "ExpressionValueType": "String",
+            "FullPropertyName": "Prescription.DoctorId",
+            "IsErrorExpression": false,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": "#PatientNumber.ToString();",
+            "ExpressionValue": "100038251",
+            "ExpressionValueType": "String",
+            "FullPropertyName": "Prescription.PatientId",
+            "IsErrorExpression": false,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": "#DrugCode.ToString();",
+            "ExpressionValue": "601534",
+            "ExpressionValueType": "String",
+            "FullPropertyName": "Prescription.GoodsId",
+            "IsErrorExpression": false,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": "#Serial",
+            "ExpressionValue": "20170619",
+            "ExpressionValueType": "String",
+            "FullPropertyName": "Prescription.BatchNumber",
+            "IsErrorExpression": false,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": null,
+            "ExpressionValue": null,
+            "ExpressionValueType": null,
+            "FullPropertyName": "Prescription.ExpiredDate",
+            "IsErrorExpression": null,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": "#mode == \"退药医嘱\" ? ExchangeMode.CheckIn : ExchangeMode.CheckOut;",
+            "ExpressionValue": 2,
+            "ExpressionValueType": "ExchangeMode",
+            "FullPropertyName": "Prescription.Mode",
+            "IsErrorExpression": false,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": "#DrugNumber",
+            "ExpressionValue": 20.0,
+            "ExpressionValueType": "Double",
+            "FullPropertyName": "Prescription.Qty",
+            "IsErrorExpression": false,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": null,
+            "ExpressionValue": null,
+            "ExpressionValueType": null,
+            "FullPropertyName": "Prescription.GoodsBarcodes",
+            "IsErrorExpression": null,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": null,
+            "ExpressionValue": null,
+            "ExpressionValueType": null,
+            "FullPropertyName": "Prescription.IsWhole",
+            "IsErrorExpression": null,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": "#OrderDeptCode",
+            "ExpressionValue": "5",
+            "ExpressionValueType": "String",
+            "FullPropertyName": "Prescription.DepartmentSourceId",
+            "IsErrorExpression": false,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": "#OrderReptCode",
+            "ExpressionValue": "40",
+            "ExpressionValueType": "String",
+            "FullPropertyName": "Prescription.DepartmentDestinationId",
+            "IsErrorExpression": false,
+            "SelectedSubType": null
+        },
+        {
+            "ChildTargetMemberDetails": [],
+            "ErrorMsg": null,
+            "Expression": "#OrderTypeCode",
+            "ExpressionValue": "临时医嘱",
+            "ExpressionValueType": "String",
+            "FullPropertyName": "Prescription.RecordType",
+            "IsErrorExpression": false,
+            "SelectedSubType": null
+        }
+    ],
+    "IsSyncing": false
+}

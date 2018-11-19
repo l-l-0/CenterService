@@ -1,0 +1,107 @@
+<Request>
+  <ResultCode>0</ResultCode>
+  <ResultContent>总院门诊处方</ResultContent>
+  <OPDrugOrds>
+    <OPDrugOrdInfo>
+      <PatId>0001561113</PatId>
+      <Name>杨硕</Name>
+      <Age>2016-09-06</Age>
+      <Sex>男</Sex>
+      <DiagnoDesc>1.支气管炎</DiagnoDesc>
+      <PatHeight></PatHeight>
+      <PName></PName>
+      <FName></FName>
+      <PDateTime></PDateTime>
+      <FDateTime></FDateTime>
+      <DateTime>2018-07-13 13:51</DateTime>
+      <RecCtLoc>YJ00000302.ZX.YJ</RecCtLoc>
+      <PatCompany></PatCompany>
+      <AdmDateTime>2018-07-13</AdmDateTime>
+      <AdmCardNo>67092800159</AdmCardNo>
+      <PrescNo>E18071322369</PrescNo>
+      <AdmCtLoc>急诊儿科门诊</AdmCtLoc>
+      <AdmCtLocCode>2000000006.ZX.MZ</AdmCtLocCode>
+      <WindowNo></WindowNo>
+      <TelePhone>15254196123</TelePhone>
+      <Address>山东省济南市铁配路11号</Address>
+      <PrescMake></PrescMake>
+      <PrescNum></PrescNum>
+      <PrescType></PrescType>
+      <DocCtLoc>2000000006.ZX.MZ</DocCtLoc>
+      <Doctor>丁宁</Doctor>
+      <HerbPrescMake></HerbPrescMake>
+      <HerbPrescNum></HerbPrescNum>
+      <HerbPrescStartDate></HerbPrescStartDate>
+      <HerbPrescStopDate></HerbPrescStopDate>
+      <PrescNote></PrescNote>
+      <OrdDateTime>2018-07-13 13:51</OrdDateTime>
+      <BalanceDateTime></BalanceDateTime>
+      <Station></Station>
+      <DrugInfos>
+        <OPDrugInfo>
+          <DrugCode>A013040006</DrugCode>
+          <DrugName>地塞米松磷酸钠注射液(1ml:5mg/支)</DrugName>
+          <Qty>1</Qty>
+          <Unit>支</Unit>
+          <Dosage>2.5</Dosage>
+          <DosageUnit>mg</DosageUnit>
+          <Common>静脉滴注(ivgtt)</Common>
+          <Freq>qd</Freq>
+          <Phdur>1天</Phdur>
+          <Price>0.000000</Price>
+          <TotalPrice>0</TotalPrice>
+          <Skintest>          </Skintest>
+          <OrdreMark>          </OrdreMark>
+          <Specinst>          </Specinst>
+          <Invoice>E18071322369</Invoice>
+          <Manuactory>          </Manuactory>
+          <Specification>1ml:5mg</Specification>
+          <quotiety>          </quotiety>
+          <OrdRowID>11485710||3</OrdRowID>
+        </OPDrugInfo>
+        <OPDrugInfo>
+          <DrugCode>A0170F0136</DrugCode>
+          <DrugName>注射用赖氨匹林(0.9g/支)</DrugName>
+          <Qty>1</Qty>
+          <Unit>支</Unit>
+          <Dosage>0.9</Dosage>
+          <DosageUnit>g</DosageUnit>
+          <Common>静脉滴注(ivgtt)</Common>
+          <Freq>qd</Freq>
+          <Phdur>1天</Phdur>
+          <Price>0.000000</Price>
+          <TotalPrice>0</TotalPrice>
+          <Skintest>          </Skintest>
+          <OrdreMark>          </OrdreMark>
+          <Specinst>          </Specinst>
+          <Invoice>E18071322369</Invoice>
+          <Manuactory>          </Manuactory>
+          <Specification>0.9g</Specification>
+          <quotiety>          </quotiety>
+          <OrdRowID>11485710||4</OrdRowID>
+        </OPDrugInfo>
+        <OPDrugInfo>
+          <DrugCode>A01F02007G</DrugCode>
+          <DrugName>0.9%氯化钠注射液(塑瓶)(10ml:0.09g/瓶)</DrugName>
+          <Qty>1</Qty>
+          <Unit>瓶</Unit>
+          <Dosage>10</Dosage>
+          <DosageUnit>ml</DosageUnit>
+          <Common>静脉滴注(ivgtt)</Common>
+          <Freq>qd</Freq>
+          <Phdur>1天</Phdur>
+          <Price>0.000000</Price>
+          <TotalPrice>0</TotalPrice>
+          <Skintest>          </Skintest>
+          <OrdreMark>          </OrdreMark>
+          <Specinst>         </Specinst>
+          <Invoice>E18071322369</Invoice>
+          <Manuactory>          </Manuactory>
+          <Specification>10ml:0.09g</Specification>
+          <quotiety>          </quotiety>
+          <OrdRowID>11485710||5</OrdRowID>
+        </OPDrugInfo>
+      </DrugInfos>
+    </OPDrugOrdInfo>
+  </OPDrugOrds>
+</Request>

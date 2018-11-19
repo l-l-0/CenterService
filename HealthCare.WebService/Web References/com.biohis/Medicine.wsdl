@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:ns="http://MedicineCabinetService.biointerface.com" xmlns:ns1="http://org.apache.axis2/xsd" targetNamespace="http://MedicineCabinetService.biointerface.com" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:documentation>Medicine</wsdl:documentation>
+  <wsdl:types>
+    <xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://MedicineCabinetService.biointerface.com">
+      <xs:element name="getDrug">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="drugId" type="xs:long" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getDrugResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getEmp">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="workNO" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getEmpResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getInpatient">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="inpatientNo" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getInpatientResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getStock">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="stockNO" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getStockResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="getEmpRequest">
+    <wsdl:part name="parameters" element="ns:getEmp" />
+  </wsdl:message>
+  <wsdl:message name="getEmpResponse">
+    <wsdl:part name="parameters" element="ns:getEmpResponse" />
+  </wsdl:message>
+  <wsdl:message name="getDrugRequest">
+    <wsdl:part name="parameters" element="ns:getDrug" />
+  </wsdl:message>
+  <wsdl:message name="getDrugResponse">
+    <wsdl:part name="parameters" element="ns:getDrugResponse" />
+  </wsdl:message>
+  <wsdl:message name="getInpatientRequest">
+    <wsdl:part name="parameters" element="ns:getInpatient" />
+  </wsdl:message>
+  <wsdl:message name="getInpatientResponse">
+    <wsdl:part name="parameters" element="ns:getInpatientResponse" />
+  </wsdl:message>
+  <wsdl:message name="getStockRequest">
+    <wsdl:part name="parameters" element="ns:getStock" />
+  </wsdl:message>
+  <wsdl:message name="getStockResponse">
+    <wsdl:part name="parameters" element="ns:getStockResponse" />
+  </wsdl:message>
+  <wsdl:portType name="MedicinePortType">
+    <wsdl:operation name="getEmp">
+      <wsdl:input wsaw:Action="urn:getEmp" message="ns:getEmpRequest" />
+      <wsdl:output wsaw:Action="urn:getEmpResponse" message="ns:getEmpResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getDrug">
+      <wsdl:input wsaw:Action="urn:getDrug" message="ns:getDrugRequest" />
+      <wsdl:output wsaw:Action="urn:getDrugResponse" message="ns:getDrugResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getInpatient">
+      <wsdl:input wsaw:Action="urn:getInpatient" message="ns:getInpatientRequest" />
+      <wsdl:output wsaw:Action="urn:getInpatientResponse" message="ns:getInpatientResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getStock">
+      <wsdl:input wsaw:Action="urn:getStock" message="ns:getStockRequest" />
+      <wsdl:output wsaw:Action="urn:getStockResponse" message="ns:getStockResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="MedicineSoap11Binding" type="ns:MedicinePortType">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="getEmp">
+      <soap:operation soapAction="urn:getEmp" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getInpatient">
+      <soap:operation soapAction="urn:getInpatient" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getDrug">
+      <soap:operation soapAction="urn:getDrug" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getStock">
+      <soap:operation soapAction="urn:getStock" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="MedicineSoap12Binding" type="ns:MedicinePortType">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="getEmp">
+      <soap12:operation soapAction="urn:getEmp" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getInpatient">
+      <soap12:operation soapAction="urn:getInpatient" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getDrug">
+      <soap12:operation soapAction="urn:getDrug" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getStock">
+      <soap12:operation soapAction="urn:getStock" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="MedicineHttpBinding" type="ns:MedicinePortType">
+    <http:binding verb="POST" />
+    <wsdl:operation name="getEmp">
+      <http:operation location="Medicine/getEmp" />
+      <wsdl:input>
+        <mime:content part="getEmp" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="getEmp" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getInpatient">
+      <http:operation location="Medicine/getInpatient" />
+      <wsdl:input>
+        <mime:content part="getInpatient" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="getInpatient" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getDrug">
+      <http:operation location="Medicine/getDrug" />
+      <wsdl:input>
+        <mime:content part="getDrug" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="getDrug" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getStock">
+      <http:operation location="Medicine/getStock" />
+      <wsdl:input>
+        <mime:content part="getStock" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="getStock" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Medicine">
+    <wsdl:port name="MedicineHttpSoap11Endpoint" binding="ns:MedicineSoap11Binding">
+      <soap:address location="http://192.168.0.181:80/BioIntegration/services/Medicine.MedicineHttpSoap11Endpoint" />
+    </wsdl:port>
+    <wsdl:port name="MedicineHttpSoap12Endpoint" binding="ns:MedicineSoap12Binding">
+      <soap12:address location="http://192.168.0.181:80/BioIntegration/services/Medicine.MedicineHttpSoap12Endpoint" />
+    </wsdl:port>
+    <wsdl:port name="MedicineHttpEndpoint" binding="ns:MedicineHttpBinding">
+      <http:address location="http://192.168.0.181:80/BioIntegration/services/Medicine.MedicineHttpEndpoint" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

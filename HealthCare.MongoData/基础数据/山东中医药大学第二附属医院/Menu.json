@@ -1,0 +1,313 @@
+{ 
+    "_id" : "platform",
+    "displayName" : "平台管理", 
+    "displayOrder" : NumberInt(1), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "platform", 
+    "icon" : "fa fa-jsfiddle", 
+    "isModule" : true
+}
+{ 
+    "_id" : "/platform/setting-cabinet-ownership",
+    "displayName" : "客户信息管理", 
+    "displayOrder" : NumberInt(11), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "setting-cabinet-ownership/SDEY", 
+    "icon" : "fa fa-gg", 
+    "isModule" : false, 
+    "parentId" : "platform"
+}
+{ 
+    "_id" : "/platform/running-message",
+    "displayName" : "本地系统消息", 
+    "displayOrder" : NumberInt(12), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "running-message", 
+    "icon" : "fa fa-home", 
+    "isModule" : false, 
+    "parentId" : "platform"
+}
+{ 
+    "_id" : "/platform/user-mgr",
+    "displayName" : "系统用户管理", 
+    "displayOrder" : NumberInt(13), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "user-mgr/SDEY?allowFace=false", 
+    "icon" : "fa fa-users", 
+    "isModule" : false, 
+    "parentId" : "platform"
+}
+{ 
+    "_id" : "/platform/role-mgr",
+    "displayName" : "角色权限管理", 
+    "displayOrder" : NumberInt(14), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "role-mgr/SDEY", 
+    "icon" : "fa fa-superpowers", 
+    "isModule" : false, 
+    "parentId" : "platform"
+}
+{ 
+    "_id" : "data",
+    "displayName" : "数据管理", 
+    "displayOrder" : NumberInt(2), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "data", 
+    "icon" : "fa fa-database", 
+    "isModule" : true
+}
+{ 
+    "_id" : "/data/goods-mgr",
+    "displayName" : "耗材信息管理", 
+    "displayOrder" : NumberInt(21), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "goods-mgr/SDEY", 
+    "icon" : "fa fa-medkit", 
+    "isModule" : false, 
+    "parentId" : "data"
+}
+{ 
+    "_id" : "/data/goods-category-mgr",
+    "displayName" : "耗材分组管理", 
+    "displayOrder" : NumberInt(22), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "goods-category-mgr/SDEY", 
+    "icon" : "fa fa-object-group", 
+    "isModule" : false, 
+    "parentId" : "data"
+}
+{ 
+    "_id" : "/data/department-mgr",
+    "displayName" : "科室病区管理", 
+    "displayOrder" : NumberInt(23), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "department-mgr/SDEY", 
+    "icon" : "fa fa-university", 
+    "isModule" : false, 
+    "parentId" : "data"
+}
+{ 
+    "_id" : "/data/employee-mgr",
+    "displayName" : "员工信息管理", 
+    "displayOrder" : NumberInt(24), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "employee-mgr/SDEY", 
+    "icon" : "fa fa-address-card", 
+    "isModule" : false, 
+    "parentId" : "data"
+}
+{ 
+    "_id" : "storage",
+    "displayName" : "存储配置", 
+    "displayOrder" : NumberInt(3), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "storage", 
+    "icon" : "fa fa-gears", 
+    "isModule" : true
+}
+{ 
+    "_id" : "/storage/cabinet-testing",
+    "displayName" : "智能药柜测试", 
+    "displayOrder" : NumberInt(30), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "cabinet-testing?environment=hardware", 
+    "icon" : "fa fa-heart", 
+    "isModule" : false, 
+    "parentId" : "storage"
+}
+{ 
+    "_id" : "/storage/setting-goods-scope",
+    "displayName" : "终端药品配置", 
+    "displayOrder" : NumberInt(31), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "setting-goods-scope/SDEY?unit=usage", 
+    "icon" : "fa fa-windows", 
+    "isModule" : false, 
+    "parentId" : "storage"
+}
+{ 
+    "_id" : "/storage/setting-intelligent-storage",
+    "displayName" : "智能药柜配置", 
+    "displayOrder" : NumberInt(32), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "setting-intelligent-storage/SDEY?manual=false&unit=usage&allowMixDrug=false", 
+    "icon" : "fa fa-building", 
+    "isModule" : false, 
+    "parentId" : "storage"
+}
+{ 
+    "_id" : "/storage/setting-storage-unit",
+    "displayName" : "终端耗材占位", 
+    "displayOrder" : NumberInt(33), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "setting-storage-unit/SDEY?manual=false&unit=usage&allowMixDrug=false", 
+    "icon" : "fa fa-shopping-basket", 
+    "isModule" : false, 
+    "parentId" : "storage"
+}
+{ 
+    "_id" : "inventory",
+    "displayName" : "库存管理", 
+    "displayOrder" : NumberInt(4), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "inventory", 
+    "icon" : "fa fa-cubes", 
+    "isModule" : true
+}
+{
+    "_id" : "/inventory/pharmacy-transfer",
+    "displayName" : "调拨出入库",
+    "displayOrder" : NumberInt(44),
+    "isDisabled" : false,
+    "filter" : "Menu",
+    "uri" : "pharmacy-transfer/SDEY?unit=usage",
+    "icon" : "fa fa-cloud-download",
+    "isModule" : false,
+    "parentId" : "inventory"
+}
+{
+    "_id" : "/inventory/storage-transfer",
+    "displayName" : "位置出入库",
+    "displayOrder" : NumberInt(45),
+    "isDisabled" : false,
+    "filter" : "Menu",
+    "uri" : "storage-transfer/SDEY?manual=false&unit=usage",
+    "icon" : "fa fa-cube",
+    "isModule" : false,
+    "parentId" : "inventory"
+}
+{
+    "_id" : "/inventory/goods-transfer",
+    "displayName" : "耗材出入库",
+    "displayOrder" : NumberInt(46),
+    "isDisabled" : false,
+    "filter" : "Menu",
+    "uri" : "goods-transfer/SDEY?manual=false&unit=usage",
+    "icon" : "fa fa-clipboard",
+    "isModule" : false,
+    "parentId" : "inventory"
+}
+{
+    "_id" : "/inventory/storage-check",
+    "displayName" : "库 存 清 点",
+    "displayOrder" : NumberInt(47),
+    "isDisabled" : false,
+    "filter" : "Menu",
+    "uri" : "storage-check/SDEY?unit=usage",
+    "icon" : "fa fa-hand-paper-o",
+    "isModule" : false,
+    "parentId" : "inventory"
+}
+{ 
+    "_id" : "prescription",
+    "displayName" : "耗材取退", 
+    "displayOrder" : NumberInt(5), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "prescription", 
+    "icon" : "fa fa-eyedropper", 
+    "isModule" : true
+}
+{ 
+    "_id" : "/prescription/temp-take-for-patient",
+    "displayName" : "患者预支", 
+    "displayOrder" : NumberInt(52), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "temp-take-for-patient/SDEY?searchHIS=false", 
+    "icon" : "fa fa-arrow-left", 
+    "isModule" : false, 
+    "parentId" : "prescription"
+}
+{ 
+    "_id" : "/prescription/temp-return-for-patient",
+    "displayName" : "患者退回", 
+    "displayOrder" : NumberInt(54), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "temp-return-for-patient/SDEY", 
+    "icon" : "fa fa-arrow-right", 
+    "isModule" : false, 
+    "parentId" : "prescription"
+}
+{ 
+    "_id" : "/prescription/fill-temp-details",
+    "displayName" : "补充医嘱", 
+    "displayOrder" : NumberInt(55), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "fill-temp-details/SDEY?printer=prescription&manual=true&sync=true&recycle=false", 
+    "icon" : "fa fa-cloud-upload", 
+    "isModule" : false, 
+    "parentId" : "prescription"
+}
+{ 
+    "_id" : "report",
+    "displayName" : "报表管理", 
+    "displayOrder" : NumberInt(6), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "report", 
+    "icon" : "fa fa-line-chart", 
+    "isModule" : true
+}
+{ 
+    "_id" : "/report/action-details",
+    "displayName" : "操作记录明细", 
+    "displayOrder" : NumberInt(61), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "SDEY/action-details", 
+    "icon" : "fa fa-area-chart", 
+    "isModule" : false, 
+    "parentId" : "report"
+}
+{ 
+    "_id" : "/report/inventory-details",
+    "displayName" : "入库记录明细", 
+    "displayOrder" : NumberInt(62), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "SDEY/inventory-details", 
+    "icon" : "fa fa-bar-chart", 
+    "isModule" : false, 
+    "parentId" : "report"
+}
+{ 
+    "_id" : "/report/goods-quota-details",
+    "displayName" : "耗材基数明细", 
+    "displayOrder" : NumberInt(63), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "SDEY/goods-quota-details", 
+    "icon" : "fa fa-pie-chart", 
+    "isModule" : false, 
+    "parentId" : "report"
+}
+{ 
+    "_id" : "/report/transfer-details",
+    "displayName" : "库存清点记录", 
+    "displayOrder" : NumberInt(64), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "SDEY/transfer-details", 
+    "icon" : "fa fa-ils", 
+    "isModule" : false, 
+    "parentId" : "report"
+}

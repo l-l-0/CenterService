@@ -1,0 +1,610 @@
+{ 
+    "_id" : "platform",
+    "displayName" : "平台管理", 
+    "displayOrder" : NumberInt(1), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "platform", 
+    "icon" : "fa fa-jsfiddle", 
+    "isModule" : true
+}
+{ 
+    "_id" : "/platform/setting-cabinet-ownership",
+    "displayName" : "客户信息管理", 
+    "displayOrder" : NumberInt(11), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "setting-cabinet-ownership/SZGJ", 
+    "icon" : "fa fa-gg", 
+    "isModule" : false, 
+    "parentId" : "platform"
+}
+{ 
+    "_id" : "/platform/running-message",
+    "displayName" : "本地系统消息", 
+    "displayOrder" : NumberInt(12), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "running-message", 
+    "icon" : "fa fa-home", 
+    "isModule" : false, 
+    "parentId" : "platform"
+}
+{ 
+    "_id" : "/platform/user-mgr",
+    "displayName" : "系统用户管理", 
+    "displayOrder" : NumberInt(13), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "user-mgr/SZGJ?allowFace=false", 
+    "icon" : "fa fa-users", 
+    "isModule" : false, 
+    "parentId" : "platform"
+}
+{ 
+    "_id" : "/platform/role-mgr",
+    "displayName" : "角色权限管理", 
+    "displayOrder" : NumberInt(14), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "role-mgr/SZGJ", 
+    "icon" : "fa fa-superpowers", 
+    "isModule" : false, 
+    "parentId" : "platform"
+}
+{ 
+    "_id" : "data",
+    "displayName" : "数据管理", 
+    "displayOrder" : NumberInt(2), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "data", 
+    "icon" : "fa fa-database", 
+    "isModule" : true
+}
+{ 
+    "_id" : "/data/goods-mgr",
+    "displayName" : "药品信息管理", 
+    "displayOrder" : NumberInt(21), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "goods-mgr/SZGJ", 
+    "icon" : "fa fa-medkit", 
+    "isModule" : false, 
+    "parentId" : "data"
+}
+{ 
+    "_id" : "/data/goods-category-mgr",
+    "displayName" : "药品分组管理", 
+    "displayOrder" : NumberInt(22), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "goods-category-mgr/SZGJ", 
+    "icon" : "fa fa-object-group", 
+    "isModule" : false, 
+    "parentId" : "data"
+}
+{ 
+    "_id" : "/data/department-mgr",
+    "displayName" : "科室病区管理", 
+    "displayOrder" : NumberInt(23), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "department-mgr/SZGJ", 
+    "icon" : "fa fa-university", 
+    "isModule" : false, 
+    "parentId" : "data"
+}
+{ 
+    "_id" : "/data/employee-mgr",
+    "displayName" : "员工信息管理", 
+    "displayOrder" : NumberInt(24), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "employee-mgr/SZGJ", 
+    "icon" : "fa fa-address-card", 
+    "isModule" : false, 
+    "parentId" : "data"
+}
+{ 
+    "_id" : "/data/goods-kit-mgr",
+    "displayName" : "物品套装管理", 
+    "displayOrder" : NumberInt(25), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "goods-kit-mgr/SDSL", 
+    "icon" : "fa fa fa-th", 
+    "isModule" : false, 
+    "parentId" : "data"
+}
+{ 
+    "_id" : "/data/evaluate-rule-mgr",
+    "displayName" : "估药规则管理", 
+    "displayOrder" : NumberInt(25), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "evaluate-rule-mgr/BJFC", 
+    "icon" : "fa fa-etsy", 
+    "isModule" : false, 
+    "parentId" : "data"
+}
+{ 
+    "_id" : "/data/labels-print-mgr",
+    "displayName" : "标签打印管理", 
+    "displayOrder" : NumberInt(26), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "labels-print-mgr/BJFC", 
+    "icon" : "fa fa-tags", 
+    "isModule" : false, 
+    "parentId" : "data"
+}
+{ 
+    "_id" : "/data/operation-schedule-mgr",
+    "displayName" : "手术排班管理", 
+    "displayOrder" : NumberInt(27), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "operation-schedule-mgr/BJTT", 
+    "icon" : "fa fa-calendar", 
+    "isModule" : false, 
+    "parentId" : "data"
+}
+{ 
+    "_id" : "/data/printer-mgr", 
+    "displayName" : "打印机管理", 
+    "displayOrder" : NumberInt(28), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "printer-mgr", 
+    "icon" : "fa fa-print", 
+    "isModule" : false, 
+    "parentId" : "data"
+}
+{ 
+    "_id" : "storage",
+    "displayName" : "存储配置", 
+    "displayOrder" : NumberInt(3), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "storage", 
+    "icon" : "fa fa-gears", 
+    "isModule" : true
+}
+{ 
+    "_id" : "/storage/cabinet-testing",
+    "displayName" : "智能药柜测试", 
+    "displayOrder" : NumberInt(30), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "cabinet-testing?environment=hardware", 
+    "icon" : "fa fa-heart", 
+    "isModule" : false, 
+    "parentId" : "storage"
+}
+{ 
+    "_id" : "/storage/setting-goods-scope",
+    "displayName" : "终端药品配置", 
+    "displayOrder" : NumberInt(31), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "setting-goods-scope/SZGJ?unit=usage", 
+    "icon" : "fa fa-windows", 
+    "isModule" : false, 
+    "parentId" : "storage"
+}
+{ 
+    "_id" : "/storage/setting-intelligent-storage",
+    "displayName" : "智能药柜配置", 
+    "displayOrder" : NumberInt(32), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "setting-intelligent-storage/SZGJ?manual=false&unit=usage&allowMixDrug=false", 
+    "icon" : "fa fa-building", 
+    "isModule" : false, 
+    "parentId" : "storage"
+}
+{ 
+    "_id" : "/storage/setting-storage-unit",
+    "displayName" : "终端药品占位", 
+    "displayOrder" : NumberInt(33), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "setting-storage-unit/SZGJ?manual=false&unit=usage&allowMixDrug=false", 
+    "icon" : "fa fa-shopping-basket", 
+    "isModule" : false, 
+    "parentId" : "storage"
+}
+{ 
+    "_id" : "inventory",
+    "displayName" : "库存管理", 
+    "displayOrder" : NumberInt(4), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "inventory", 
+    "icon" : "fa fa-cubes", 
+    "isModule" : true
+}
+{ 
+    "_id" : "/inventory/search-pharmacy-allot",
+    "displayName" : "调 拨 查 询", 
+    "displayOrder" : NumberInt(41), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "search-pharmacy-allot/SZGJ", 
+    "icon" : "fa fa-barcode", 
+    "isModule" : false, 
+    "parentId" : "inventory"
+}
+{ 
+    "_id" : "/inventory/generate-pharmacy-allot",
+    "displayName" : "调 拨 指 派", 
+    "displayOrder" : NumberInt(42), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "generate-pharmacy-allot/SZGJ", 
+    "icon" : "fa fa-level-down", 
+    "isModule" : false, 
+    "parentId" : "inventory"
+}
+{ 
+    "_id" : "/inventory/pharmacy-transfer",
+    "displayName" : "调拨出入库", 
+    "displayOrder" : NumberInt(43), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "pharmacy-transfer/SZGJ?unit=usage", 
+    "icon" : "fa fa-cloud-download", 
+    "isModule" : false, 
+    "parentId" : "inventory"
+}
+{
+  "_id" : "/inventory/storage-transfer",
+  "displayName" : "位置出入库",
+  "displayOrder" : NumberInt(44),
+  "isDisabled" : false,
+  "filter" : "Menu",
+  "uri" : "storage-transfer/SZGJ?manual=false&unit=usage",
+  "icon" : "fa fa-cube",
+  "isModule" : false,
+  "parentId" : "inventory"
+}
+{
+  "_id" : "/inventory/goods-transfer",
+  "displayName" : "药品出入库",
+  "displayOrder" : NumberInt(45),
+  "isDisabled" : false,
+  "filter" : "Menu",
+  "uri" : "goods-transfer/SZGJ?manual=false&unit=usage",
+  "icon" : "fa fa-clipboard",
+  "isModule" : false,
+  "parentId" : "inventory"
+}
+{ 
+    "_id" : "/inventory/virtual-storage-transfer",
+    "displayName" : "柜外出入库", 
+    "displayOrder" : NumberInt(46), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "virtual-storage-transfer/SHQP", 
+    "icon" : "fa fa-briefcase", 
+    "isModule" : false, 
+    "parentId" : "inventory"
+}
+{
+  "_id" : "/inventory/storage-check",
+  "displayName" : "库 存 清 点",
+  "displayOrder" : NumberInt(47),
+  "isDisabled" : false,
+  "filter" : "Menu",
+  "uri" : "storage-check/SZGJ?unit=usage",
+  "icon" : "fa fa-hand-paper-o",
+  "isModule" : false,
+  "parentId" : "inventory"
+}
+{ 
+    "_id" : "/inventory/pharmacy-internal-transfer",
+    "displayName" : "库 存 调 整", 
+    "displayOrder" : NumberInt(48), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "pharmacy-internal-transfer/NTSY?unit=usage", 
+    "icon" : "fa fa-exchange", 
+    "isModule" : false, 
+    "parentId" : "inventory"
+}
+{ 
+    "_id" : "prescription",
+    "displayName" : "药品取退", 
+    "displayOrder" : NumberInt(5), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "prescription", 
+    "icon" : "fa fa-eyedropper", 
+    "isModule" : true
+}
+{
+  "_id" : "/prescription/take-return",
+  "displayName" : "医嘱执行",
+  "displayOrder" : NumberInt(51),
+  "isDisabled" : false,
+  "filter" : "Menu",
+  "uri" : "take-return/SZGJ?limit=all&unit=usage",
+  "icon" : "fa fa-first-order",
+  "isModule" : false,
+  "parentId" : "prescription"
+}
+{ 
+    "_id" : "/prescription/temp-take-for-patient",
+    "displayName" : "患者预支", 
+    "displayOrder" : NumberInt(52), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "temp-take-for-patient/SZGJ?searchHIS=true", 
+    "icon" : "fa fa-arrow-left", 
+    "isModule" : false, 
+    "parentId" : "prescription"
+}
+{ 
+    "_id" : "/prescription/temp-return-for-patient",
+    "displayName" : "患者退回", 
+    "displayOrder" : NumberInt(53), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "temp-return-for-patient/SZGJ", 
+    "icon" : "fa fa-arrow-right", 
+    "isModule" : false, 
+    "parentId" : "prescription"
+}
+{ 
+    "_id" : "/prescription/fill-temp-details",
+    "displayName" : "补充医嘱", 
+    "displayOrder" : NumberInt(54), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "fill-temp-details/SZGJ?printer=thermal&manual=false&sync=false&recycle=false", 
+    "icon" : "fa fa-cloud-upload", 
+    "isModule" : false, 
+    "parentId" : "prescription"
+}
+{ 
+    "_id" : "/prescription/ampoule-recycle",
+    "displayName" : "空安瓿回收", 
+    "displayOrder" : NumberInt(55), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "ampoule-recycle/SDJN", 
+    "icon" : "fa fa-thermometer-empty", 
+    "isModule" : false, 
+    "parentId" : "prescription"
+}
+{ 
+    "_id" : "/prescription/temp-for-doctor",
+    "displayName" : "医生预支", 
+    "displayOrder" : NumberInt(56), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "temp-for-doctor/SDSL", 
+    "icon" : "fa fa-user-md", 
+    "isModule" : false, 
+    "parentId" : "prescription"
+}
+{ 
+    "_id" : "/prescription/temp-for-evaluate",
+    "displayName" : "估药预支", 
+    "displayOrder" : NumberInt(56), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "temp-for-evaluate/BJFC", 
+    "icon" : "fa fa-american-sign-language-interpreting", 
+    "isModule" : false, 
+    "parentId" : "prescription"
+}
+{ 
+    "_id" : "/prescription/temp-for-operation",
+    "displayName" : "手术预支", 
+    "displayOrder" : NumberInt(57), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "temp-for-operation/SDSL", 
+    "icon" : "fa fa-braille", 
+    "isModule" : false, 
+    "parentId" : "prescription"
+}
+{ 
+    "_id" : "report",
+    "displayName" : "报表管理", 
+    "displayOrder" : NumberInt(6), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "report", 
+    "icon" : "fa fa-line-chart", 
+    "isModule" : true
+}
+{ 
+    "_id" : "/report/action-details",
+    "displayName" : "操作记录明细", 
+    "displayOrder" : NumberInt(61), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "SZGJ/action-details", 
+    "icon" : "fa fa-area-chart", 
+    "isModule" : false, 
+    "parentId" : "report"
+}
+{ 
+    "_id" : "/report/inventory-details",
+    "displayName" : "入库记录明细", 
+    "displayOrder" : NumberInt(62), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "SZGJ/inventory-details", 
+    "icon" : "fa fa-bar-chart", 
+    "isModule" : false, 
+    "parentId" : "report"
+}
+{ 
+    "_id" : "/report/goods-quota-details",
+    "displayName" : "药品基数明细", 
+    "displayOrder" : NumberInt(63), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "SZGJ/goods-quota-details", 
+    "icon" : "fa fa-pie-chart", 
+    "isModule" : false, 
+    "parentId" : "report"
+}
+{ 
+    "_id" : "/report/goods-quota-summary",
+    "displayName" : "病区药品汇总", 
+    "displayOrder" : NumberInt(63), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "SZGJ/goods-quota-summary", 
+    "icon" : "fa fa-quora", 
+    "isModule" : false, 
+    "parentId" : "report"
+}
+{ 
+    "_id" : "/report/prescription-details",
+    "displayName" : "医嘱记录明细", 
+    "displayOrder" : NumberInt(64), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "SZGJ/prescription-details", 
+    "icon" : "fa fa-th", 
+    "isModule" : false, 
+    "parentId" : "report"
+}
+{ 
+    "_id" : "/report/expired-date-warning-chart",
+    "displayName" : "物品有效期预警", 
+    "displayOrder" : NumberInt(65), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "SZGJ/expired-date-warning-chart",
+    "icon" : "fa fa-hourglass-half", 
+    "isModule" : false, 
+    "parentId" : "report"
+}
+{ 
+    "_id" : "/report/idle-frequency-chart",
+    "displayName" : "低频用量物品", 
+    "displayOrder" : NumberInt(66), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "SZGJ/idle-frequency-chart", 
+    "icon" : "fa fa-balance-scale", 
+    "isModule" : false, 
+    "parentId" : "report"
+}
+{ 
+    "_id" : "/report/transfer-details",
+    "displayName" : "库存清点记录", 
+    "displayOrder" : NumberInt(67), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "SZGJ/transfer-details", 
+    "icon" : "fa fa-ils", 
+    "isModule" : false, 
+    "parentId" : "report"
+}
+{ 
+    "_id" : "/report/daily-consumption-details",
+    "displayName" : "逐日消耗登记表", 
+    "displayOrder" : NumberInt(68), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "SDJN/daily-consumption-details", 
+    "icon" : "fa fa-viacoin", 
+    "isModule" : false, 
+    "parentId" : "report"
+}
+{ 
+    "_id" : "/report/daily-consumption-summary-details",
+    "displayName" : "逐日消耗保管账", 
+    "displayOrder" : NumberInt(69), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "SDJN/daily-consumption-summary-details", 
+    "icon" : "fa fa-krw", 
+    "isModule" : false, 
+    "parentId" : "report"
+}
+{ 
+    "_id" : "/report/recycle-details",
+    "displayName" : "回收登记表", 
+    "displayOrder" : NumberInt(70), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "SDJN/recycle-details", 
+    "icon" : "fa fa-recycle", 
+    "isModule" : false, 
+    "parentId" : "report"
+}
+{ 
+    "_id" : "/report/destory-details",
+    "displayName" : "销毁登记表", 
+    "displayOrder" : NumberInt(71), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "SDJN/destory-details", 
+    "icon" : "fa fa-chain-broken", 
+    "isModule" : false, 
+    "parentId" : "report"
+}
+{ 
+    "_id" : "/report/daily-prescription-statistics",
+    "displayName" : "处方封面", 
+    "displayOrder" : NumberInt(72), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "SHQP/daily-prescription-statistics", 
+    "icon" : "fa fa-chain-broken", 
+    "isModule" : false, 
+    "parentId" : "report"
+}
+{ 
+    "_id" : "/report/monthly-consumption-details",
+    "displayName" : "月报表", 
+    "displayOrder" : NumberInt(73), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "SHQP/monthly-consumption-details", 
+    "icon" : "fa fa-chain-broken", 
+    "isModule" : false, 
+    "parentId" : "report"
+}
+{ 
+    "_id" : "/report/prescription-summary",
+    "displayName" : "医嘱执行汇总", 
+    "displayOrder" : NumberInt(74), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "SHQP/prescription-summary", 
+    "icon" : "fa fa-chain-broken", 
+    "isModule" : false, 
+    "parentId" : "report"
+}
+{ 
+    "_id" : "/report/registration-details",
+    "displayName" : "专册登记表", 
+    "displayOrder" : NumberInt(75), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "SHQP/registration-details", 
+    "icon" : "fa fa-chain-broken", 
+    "isModule" : false, 
+    "parentId" : "report"
+}
+{ 
+    "_id" : "/report/special-ledger",
+    "displayName" : "专用账册", 
+    "displayOrder" : NumberInt(76), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "SHQP/special-ledger", 
+    "icon" : "fa fa-chain-broken", 
+    "isModule" : false, 
+    "parentId" : "report"
+}

@@ -1,0 +1,348 @@
+﻿{
+  "AssemblyPath": "setting\\HealthCare.Data.Patient.dll",
+  "IsLocked": false,
+  "IsSelected": false,
+  "IsTestPassed": true,
+  "ObjectFullName": "HealthCare.Data.Patient",
+  "ObjectName": "Patient",
+  "SelectedSource": {
+    "IsEffect": false,
+    "ResourceAddress": "MSH|^~\\&|HIS||SFRA||20180702095610||ADT^A04|1497685|P|2.4|||AL|AL|CHN\r\nEVN|A04|20180702095610|20180702095610|01|M00001^东软自助机|20180702095610|HIS\r\nPID|1|0000002007|0000002007^^^^IDCard~340621198704080336^^^^IdentifyNO~^^^^UPID||王斐||19870408000000|M|||安徽省蚌埠市禹会区燕山路1155号^^^^^^H~^^^^^^O||^^^^^^^^12345678||||||6057253877|||||||||||||||||1^^^1^普通门诊||2^普通医保\r\nNK1|1\r\nPV1|1|O|^^^0114^骨一科门诊^^^^100001|1|||||||||5|||0|100055^张晓南|02|9210|||||||||||||||||||||||||20180702095610\r\nPV2|1||||||1|20180702100000|20180702110000\r\n",
+    "SourceEnum": 3
+  },
+  "TargetMemberDetails": [
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "#PID_2",
+      "ExpressionValue": "0000002007",
+      "ExpressionValueType": "String",
+      "FullPropertyName": "Patient.UniqueId",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "#PID_5",
+      "ExpressionValue": "王斐",
+      "ExpressionValueType": "String",
+      "FullPropertyName": "Patient.DisplayName",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "#PID_2",
+      "ExpressionValue": "0000002007",
+      "ExpressionValueType": "String",
+      "FullPropertyName": "Patient.Code",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": null,
+      "ExpressionValue": -1,
+      "ExpressionValueType": "Int32",
+      "FullPropertyName": "Patient.DisplayOrder",
+      "IsErrorExpression": null,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": null,
+      "ExpressionValue": null,
+      "ExpressionValueType": null,
+      "FullPropertyName": "Patient.IsDisabled",
+      "IsErrorExpression": null,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": null,
+      "ExpressionValue": "2018-10-17T17:37:31.4848568+08:00",
+      "ExpressionValueType": "DateTime",
+      "FullPropertyName": "Patient.CreatedTime",
+      "IsErrorExpression": null,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [
+        {
+          "ChildTargetMemberDetails": [],
+          "ErrorMsg": null,
+          "Expression": null,
+          "ExpressionValue": "5bc702dbce725127d02270ad",
+          "ExpressionValueType": "String",
+          "FullPropertyName": "Patient.Clinic.UniqueId",
+          "IsErrorExpression": null,
+          "SelectedSubType": null
+        },
+        {
+          "ChildTargetMemberDetails": [],
+          "ErrorMsg": null,
+          "Expression": null,
+          "ExpressionValue": "2018-10-17T17:37:31.485838+08:00",
+          "ExpressionValueType": "DateTime",
+          "FullPropertyName": "Patient.Clinic.CreatedTime",
+          "IsErrorExpression": null,
+          "SelectedSubType": null
+        },
+        {
+          "ChildTargetMemberDetails": [],
+          "ErrorMsg": null,
+          "Expression": "#PV1_2 == \"O\" ?  #PID_3.ToString().Contains(\"IDCard\") ?#PID_3.ToString().Substring(0, (#PID_3.ToString().IndexOf(\"IDCard\") - 4)).Substring(#PID_3.ToString().Substring(0, (#PID_3.ToString().IndexOf(\"IDCard\") - 4)).LastIndexOf('~') + 1):\"\":\"\"",
+          "ExpressionValue": "0000002007",
+          "ExpressionValueType": "String",
+          "FullPropertyName": "Patient.Clinic.SerialNumber",
+          "IsErrorExpression": false,
+          "SelectedSubType": null
+        }
+      ],
+      "ErrorMsg": null,
+      "Expression": null,
+      "ExpressionValue": null,
+      "ExpressionValueType": null,
+      "FullPropertyName": "Patient.Clinic",
+      "IsErrorExpression": null,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": null,
+      "ExpressionValue": null,
+      "ExpressionValueType": null,
+      "FullPropertyName": "Patient.Diagnostic",
+      "IsErrorExpression": null,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [
+        {
+          "ChildTargetMemberDetails": [],
+          "ErrorMsg": null,
+          "Expression": null,
+          "ExpressionValue": "5bc702dbce725127d02270ae",
+          "ExpressionValueType": "String",
+          "FullPropertyName": "Patient.Hospitalization.UniqueId",
+          "IsErrorExpression": null,
+          "SelectedSubType": null
+        },
+        {
+          "ChildTargetMemberDetails": [],
+          "ErrorMsg": null,
+          "Expression": null,
+          "ExpressionValue": "2018-10-17T17:37:31.485838+08:00",
+          "ExpressionValueType": "DateTime",
+          "FullPropertyName": "Patient.Hospitalization.CreatedTime",
+          "IsErrorExpression": null,
+          "SelectedSubType": null
+        },
+        {
+          "ChildTargetMemberDetails": [],
+          "ErrorMsg": null,
+          "Expression": "#PV1_3.ToString().Split('^')[3]",
+          "ExpressionValue": "0114",
+          "ExpressionValueType": "String",
+          "FullPropertyName": "Patient.Hospitalization.AdmittedDepartmentId",
+          "IsErrorExpression": false,
+          "SelectedSubType": null
+        },
+        {
+          "ChildTargetMemberDetails": [],
+          "ErrorMsg": null,
+          "Expression": "DateTime.ParseExact(#PV1_44.ToString(), \"yyyyMMddHHmmss\", System.Globalization.CultureInfo.CurrentCulture)",
+          "ExpressionValue": "2018-07-02T09:56:10",
+          "ExpressionValueType": "DateTime",
+          "FullPropertyName": "Patient.Hospitalization.InitiationTime",
+          "IsErrorExpression": false,
+          "SelectedSubType": null
+        },
+        {
+          "ChildTargetMemberDetails": [],
+          "ErrorMsg": null,
+          "Expression": null,
+          "ExpressionValue": null,
+          "ExpressionValueType": null,
+          "FullPropertyName": "Patient.Hospitalization.CumulativeCount",
+          "IsErrorExpression": null,
+          "SelectedSubType": null
+        },
+        {
+          "ChildTargetMemberDetails": [],
+          "ErrorMsg": null,
+          "Expression": "#PV1_2 == \"O\" ? \"\":#PID_3.ToString().Contains(\"PatientNO\") ? #PID_3.ToString().Substring(0, (#PID_3.ToString().IndexOf(\"PatientNO\") - 4)).Substring(#PID_3.ToString().Substring(0, (#PID_3.ToString().IndexOf(\"PatientNO\") - 4)).LastIndexOf('~') + 1):\"\"",
+          "ExpressionValue": "",
+          "ExpressionValueType": "String",
+          "FullPropertyName": "Patient.Hospitalization.HospitalNumber",
+          "IsErrorExpression": false,
+          "SelectedSubType": null
+        },
+        {
+          "ChildTargetMemberDetails": [],
+          "ErrorMsg": null,
+          "Expression": "#PV1_3.ToString().Split('^')[0]",
+          "ExpressionValue": "",
+          "ExpressionValueType": "String",
+          "FullPropertyName": "Patient.Hospitalization.ResidedAreaId",
+          "IsErrorExpression": false,
+          "SelectedSubType": null
+        },
+        {
+          "ChildTargetMemberDetails": [],
+          "ErrorMsg": null,
+          "Expression": "#PV1_3.ToString().Split('^')[2]",
+          "ExpressionValue": "",
+          "ExpressionValueType": "String",
+          "FullPropertyName": "Patient.Hospitalization.BedNo",
+          "IsErrorExpression": false,
+          "SelectedSubType": null
+        },
+        {
+          "ChildTargetMemberDetails": [],
+          "ErrorMsg": null,
+          "Expression": null,
+          "ExpressionValue": null,
+          "ExpressionValueType": null,
+          "FullPropertyName": "Patient.Hospitalization.RoomId",
+          "IsErrorExpression": null,
+          "SelectedSubType": null
+        }
+      ],
+      "ErrorMsg": null,
+      "Expression": null,
+      "ExpressionValue": null,
+      "ExpressionValueType": null,
+      "FullPropertyName": "Patient.Hospitalization",
+      "IsErrorExpression": null,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "#PID_19",
+      "ExpressionValue": "6057253877",
+      "ExpressionValueType": "String",
+      "FullPropertyName": "Patient.MedicareNumber",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "#PID_3.ToString().Contains(\"IDCard\") ? #PID_3.ToString().Substring(0, (#PID_3.ToString().IndexOf(\"IDCard\") - 4)).Substring(#PID_3.ToString().Substring(0, (#PID_3.ToString().IndexOf(\"IDCard\") - 4)).LastIndexOf('~') + 1):\"\"",
+      "ExpressionValue": "0000002007",
+      "ExpressionValueType": "String",
+      "FullPropertyName": "Patient.RegisterNumber",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": null,
+      "ExpressionValue": null,
+      "ExpressionValueType": null,
+      "FullPropertyName": "Patient.MedicalRecordNo",
+      "IsErrorExpression": null,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": null,
+      "ExpressionValue": null,
+      "ExpressionValueType": null,
+      "FullPropertyName": "Patient.AgeCharacter",
+      "IsErrorExpression": null,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": null,
+      "ExpressionValue": null,
+      "ExpressionValueType": null,
+      "FullPropertyName": "Patient.Age",
+      "IsErrorExpression": null,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "DateTime.ParseExact(#PID_7.ToString(), \"yyyyMMddHHmmss\", System.Globalization.CultureInfo.CurrentCulture)",
+      "ExpressionValue": "1987-04-08T00:00:00",
+      "ExpressionValueType": "DateTime",
+      "FullPropertyName": "Patient.Birthday",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "#PID_8 == \"M\"? \"男\":\"女\"",
+      "ExpressionValue": "男",
+      "ExpressionValueType": "String",
+      "FullPropertyName": "Patient.Gender",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": null,
+      "ExpressionValue": null,
+      "ExpressionValueType": null,
+      "FullPropertyName": "Patient.Nation",
+      "IsErrorExpression": null,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": null,
+      "ExpressionValue": null,
+      "ExpressionValueType": null,
+      "FullPropertyName": "Patient.Nationality",
+      "IsErrorExpression": null,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "#PID_3.ToString().Contains(\"IdentifyNO\") ? #PID_3.ToString().Substring(0, (#PID_3.ToString().IndexOf(\"IdentifyNO\") - 4)).Substring(#PID_3.ToString().Substring(0, (#PID_3.ToString().IndexOf(\"IdentifyNO\") - 4)).LastIndexOf('~') + 1):\"\"",
+      "ExpressionValue": "340621198704080336",
+      "ExpressionValueType": "String",
+      "FullPropertyName": "Patient.CertificateCode",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "\"身份证\"",
+      "ExpressionValue": "身份证",
+      "ExpressionValueType": "String",
+      "FullPropertyName": "Patient.CertificateType",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "#PID_13.ToString().Substring(#PID_13.ToString().LastIndexOf('^')+1)",
+      "ExpressionValue": "12345678",
+      "ExpressionValueType": "String",
+      "FullPropertyName": "Patient.CellPhone",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    }
+  ],
+  "IsSyncing": false
+}

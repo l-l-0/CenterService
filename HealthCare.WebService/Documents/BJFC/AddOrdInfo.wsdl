@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="http://schemas.xmlsoap.org/wsdl/" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:s0="http://tempuri.org" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://tempuri.org">
+    <types>
+        <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org">
+            <s:element name="AddOrdInfo">
+                <s:complexType>
+                    <s:sequence>
+                        <s:element minOccurs="0" name="Input" type="s:string"/>
+                    </s:sequence>
+                </s:complexType>
+            </s:element>
+            <s:element name="AddOrdInfoResponse">
+                <s:complexType>
+                    <s:sequence>
+                        <s:element name="AddOrdInfoResult" type="s:string"/>
+                    </s:sequence>
+                </s:complexType>
+            </s:element>
+            <s:element name="GetPatInfo">
+                <s:complexType>
+                    <s:sequence>
+                        <s:element minOccurs="0" name="Input" type="s:string"/>
+                    </s:sequence>
+                </s:complexType>
+            </s:element>
+            <s:element name="GetPatInfoResponse">
+                <s:complexType>
+                    <s:sequence>
+                        <s:element name="GetPatInfoResult" type="s:string"/>
+                    </s:sequence>
+                </s:complexType>
+            </s:element>
+            <s:element name="SendDeptnfo">
+                <s:complexType>
+                    <s:sequence>
+                        <s:element minOccurs="0" name="Input" type="s:string"/>
+                    </s:sequence>
+                </s:complexType>
+            </s:element>
+            <s:element name="SendDeptnfoResponse">
+                <s:complexType>
+                    <s:sequence>
+                        <s:element name="SendDeptnfoResult" type="s:string"/>
+                    </s:sequence>
+                </s:complexType>
+            </s:element>
+            <s:element name="SendDrugDicInfo">
+                <s:complexType>
+                    <s:sequence>
+                        <s:element minOccurs="0" name="Input" type="s:string"/>
+                    </s:sequence>
+                </s:complexType>
+            </s:element>
+            <s:element name="SendDrugDicInfoResponse">
+                <s:complexType>
+                    <s:sequence>
+                        <s:element name="SendDrugDicInfoResult" type="s:string"/>
+                    </s:sequence>
+                </s:complexType>
+            </s:element>
+            <s:element name="SendTarItemInfo">
+                <s:complexType>
+                    <s:sequence>
+                        <s:element minOccurs="0" name="Input" type="s:string"/>
+                    </s:sequence>
+                </s:complexType>
+            </s:element>
+            <s:element name="SendTarItemInfoResponse">
+                <s:complexType>
+                    <s:sequence>
+                        <s:element name="SendTarItemInfoResult" type="s:string"/>
+                    </s:sequence>
+                </s:complexType>
+            </s:element>
+            <s:element name="SendUserInfo">
+                <s:complexType>
+                    <s:sequence>
+                        <s:element minOccurs="0" name="Input" type="s:string"/>
+                    </s:sequence>
+                </s:complexType>
+            </s:element>
+            <s:element name="SendUserInfoResponse">
+                <s:complexType>
+                    <s:sequence>
+                        <s:element name="SendUserInfoResult" type="s:string"/>
+                    </s:sequence>
+                </s:complexType>
+            </s:element>
+        </s:schema>
+    </types>
+    <message name="AddOrdInfoSoapIn">
+        <part name="parameters" element="s0:AddOrdInfo"/>
+    </message>
+    <message name="AddOrdInfoSoapOut">
+        <part name="parameters" element="s0:AddOrdInfoResponse"/>
+    </message>
+    <message name="GetPatInfoSoapIn">
+        <part name="parameters" element="s0:GetPatInfo"/>
+    </message>
+    <message name="GetPatInfoSoapOut">
+        <part name="parameters" element="s0:GetPatInfoResponse"/>
+    </message>
+    <message name="SendDeptnfoSoapIn">
+        <part name="parameters" element="s0:SendDeptnfo"/>
+    </message>
+    <message name="SendDeptnfoSoapOut">
+        <part name="parameters" element="s0:SendDeptnfoResponse"/>
+    </message>
+    <message name="SendDrugDicInfoSoapIn">
+        <part name="parameters" element="s0:SendDrugDicInfo"/>
+    </message>
+    <message name="SendDrugDicInfoSoapOut">
+        <part name="parameters" element="s0:SendDrugDicInfoResponse"/>
+    </message>
+    <message name="SendTarItemInfoSoapIn">
+        <part name="parameters" element="s0:SendTarItemInfo"/>
+    </message>
+    <message name="SendTarItemInfoSoapOut">
+        <part name="parameters" element="s0:SendTarItemInfoResponse"/>
+    </message>
+    <message name="SendUserInfoSoapIn">
+        <part name="parameters" element="s0:SendUserInfo"/>
+    </message>
+    <message name="SendUserInfoSoapOut">
+        <part name="parameters" element="s0:SendUserInfoResponse"/>
+    </message>
+    <portType name="AddOrdInfoServiceSoap">
+        <operation name="AddOrdInfo">
+            <input message="s0:AddOrdInfoSoapIn"/>
+            <output message="s0:AddOrdInfoSoapOut"/>
+        </operation>
+        <operation name="GetPatInfo">
+            <input message="s0:GetPatInfoSoapIn"/>
+            <output message="s0:GetPatInfoSoapOut"/>
+        </operation>
+        <operation name="SendDeptnfo">
+            <input message="s0:SendDeptnfoSoapIn"/>
+            <output message="s0:SendDeptnfoSoapOut"/>
+        </operation>
+        <operation name="SendDrugDicInfo">
+            <input message="s0:SendDrugDicInfoSoapIn"/>
+            <output message="s0:SendDrugDicInfoSoapOut"/>
+        </operation>
+        <operation name="SendTarItemInfo">
+            <input message="s0:SendTarItemInfoSoapIn"/>
+            <output message="s0:SendTarItemInfoSoapOut"/>
+        </operation>
+        <operation name="SendUserInfo">
+            <input message="s0:SendUserInfoSoapIn"/>
+            <output message="s0:SendUserInfoSoapOut"/>
+        </operation>
+    </portType>
+    <binding name="AddOrdInfoServiceSoap" type="s0:AddOrdInfoServiceSoap">
+        <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document"/>
+        <operation name="AddOrdInfo">
+            <soap:operation soapAction="http://tempuri.org/DHC.ZNYG.BS.AddOrdInfo.AddOrdInfo" style="document"/>
+            <input>
+                <soap:body use="literal"/>
+            </input>
+            <output>
+                <soap:body use="literal"/>
+            </output>
+        </operation>
+        <operation name="GetPatInfo">
+            <soap:operation soapAction="http://tempuri.org/DHC.ZNYG.BS.AddOrdInfo.GetPatInfo" style="document"/>
+            <input>
+                <soap:body use="literal"/>
+            </input>
+            <output>
+                <soap:body use="literal"/>
+            </output>
+        </operation>
+        <operation name="SendDeptnfo">
+            <soap:operation soapAction="http://tempuri.org/DHC.ZNYG.BS.AddOrdInfo.SendDeptnfo" style="document"/>
+            <input>
+                <soap:body use="literal"/>
+            </input>
+            <output>
+                <soap:body use="literal"/>
+            </output>
+        </operation>
+        <operation name="SendDrugDicInfo">
+            <soap:operation soapAction="http://tempuri.org/DHC.ZNYG.BS.AddOrdInfo.SendDrugDicInfo" style="document"/>
+            <input>
+                <soap:body use="literal"/>
+            </input>
+            <output>
+                <soap:body use="literal"/>
+            </output>
+        </operation>
+        <operation name="SendTarItemInfo">
+            <soap:operation soapAction="http://tempuri.org/DHC.ZNYG.BS.AddOrdInfo.SendTarItemInfo" style="document"/>
+            <input>
+                <soap:body use="literal"/>
+            </input>
+            <output>
+                <soap:body use="literal"/>
+            </output>
+        </operation>
+        <operation name="SendUserInfo">
+            <soap:operation soapAction="http://tempuri.org/DHC.ZNYG.BS.AddOrdInfo.SendUserInfo" style="document"/>
+            <input>
+                <soap:body use="literal"/>
+            </input>
+            <output>
+                <soap:body use="literal"/>
+            </output>
+        </operation>
+    </binding>
+    <service name="AddOrdInfoService">
+        <port name="AddOrdInfoServiceSoap" binding="s0:AddOrdInfoServiceSoap">
+            <soap:address location="http://192.168.0.71/csp/i-operation/DHC.ZNYG.BS.AddOrdInfo.cls"/>
+        </port>
+    </service>
+</definitions>

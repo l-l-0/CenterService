@@ -1,0 +1,2520 @@
+{ 
+    "_id" : "1", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.492+0000"), 
+    "displayName" : "临床医技科室", 
+    "displayOrder" : NumberInt(1), 
+    "isDisabled" : false, 
+    "code" : "1", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "2", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.492+0000"), 
+    "displayName" : "病区科室", 
+    "displayOrder" : NumberInt(2), 
+    "isDisabled" : false, 
+    "code" : "2", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "3", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.492+0000"), 
+    "displayName" : "行政职能科室", 
+    "displayOrder" : NumberInt(3), 
+    "isDisabled" : false, 
+    "code" : "3", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "4", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.492+0000"), 
+    "displayName" : "其他", 
+    "displayOrder" : NumberInt(4), 
+    "isDisabled" : false, 
+    "code" : "4", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "5", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.492+0000"), 
+    "displayName" : "内科门诊", 
+    "displayOrder" : NumberInt(5), 
+    "isDisabled" : false, 
+    "code" : "5", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "6", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.492+0000"), 
+    "displayName" : "外科门诊", 
+    "displayOrder" : NumberInt(6), 
+    "isDisabled" : false, 
+    "code" : "6", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "7", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.492+0000"), 
+    "displayName" : "医疗保险办公室", 
+    "displayOrder" : NumberInt(7), 
+    "isDisabled" : false, 
+    "code" : "7", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "8", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.492+0000"), 
+    "displayName" : "感染/肝病科", 
+    "displayOrder" : NumberInt(8), 
+    "isDisabled" : false, 
+    "code" : "8", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "9", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.492+0000"), 
+    "displayName" : "耳鼻咽喉头颈外科", 
+    "displayOrder" : NumberInt(9), 
+    "isDisabled" : false, 
+    "code" : "9", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "10", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.492+0000"), 
+    "displayName" : "临床分子生物学实验室", 
+    "displayOrder" : NumberInt(10), 
+    "isDisabled" : false, 
+    "code" : "10", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "11", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.492+0000"), 
+    "displayName" : "妇科", 
+    "displayOrder" : NumberInt(11), 
+    "isDisabled" : false, 
+    "code" : "11", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "12", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.492+0000"), 
+    "displayName" : "产科门诊", 
+    "displayOrder" : NumberInt(12), 
+    "isDisabled" : false, 
+    "code" : "12", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "13", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.492+0000"), 
+    "displayName" : "肛肠外科", 
+    "displayOrder" : NumberInt(13), 
+    "isDisabled" : false, 
+    "code" : "13", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "14", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.492+0000"), 
+    "displayName" : "关节外科", 
+    "displayOrder" : NumberInt(14), 
+    "isDisabled" : false, 
+    "code" : "14", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "15", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.492+0000"), 
+    "displayName" : "脊柱外科", 
+    "displayOrder" : NumberInt(15), 
+    "isDisabled" : false, 
+    "code" : "15", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "16", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.492+0000"), 
+    "displayName" : "核医学科", 
+    "displayOrder" : NumberInt(16), 
+    "isDisabled" : false, 
+    "code" : "16", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "17", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.492+0000"), 
+    "displayName" : "呼吸内科", 
+    "displayOrder" : NumberInt(17), 
+    "isDisabled" : false, 
+    "code" : "17", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "18", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.492+0000"), 
+    "displayName" : "呼吸内科特检", 
+    "displayOrder" : NumberInt(18), 
+    "isDisabled" : false, 
+    "code" : "18", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "19", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.493+0000"), 
+    "displayName" : "急诊科", 
+    "displayOrder" : NumberInt(19), 
+    "isDisabled" : false, 
+    "code" : "19", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "20", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.492+0000"), 
+    "displayName" : "内科急症", 
+    "displayOrder" : NumberInt(20), 
+    "isDisabled" : false, 
+    "code" : "20", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "21", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.492+0000"), 
+    "displayName" : "外科急症", 
+    "displayOrder" : NumberInt(21), 
+    "isDisabled" : false, 
+    "code" : "21", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "22", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.492+0000"), 
+    "displayName" : "检验科", 
+    "displayOrder" : NumberInt(22), 
+    "isDisabled" : false, 
+    "code" : "22", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "23", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.492+0000"), 
+    "displayName" : "康复医学科", 
+    "displayOrder" : NumberInt(23), 
+    "isDisabled" : false, 
+    "code" : "23", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "24", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.492+0000"), 
+    "displayName" : "疼痛科", 
+    "displayOrder" : NumberInt(24), 
+    "isDisabled" : false, 
+    "code" : "24", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "25", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.492+0000"), 
+    "displayName" : "麻醉一科", 
+    "displayOrder" : NumberInt(25), 
+    "isDisabled" : false, 
+    "code" : "25", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "26", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.492+0000"), 
+    "displayName" : "泌尿外科", 
+    "displayOrder" : NumberInt(26), 
+    "isDisabled" : false, 
+    "code" : "26", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "27", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.492+0000"), 
+    "displayName" : "内分泌科", 
+    "displayOrder" : NumberInt(27), 
+    "isDisabled" : false, 
+    "code" : "27", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "28", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.492+0000"), 
+    "displayName" : "皮肤科", 
+    "displayOrder" : NumberInt(28), 
+    "isDisabled" : false, 
+    "code" : "28", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "29", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.492+0000"), 
+    "displayName" : "普外一科", 
+    "displayOrder" : NumberInt(29), 
+    "isDisabled" : false, 
+    "code" : "29", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "31", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.492+0000"), 
+    "displayName" : "社区卫生服务科", 
+    "displayOrder" : NumberInt(31), 
+    "isDisabled" : false, 
+    "code" : "31", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "32", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.492+0000"), 
+    "displayName" : "社区儿保", 
+    "displayOrder" : NumberInt(32), 
+    "isDisabled" : false, 
+    "code" : "32", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "33", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.492+0000"), 
+    "displayName" : "神经内科", 
+    "displayOrder" : NumberInt(33), 
+    "isDisabled" : false, 
+    "code" : "33", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "34", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.492+0000"), 
+    "displayName" : "神经外科", 
+    "displayOrder" : NumberInt(34), 
+    "isDisabled" : false, 
+    "code" : "34", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "35", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.492+0000"), 
+    "displayName" : "肾脏内科", 
+    "displayOrder" : NumberInt(35), 
+    "isDisabled" : false, 
+    "code" : "35", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "36", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.492+0000"), 
+    "displayName" : "血液净化", 
+    "displayOrder" : NumberInt(36), 
+    "isDisabled" : false, 
+    "code" : "36", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "37", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.492+0000"), 
+    "displayName" : "肾移植科", 
+    "displayOrder" : NumberInt(37), 
+    "isDisabled" : false, 
+    "code" : "37", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "38", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.492+0000"), 
+    "displayName" : "输血科", 
+    "displayOrder" : NumberInt(38), 
+    "isDisabled" : false, 
+    "code" : "38", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "39", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.492+0000"), 
+    "displayName" : "供应室", 
+    "displayOrder" : NumberInt(39), 
+    "isDisabled" : false, 
+    "code" : "39", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "41", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.492+0000"), 
+    "displayName" : "消化内科", 
+    "displayOrder" : NumberInt(41), 
+    "isDisabled" : false, 
+    "code" : "41", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "42", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.492+0000"), 
+    "displayName" : "消化内科内镜室", 
+    "displayOrder" : NumberInt(42), 
+    "isDisabled" : false, 
+    "code" : "42", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "43", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.492+0000"), 
+    "displayName" : "儿内科门诊", 
+    "displayOrder" : NumberInt(43), 
+    "isDisabled" : false, 
+    "code" : "43", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "44", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.492+0000"), 
+    "displayName" : "儿内科", 
+    "displayOrder" : NumberInt(44), 
+    "isDisabled" : false, 
+    "code" : "44", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "45", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.492+0000"), 
+    "displayName" : "儿外科", 
+    "displayOrder" : NumberInt(45), 
+    "isDisabled" : false, 
+    "code" : "45", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "46", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.492+0000"), 
+    "displayName" : "周围血管病科", 
+    "displayOrder" : NumberInt(46), 
+    "isDisabled" : false, 
+    "code" : "46", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "47", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.492+0000"), 
+    "displayName" : "心血管内科", 
+    "displayOrder" : NumberInt(47), 
+    "isDisabled" : false, 
+    "code" : "47", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "48", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.492+0000"), 
+    "displayName" : "心血管外科", 
+    "displayOrder" : NumberInt(48), 
+    "isDisabled" : false, 
+    "code" : "48", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "49", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.492+0000"), 
+    "displayName" : "胸外科", 
+    "displayOrder" : NumberInt(49), 
+    "isDisabled" : false, 
+    "code" : "49", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "50", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.492+0000"), 
+    "displayName" : "血液内科", 
+    "displayOrder" : NumberInt(50), 
+    "isDisabled" : false, 
+    "code" : "50", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "51", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.492+0000"), 
+    "displayName" : "眼科", 
+    "displayOrder" : NumberInt(51), 
+    "isDisabled" : false, 
+    "code" : "51", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "52", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.492+0000"), 
+    "displayName" : "临床药理部", 
+    "displayOrder" : NumberInt(52), 
+    "isDisabled" : false, 
+    "code" : "52", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "53", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.492+0000"), 
+    "displayName" : "药学部", 
+    "displayOrder" : NumberInt(53), 
+    "isDisabled" : false, 
+    "code" : "53", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "54", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.492+0000"), 
+    "displayName" : "医学影像中心", 
+    "displayOrder" : NumberInt(54), 
+    "isDisabled" : false, 
+    "code" : "54", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "55", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.492+0000"), 
+    "displayName" : "医学影像中心超声科", 
+    "displayOrder" : NumberInt(55), 
+    "isDisabled" : false, 
+    "code" : "55", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "56", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.492+0000"), 
+    "displayName" : "CT室", 
+    "displayOrder" : NumberInt(56), 
+    "isDisabled" : false, 
+    "code" : "56", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "57", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.492+0000"), 
+    "displayName" : "磁共振", 
+    "displayOrder" : NumberInt(57), 
+    "isDisabled" : false, 
+    "code" : "57", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "58", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.492+0000"), 
+    "displayName" : "介入医技", 
+    "displayOrder" : NumberInt(58), 
+    "isDisabled" : false, 
+    "code" : "58", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "59", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.492+0000"), 
+    "displayName" : "乳腺外科", 
+    "displayOrder" : NumberInt(59), 
+    "isDisabled" : false, 
+    "code" : "59", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "60", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.492+0000"), 
+    "displayName" : "整形烧伤医技", 
+    "displayOrder" : NumberInt(60), 
+    "isDisabled" : false, 
+    "code" : "60", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "61", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.492+0000"), 
+    "displayName" : "中医科", 
+    "displayOrder" : NumberInt(61), 
+    "isDisabled" : false, 
+    "code" : "61", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "62", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.492+0000"), 
+    "displayName" : "肿瘤防治中心", 
+    "displayOrder" : NumberInt(62), 
+    "isDisabled" : false, 
+    "code" : "62", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "63", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.492+0000"), 
+    "displayName" : "性学会", 
+    "displayOrder" : NumberInt(63), 
+    "isDisabled" : false, 
+    "code" : "63", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "64", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.493+0000"), 
+    "displayName" : "心血管内科特检", 
+    "displayOrder" : NumberInt(64), 
+    "isDisabled" : false, 
+    "code" : "64", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "65", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.493+0000"), 
+    "displayName" : "肌电图", 
+    "displayOrder" : NumberInt(65), 
+    "isDisabled" : false, 
+    "code" : "65", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "66", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.493+0000"), 
+    "displayName" : "神经科特检", 
+    "displayOrder" : NumberInt(66), 
+    "isDisabled" : false, 
+    "code" : "66", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "67", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.493+0000"), 
+    "displayName" : "口腔科", 
+    "displayOrder" : NumberInt(67), 
+    "isDisabled" : false, 
+    "code" : "67", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "68", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.493+0000"), 
+    "displayName" : "门诊手术室", 
+    "displayOrder" : NumberInt(68), 
+    "isDisabled" : false, 
+    "code" : "68", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "69", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.493+0000"), 
+    "displayName" : "明德东八病区（肝病科）", 
+    "displayOrder" : NumberInt(69), 
+    "isDisabled" : false, 
+    "code" : "69", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "70", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.493+0000"), 
+    "displayName" : "病理科", 
+    "displayOrder" : NumberInt(70), 
+    "isDisabled" : false, 
+    "code" : "70", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "71", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.493+0000"), 
+    "displayName" : "重症医学科", 
+    "displayOrder" : NumberInt(71), 
+    "isDisabled" : false, 
+    "code" : "71", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "72", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.493+0000"), 
+    "displayName" : "至善三病区东区", 
+    "displayOrder" : NumberInt(72), 
+    "isDisabled" : false, 
+    "code" : "72", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "73", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.493+0000"), 
+    "displayName" : "东二-1病区（产房）", 
+    "displayOrder" : NumberInt(73), 
+    "isDisabled" : false, 
+    "code" : "73", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "74", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.493+0000"), 
+    "displayName" : "明德产科病区", 
+    "displayOrder" : NumberInt(74), 
+    "isDisabled" : false, 
+    "code" : "74", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "75", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.493+0000"), 
+    "displayName" : "明德西六病区", 
+    "displayOrder" : NumberInt(75), 
+    "isDisabled" : false, 
+    "code" : "75", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "76", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.493+0000"), 
+    "displayName" : "至善八病区", 
+    "displayOrder" : NumberInt(76), 
+    "isDisabled" : false, 
+    "code" : "76", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "77", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.493+0000"), 
+    "displayName" : "至善十九病区", 
+    "displayOrder" : NumberInt(77), 
+    "isDisabled" : false, 
+    "code" : "77", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "78", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.493+0000"), 
+    "displayName" : "明德西九病区", 
+    "displayOrder" : NumberInt(78), 
+    "isDisabled" : false, 
+    "code" : "78", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "79", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.493+0000"), 
+    "displayName" : "至善十病区", 
+    "displayOrder" : NumberInt(79), 
+    "isDisabled" : false, 
+    "code" : "79", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "80", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.493+0000"), 
+    "displayName" : "明德西五病区（呼吸）", 
+    "displayOrder" : NumberInt(80), 
+    "isDisabled" : false, 
+    "code" : "80", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "81", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.493+0000"), 
+    "displayName" : "第一手术部", 
+    "displayOrder" : NumberInt(81), 
+    "isDisabled" : false, 
+    "code" : "81", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "83", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.493+0000"), 
+    "displayName" : "至善十二病区", 
+    "displayOrder" : NumberInt(83), 
+    "isDisabled" : false, 
+    "code" : "83", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "84", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.493+0000"), 
+    "displayName" : "2号楼三病区（内分泌）", 
+    "displayOrder" : NumberInt(84), 
+    "isDisabled" : false, 
+    "code" : "84", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "85", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.493+0000"), 
+    "displayName" : "至善七病区（普外）", 
+    "displayOrder" : NumberInt(85), 
+    "isDisabled" : false, 
+    "code" : "85", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "86", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.493+0000"), 
+    "displayName" : "至善十八病区", 
+    "displayOrder" : NumberInt(86), 
+    "isDisabled" : false, 
+    "code" : "86", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "87", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.493+0000"), 
+    "displayName" : "至善十五病区（神经外科）", 
+    "displayOrder" : NumberInt(87), 
+    "isDisabled" : false, 
+    "code" : "87", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "88", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.493+0000"), 
+    "displayName" : "3号楼六病区（血液净化）", 
+    "displayOrder" : NumberInt(88), 
+    "isDisabled" : false, 
+    "code" : "88", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "89", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.493+0000"), 
+    "displayName" : "3号楼三病区（肾内科）", 
+    "displayOrder" : NumberInt(89), 
+    "isDisabled" : false, 
+    "code" : "89", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "90", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.493+0000"), 
+    "displayName" : "至善十三病区（肾移植科）", 
+    "displayOrder" : NumberInt(90), 
+    "isDisabled" : false, 
+    "code" : "90", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "91", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.493+0000"), 
+    "displayName" : "明德东九病区", 
+    "displayOrder" : NumberInt(91), 
+    "isDisabled" : false, 
+    "code" : "91", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "92", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.493+0000"), 
+    "displayName" : "消化内科病区", 
+    "displayOrder" : NumberInt(92), 
+    "isDisabled" : false, 
+    "code" : "92", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "93", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.493+0000"), 
+    "displayName" : "2号楼六病区（小儿内科）", 
+    "displayOrder" : NumberInt(93), 
+    "isDisabled" : false, 
+    "code" : "93", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "94", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.493+0000"), 
+    "displayName" : "至善十四病区（小儿外科）", 
+    "displayOrder" : NumberInt(94), 
+    "isDisabled" : false, 
+    "code" : "94", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "95", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.493+0000"), 
+    "displayName" : "至善二十一病区", 
+    "displayOrder" : NumberInt(95), 
+    "isDisabled" : false, 
+    "code" : "95", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "96", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.493+0000"), 
+    "displayName" : "至善十七病区", 
+    "displayOrder" : NumberInt(96), 
+    "isDisabled" : false, 
+    "code" : "96", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "97", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.493+0000"), 
+    "displayName" : "明德东七病区", 
+    "displayOrder" : NumberInt(97), 
+    "isDisabled" : false, 
+    "code" : "97", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "98", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.493+0000"), 
+    "displayName" : "2号楼二病区（血液科）", 
+    "displayOrder" : NumberInt(98), 
+    "isDisabled" : false, 
+    "code" : "98", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "99", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.493+0000"), 
+    "displayName" : "至善十六病区（乳腺外）", 
+    "displayOrder" : NumberInt(99), 
+    "isDisabled" : false, 
+    "code" : "99", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "100", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.493+0000"), 
+    "displayName" : "医院领导", 
+    "displayOrder" : NumberInt(100), 
+    "isDisabled" : false, 
+    "code" : "100", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "101", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.493+0000"), 
+    "displayName" : "党委办公室", 
+    "displayOrder" : NumberInt(101), 
+    "isDisabled" : false, 
+    "code" : "101", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "102", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.493+0000"), 
+    "displayName" : "组织部", 
+    "displayOrder" : NumberInt(102), 
+    "isDisabled" : false, 
+    "code" : "102", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "103", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.493+0000"), 
+    "displayName" : "工会", 
+    "displayOrder" : NumberInt(103), 
+    "isDisabled" : false, 
+    "code" : "103", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "104", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.493+0000"), 
+    "displayName" : "院长办公室", 
+    "displayOrder" : NumberInt(104), 
+    "isDisabled" : false, 
+    "code" : "104", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "105", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.493+0000"), 
+    "displayName" : "人力资源部", 
+    "displayOrder" : NumberInt(105), 
+    "isDisabled" : false, 
+    "code" : "105", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "106", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.493+0000"), 
+    "displayName" : "计财部", 
+    "displayOrder" : NumberInt(106), 
+    "isDisabled" : false, 
+    "code" : "106", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "107", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.492+0000"), 
+    "displayName" : "收款处", 
+    "displayOrder" : NumberInt(107), 
+    "isDisabled" : false, 
+    "code" : "107", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "108", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.493+0000"), 
+    "displayName" : "住院部", 
+    "displayOrder" : NumberInt(108), 
+    "isDisabled" : false, 
+    "code" : "108", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "109", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.493+0000"), 
+    "displayName" : "质量管理办公室", 
+    "displayOrder" : NumberInt(109), 
+    "isDisabled" : false, 
+    "code" : "109", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "110", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.493+0000"), 
+    "displayName" : "医务部", 
+    "displayOrder" : NumberInt(110), 
+    "isDisabled" : false, 
+    "code" : "110", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "111", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.493+0000"), 
+    "displayName" : "床位调配办公室", 
+    "displayOrder" : NumberInt(111), 
+    "isDisabled" : false, 
+    "code" : "111", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "112", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.493+0000"), 
+    "displayName" : "图书馆", 
+    "displayOrder" : NumberInt(112), 
+    "isDisabled" : false, 
+    "code" : "112", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "113", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.493+0000"), 
+    "displayName" : "病案室", 
+    "displayOrder" : NumberInt(113), 
+    "isDisabled" : false, 
+    "code" : "113", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "114", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.493+0000"), 
+    "displayName" : "护理部", 
+    "displayOrder" : NumberInt(114), 
+    "isDisabled" : false, 
+    "code" : "114", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "115", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.493+0000"), 
+    "displayName" : "感染管理科", 
+    "displayOrder" : NumberInt(115), 
+    "isDisabled" : false, 
+    "code" : "115", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "116", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.493+0000"), 
+    "displayName" : "门诊部", 
+    "displayOrder" : NumberInt(116), 
+    "isDisabled" : false, 
+    "code" : "116", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "117", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.493+0000"), 
+    "displayName" : "挂号室", 
+    "displayOrder" : NumberInt(117), 
+    "isDisabled" : false, 
+    "code" : "117", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "118", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.493+0000"), 
+    "displayName" : "门诊导医", 
+    "displayOrder" : NumberInt(118), 
+    "isDisabled" : false, 
+    "code" : "118", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "119", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.493+0000"), 
+    "displayName" : "科研部", 
+    "displayOrder" : NumberInt(119), 
+    "isDisabled" : false, 
+    "code" : "119", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "120", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.493+0000"), 
+    "displayName" : "组织工程研究所", 
+    "displayOrder" : NumberInt(120), 
+    "isDisabled" : false, 
+    "code" : "120", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "121", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.493+0000"), 
+    "displayName" : "教学部", 
+    "displayOrder" : NumberInt(121), 
+    "isDisabled" : false, 
+    "code" : "121", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "122", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.493+0000"), 
+    "displayName" : "审计部", 
+    "displayOrder" : NumberInt(122), 
+    "isDisabled" : false, 
+    "code" : "122", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "123", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.493+0000"), 
+    "displayName" : "监察室", 
+    "displayOrder" : NumberInt(123), 
+    "isDisabled" : false, 
+    "code" : "123", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "124", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.493+0000"), 
+    "displayName" : "招标办公室", 
+    "displayOrder" : NumberInt(124), 
+    "isDisabled" : false, 
+    "code" : "124", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "125", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.493+0000"), 
+    "displayName" : "国有资产管理办公室", 
+    "displayOrder" : NumberInt(125), 
+    "isDisabled" : false, 
+    "code" : "125", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "126", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.493+0000"), 
+    "displayName" : "设备部", 
+    "displayOrder" : NumberInt(126), 
+    "isDisabled" : false, 
+    "code" : "126", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "127", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.493+0000"), 
+    "displayName" : "设备维修科", 
+    "displayOrder" : NumberInt(127), 
+    "isDisabled" : false, 
+    "code" : "127", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "128", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.493+0000"), 
+    "displayName" : "基建办公室", 
+    "displayOrder" : NumberInt(128), 
+    "isDisabled" : false, 
+    "code" : "128", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "129", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.493+0000"), 
+    "displayName" : "后勤保障部", 
+    "displayOrder" : NumberInt(129), 
+    "isDisabled" : false, 
+    "code" : "129", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "130", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.493+0000"), 
+    "displayName" : "后勤保障部(综合管理班)", 
+    "displayOrder" : NumberInt(130), 
+    "isDisabled" : false, 
+    "code" : "130", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "131", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.493+0000"), 
+    "displayName" : "后勤保障部（动力保障班）", 
+    "displayOrder" : NumberInt(131), 
+    "isDisabled" : false, 
+    "code" : "131", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "132", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.493+0000"), 
+    "displayName" : "后勤保障部（维修保障班）", 
+    "displayOrder" : NumberInt(132), 
+    "isDisabled" : false, 
+    "code" : "132", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "133", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.493+0000"), 
+    "displayName" : "后勤保障部（物资供应班）", 
+    "displayOrder" : NumberInt(133), 
+    "isDisabled" : false, 
+    "code" : "133", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "134", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.493+0000"), 
+    "displayName" : "后勤保障部（电力保障班）", 
+    "displayOrder" : NumberInt(134), 
+    "isDisabled" : false, 
+    "code" : "134", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "135", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.493+0000"), 
+    "displayName" : "后勤保障部(食堂)", 
+    "displayOrder" : NumberInt(135), 
+    "isDisabled" : false, 
+    "code" : "135", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "136", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.493+0000"), 
+    "displayName" : "后勤保障部（车辆保障班）", 
+    "displayOrder" : NumberInt(136), 
+    "isDisabled" : false, 
+    "code" : "136", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "137", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.493+0000"), 
+    "displayName" : "后勤保障部（供氧站）", 
+    "displayOrder" : NumberInt(137), 
+    "isDisabled" : false, 
+    "code" : "137", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "138", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.493+0000"), 
+    "displayName" : "后勤保障部(洗衣房)", 
+    "displayOrder" : NumberInt(138), 
+    "isDisabled" : false, 
+    "code" : "138", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "139", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.493+0000"), 
+    "displayName" : "后勤保障部（污水处理）", 
+    "displayOrder" : NumberInt(139), 
+    "isDisabled" : false, 
+    "code" : "139", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "140", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.493+0000"), 
+    "displayName" : "后勤保障部（锅炉房）", 
+    "displayOrder" : NumberInt(140), 
+    "isDisabled" : false, 
+    "code" : "140", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "141", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.493+0000"), 
+    "displayName" : "后勤保障部（木工）", 
+    "displayOrder" : NumberInt(141), 
+    "isDisabled" : false, 
+    "code" : "141", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "142", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.493+0000"), 
+    "displayName" : "后勤保障部（电工）", 
+    "displayOrder" : NumberInt(142), 
+    "isDisabled" : false, 
+    "code" : "142", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "143", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.493+0000"), 
+    "displayName" : "爱卫会", 
+    "displayOrder" : NumberInt(143), 
+    "isDisabled" : false, 
+    "code" : "143", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "144", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.493+0000"), 
+    "displayName" : "职工保健科", 
+    "displayOrder" : NumberInt(144), 
+    "isDisabled" : false, 
+    "code" : "144", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "145", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.493+0000"), 
+    "displayName" : "干部保健办公室", 
+    "displayOrder" : NumberInt(145), 
+    "isDisabled" : false, 
+    "code" : "145", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "146", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.493+0000"), 
+    "displayName" : "信息中心", 
+    "displayOrder" : NumberInt(146), 
+    "isDisabled" : false, 
+    "code" : "146", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "147", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.493+0000"), 
+    "displayName" : "等级评审办公室", 
+    "displayOrder" : NumberInt(147), 
+    "isDisabled" : false, 
+    "code" : "147", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "148", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.494+0000"), 
+    "displayName" : "健康管理科", 
+    "displayOrder" : NumberInt(148), 
+    "isDisabled" : false, 
+    "code" : "148", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "149", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.492+0000"), 
+    "displayName" : "营养科", 
+    "displayOrder" : NumberInt(149), 
+    "isDisabled" : false, 
+    "code" : "149", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "150", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.494+0000"), 
+    "displayName" : "临床技能培训中心", 
+    "displayOrder" : NumberInt(150), 
+    "isDisabled" : false, 
+    "code" : "150", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "151", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.494+0000"), 
+    "displayName" : "泌尿外科编辑部", 
+    "displayOrder" : NumberInt(151), 
+    "isDisabled" : false, 
+    "code" : "151", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "153", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.494+0000"), 
+    "displayName" : "清河社区", 
+    "displayOrder" : NumberInt(153), 
+    "isDisabled" : false, 
+    "code" : "153", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "154", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.494+0000"), 
+    "displayName" : "北全福社区", 
+    "displayOrder" : NumberInt(154), 
+    "isDisabled" : false, 
+    "code" : "154", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "155", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.494+0000"), 
+    "displayName" : "计划生育办公室", 
+    "displayOrder" : NumberInt(155), 
+    "isDisabled" : false, 
+    "code" : "155", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "156", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.494+0000"), 
+    "displayName" : "保卫部", 
+    "displayOrder" : NumberInt(156), 
+    "isDisabled" : false, 
+    "code" : "156", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "157", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.494+0000"), 
+    "displayName" : "团委", 
+    "displayOrder" : NumberInt(157), 
+    "isDisabled" : false, 
+    "code" : "157", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "158", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.492+0000"), 
+    "displayName" : "3号楼四病区（肿瘤）", 
+    "displayOrder" : NumberInt(158), 
+    "isDisabled" : false, 
+    "code" : "158", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "159", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.494+0000"), 
+    "displayName" : "循证医学中心", 
+    "displayOrder" : NumberInt(159), 
+    "isDisabled" : false, 
+    "code" : "159", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "163", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.494+0000"), 
+    "displayName" : "急诊科病区", 
+    "displayOrder" : NumberInt(163), 
+    "isDisabled" : false, 
+    "code" : "163", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "220", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.494+0000"), 
+    "displayName" : "碎石中心", 
+    "displayOrder" : NumberInt(220), 
+    "isDisabled" : false, 
+    "code" : "220", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "222", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.494+0000"), 
+    "displayName" : "心理科", 
+    "displayOrder" : NumberInt(222), 
+    "isDisabled" : false, 
+    "code" : "222", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "224", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.494+0000"), 
+    "displayName" : "后勤保障部(急救队)", 
+    "displayOrder" : NumberInt(224), 
+    "isDisabled" : false, 
+    "code" : "224", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "225", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.494+0000"), 
+    "displayName" : "门诊药房", 
+    "displayOrder" : NumberInt(225), 
+    "isDisabled" : false, 
+    "code" : "225", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "226", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.494+0000"), 
+    "displayName" : "草药房", 
+    "displayOrder" : NumberInt(226), 
+    "isDisabled" : false, 
+    "code" : "226", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "227", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.494+0000"), 
+    "displayName" : "病房药房", 
+    "displayOrder" : NumberInt(227), 
+    "isDisabled" : false, 
+    "code" : "227", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "228", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.494+0000"), 
+    "displayName" : "液体药房", 
+    "displayOrder" : NumberInt(228), 
+    "isDisabled" : false, 
+    "code" : "228", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "229", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.494+0000"), 
+    "displayName" : "中心摆药房", 
+    "displayOrder" : NumberInt(229), 
+    "isDisabled" : false, 
+    "code" : "229", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "230", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.494+0000"), 
+    "displayName" : "急诊药房", 
+    "displayOrder" : NumberInt(230), 
+    "isDisabled" : false, 
+    "code" : "230", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "231", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.494+0000"), 
+    "displayName" : "产科", 
+    "displayOrder" : NumberInt(231), 
+    "isDisabled" : false, 
+    "code" : "231", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "232", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.494+0000"), 
+    "displayName" : "神经骨病科", 
+    "displayOrder" : NumberInt(232), 
+    "isDisabled" : false, 
+    "code" : "232", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "233", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.494+0000"), 
+    "displayName" : "整形烧伤科", 
+    "displayOrder" : NumberInt(233), 
+    "isDisabled" : false, 
+    "code" : "233", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "234", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.494+0000"), 
+    "displayName" : "介入科", 
+    "displayOrder" : NumberInt(234), 
+    "isDisabled" : false, 
+    "code" : "234", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "235", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.494+0000"), 
+    "displayName" : "120分中心", 
+    "displayOrder" : NumberInt(235), 
+    "isDisabled" : false, 
+    "code" : "235", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "238", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.494+0000"), 
+    "displayName" : "沃庄社区", 
+    "displayOrder" : NumberInt(238), 
+    "isDisabled" : false, 
+    "code" : "238", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "239", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.494+0000"), 
+    "displayName" : "柳行社区", 
+    "displayOrder" : NumberInt(239), 
+    "isDisabled" : false, 
+    "code" : "239", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "242", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.494+0000"), 
+    "displayName" : "神经内急诊", 
+    "displayOrder" : NumberInt(242), 
+    "isDisabled" : false, 
+    "code" : "242", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "243", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.494+0000"), 
+    "displayName" : "心内急诊", 
+    "displayOrder" : NumberInt(243), 
+    "isDisabled" : false, 
+    "code" : "243", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "244", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.494+0000"), 
+    "displayName" : "中心实验室", 
+    "displayOrder" : NumberInt(244), 
+    "isDisabled" : false, 
+    "code" : "244", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "245", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.494+0000"), 
+    "displayName" : "社区", 
+    "displayOrder" : NumberInt(245), 
+    "isDisabled" : false, 
+    "code" : "245", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "246", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.494+0000"), 
+    "displayName" : "清河社区", 
+    "displayOrder" : NumberInt(246), 
+    "isDisabled" : false, 
+    "code" : "246", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "247", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.494+0000"), 
+    "displayName" : "全福社区", 
+    "displayOrder" : NumberInt(247), 
+    "isDisabled" : false, 
+    "code" : "247", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "248", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.493+0000"), 
+    "displayName" : "柳行社区", 
+    "displayOrder" : NumberInt(248), 
+    "isDisabled" : false, 
+    "code" : "248", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "249", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.493+0000"), 
+    "displayName" : "沃庄社区", 
+    "displayOrder" : NumberInt(249), 
+    "isDisabled" : false, 
+    "code" : "249", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "250", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.493+0000"), 
+    "displayName" : "耳鼻咽喉头颈外科急诊", 
+    "displayOrder" : NumberInt(250), 
+    "isDisabled" : false, 
+    "code" : "250", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "251", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.493+0000"), 
+    "displayName" : "眼科急诊", 
+    "displayOrder" : NumberInt(251), 
+    "isDisabled" : false, 
+    "code" : "251", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "252", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.493+0000"), 
+    "displayName" : "口腔急诊", 
+    "displayOrder" : NumberInt(252), 
+    "isDisabled" : false, 
+    "code" : "252", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "253", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.493+0000"), 
+    "displayName" : "妇科急诊", 
+    "displayOrder" : NumberInt(253), 
+    "isDisabled" : false, 
+    "code" : "253", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "254", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.493+0000"), 
+    "displayName" : "膏方药房", 
+    "displayOrder" : NumberInt(254), 
+    "isDisabled" : false, 
+    "code" : "254", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "255", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.493+0000"), 
+    "displayName" : "煎药室", 
+    "displayOrder" : NumberInt(255), 
+    "isDisabled" : false, 
+    "code" : "255", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "256", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.492+0000"), 
+    "displayName" : "系统维护", 
+    "displayOrder" : NumberInt(256), 
+    "isDisabled" : false, 
+    "code" : "256", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "257", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.493+0000"), 
+    "displayName" : "3号楼五病区（康复科）", 
+    "displayOrder" : NumberInt(257), 
+    "isDisabled" : false, 
+    "code" : "257", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "258", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.492+0000"), 
+    "displayName" : "免煎药房", 
+    "displayOrder" : NumberInt(258), 
+    "isDisabled" : false, 
+    "code" : "258", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "259", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.494+0000"), 
+    "displayName" : "神经骨病治疗室", 
+    "displayOrder" : NumberInt(259), 
+    "isDisabled" : false, 
+    "code" : "259", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "261", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.491+0000"), 
+    "displayName" : "北二病区", 
+    "displayOrder" : NumberInt(261), 
+    "isDisabled" : false, 
+    "code" : "261", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "262", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.491+0000"), 
+    "displayName" : "疾病筛查门诊", 
+    "displayOrder" : NumberInt(262), 
+    "isDisabled" : false, 
+    "code" : "262", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "263", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.492+0000"), 
+    "displayName" : "急诊ICU", 
+    "displayOrder" : NumberInt(263), 
+    "isDisabled" : false, 
+    "code" : "263", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "264", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.492+0000"), 
+    "displayName" : "血液肿瘤生物治疗实验室", 
+    "displayOrder" : NumberInt(264), 
+    "isDisabled" : false, 
+    "code" : "264", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "265", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.492+0000"), 
+    "displayName" : "客户服务部", 
+    "displayOrder" : NumberInt(265), 
+    "isDisabled" : false, 
+    "code" : "265", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "267", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.494+0000"), 
+    "displayName" : "至善二十病区", 
+    "displayOrder" : NumberInt(267), 
+    "isDisabled" : false, 
+    "code" : "267", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "268", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.494+0000"), 
+    "displayName" : "静脉用药调配中心", 
+    "displayOrder" : NumberInt(268), 
+    "isDisabled" : false, 
+    "code" : "268", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "302", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.494+0000"), 
+    "displayName" : "宣传统战部", 
+    "displayOrder" : NumberInt(302), 
+    "isDisabled" : false, 
+    "code" : "302", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "304", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.494+0000"), 
+    "displayName" : "至善九病区", 
+    "displayOrder" : NumberInt(304), 
+    "isDisabled" : false, 
+    "code" : "304", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "305", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.492+0000"), 
+    "displayName" : "采血中心", 
+    "displayOrder" : NumberInt(305), 
+    "isDisabled" : false, 
+    "code" : "305", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "306", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.492+0000"), 
+    "displayName" : "甲状腺外科", 
+    "displayOrder" : NumberInt(306), 
+    "isDisabled" : false, 
+    "code" : "306", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "308", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.492+0000"), 
+    "displayName" : "广智南二病区", 
+    "displayOrder" : NumberInt(308), 
+    "isDisabled" : false, 
+    "code" : "308", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "309", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.492+0000"), 
+    "displayName" : "干部保健/老年医学科", 
+    "displayOrder" : NumberInt(309), 
+    "isDisabled" : false, 
+    "code" : "309", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "311", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.492+0000"), 
+    "displayName" : "广智南三病区", 
+    "displayOrder" : NumberInt(311), 
+    "isDisabled" : false, 
+    "code" : "311", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "312", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.492+0000"), 
+    "displayName" : "麻醉二科", 
+    "displayOrder" : NumberInt(312), 
+    "isDisabled" : false, 
+    "code" : "312", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "313", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.494+0000"), 
+    "displayName" : "至善二十二病区", 
+    "displayOrder" : NumberInt(313), 
+    "isDisabled" : false, 
+    "code" : "313", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "314", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.494+0000"), 
+    "displayName" : "至善二十三病区", 
+    "displayOrder" : NumberInt(314), 
+    "isDisabled" : false, 
+    "code" : "314", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "315", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.492+0000"), 
+    "displayName" : "老年医学科", 
+    "displayOrder" : NumberInt(315), 
+    "isDisabled" : false, 
+    "code" : "315", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "316", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.494+0000"), 
+    "displayName" : "第二手术部", 
+    "displayOrder" : NumberInt(316), 
+    "isDisabled" : false, 
+    "code" : "316", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "317", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.494+0000"), 
+    "displayName" : "发热肠道门诊", 
+    "displayOrder" : NumberInt(317), 
+    "isDisabled" : false, 
+    "code" : "317", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "318", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.494+0000"), 
+    "displayName" : "普外二科", 
+    "displayOrder" : NumberInt(318), 
+    "isDisabled" : false, 
+    "code" : "318", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "319", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.494+0000"), 
+    "displayName" : "创伤骨科", 
+    "displayOrder" : NumberInt(319), 
+    "isDisabled" : false, 
+    "code" : "319", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "320", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.491+0000"), 
+    "displayName" : "内分泌特检", 
+    "displayOrder" : NumberInt(320), 
+    "isDisabled" : false, 
+    "code" : "320", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "321", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.494+0000"), 
+    "displayName" : "至善十一病区", 
+    "displayOrder" : NumberInt(321), 
+    "isDisabled" : false, 
+    "code" : "321", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "322", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.492+0000"), 
+    "displayName" : "人体器官再造研究院", 
+    "displayOrder" : NumberInt(322), 
+    "isDisabled" : false, 
+    "code" : "322", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "323", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.494+0000"), 
+    "displayName" : "肛肠治疗室", 
+    "displayOrder" : NumberInt(323), 
+    "isDisabled" : false, 
+    "code" : "323", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "324", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.492+0000"), 
+    "displayName" : "妇科门诊", 
+    "displayOrder" : NumberInt(324), 
+    "isDisabled" : false, 
+    "code" : "324", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "325", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.494+0000"), 
+    "displayName" : "钼靶治疗室", 
+    "displayOrder" : NumberInt(325), 
+    "isDisabled" : false, 
+    "code" : "325", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "329", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.492+0000"), 
+    "displayName" : "山东善德投资有限公司", 
+    "displayOrder" : NumberInt(329), 
+    "isDisabled" : false, 
+    "code" : "329", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "330", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.491+0000"), 
+    "displayName" : "网络编辑部", 
+    "displayOrder" : NumberInt(330), 
+    "isDisabled" : false, 
+    "code" : "330", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "331", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.491+0000"), 
+    "displayName" : "合作发展部", 
+    "displayOrder" : NumberInt(331), 
+    "isDisabled" : false, 
+    "code" : "331", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "332", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.492+0000"), 
+    "displayName" : "物价办", 
+    "displayOrder" : NumberInt(332), 
+    "isDisabled" : false, 
+    "code" : "332", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "334", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.491+0000"), 
+    "displayName" : "院长热线", 
+    "displayOrder" : NumberInt(334), 
+    "isDisabled" : false, 
+    "code" : "334", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "335", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.491+0000"), 
+    "displayName" : "档案室", 
+    "displayOrder" : NumberInt(335), 
+    "isDisabled" : false, 
+    "code" : "335", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "336", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.491+0000"), 
+    "displayName" : "明德西八病区（眼科）", 
+    "displayOrder" : NumberInt(336), 
+    "isDisabled" : false, 
+    "code" : "336", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "337", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.492+0000"), 
+    "displayName" : "儿童保健门诊", 
+    "displayOrder" : NumberInt(337), 
+    "isDisabled" : false, 
+    "code" : "337", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "338", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.492+0000"), 
+    "displayName" : "设备仓库", 
+    "displayOrder" : NumberInt(338), 
+    "isDisabled" : false, 
+    "code" : "338", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "340", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.492+0000"), 
+    "displayName" : "儿外科特检", 
+    "displayOrder" : NumberInt(340), 
+    "isDisabled" : false, 
+    "code" : "340", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "342", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.491+0000"), 
+    "displayName" : "便民门诊", 
+    "displayOrder" : NumberInt(342), 
+    "isDisabled" : false, 
+    "code" : "342", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "343", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.491+0000"), 
+    "displayName" : "疾病筛查门诊", 
+    "displayOrder" : NumberInt(343), 
+    "isDisabled" : false, 
+    "code" : "343", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "344", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.491+0000"), 
+    "displayName" : "公共卫生科", 
+    "displayOrder" : NumberInt(344), 
+    "isDisabled" : false, 
+    "code" : "344", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "345", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.491+0000"), 
+    "displayName" : "动物实验室", 
+    "displayOrder" : NumberInt(345), 
+    "isDisabled" : false, 
+    "code" : "345", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "346", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.491+0000"), 
+    "displayName" : "手足外科", 
+    "displayOrder" : NumberInt(346), 
+    "isDisabled" : false, 
+    "code" : "346", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "348", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.492+0000"), 
+    "displayName" : "儿科神经特检", 
+    "displayOrder" : NumberInt(348), 
+    "isDisabled" : false, 
+    "code" : "348", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "349", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.492+0000"), 
+    "displayName" : "养老中心", 
+    "displayOrder" : NumberInt(349), 
+    "isDisabled" : false, 
+    "code" : "349", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "350", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.491+0000"), 
+    "displayName" : "肾脏病特检组", 
+    "displayOrder" : NumberInt(350), 
+    "isDisabled" : false, 
+    "code" : "350", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "351", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.491+0000"), 
+    "displayName" : "手足外治疗室", 
+    "displayOrder" : NumberInt(351), 
+    "isDisabled" : false, 
+    "code" : "351", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "352", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.491+0000"), 
+    "displayName" : "产房护理", 
+    "displayOrder" : NumberInt(352), 
+    "isDisabled" : false, 
+    "code" : "352", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "353", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.491+0000"), 
+    "displayName" : "产后护理", 
+    "displayOrder" : NumberInt(353), 
+    "isDisabled" : false, 
+    "code" : "353", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "355", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.491+0000"), 
+    "displayName" : "网络医疗中心", 
+    "displayOrder" : NumberInt(355), 
+    "isDisabled" : false, 
+    "code" : "355", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "359", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.491+0000"), 
+    "displayName" : "冲击波治疗室", 
+    "displayOrder" : NumberInt(359), 
+    "isDisabled" : false, 
+    "code" : "359", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "360", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.491+0000"), 
+    "displayName" : "至善三病区西区", 
+    "displayOrder" : NumberInt(360), 
+    "isDisabled" : false, 
+    "code" : "360", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "362", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.491+0000"), 
+    "displayName" : "质量监控室", 
+    "displayOrder" : NumberInt(362), 
+    "isDisabled" : false, 
+    "code" : "362", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "364", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.491+0000"), 
+    "displayName" : "药学研究室", 
+    "displayOrder" : NumberInt(364), 
+    "isDisabled" : false, 
+    "code" : "364", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "366", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.491+0000"), 
+    "displayName" : "药学信息室", 
+    "displayOrder" : NumberInt(366), 
+    "isDisabled" : false, 
+    "code" : "366", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "367", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.492+0000"), 
+    "displayName" : "干部保健药房", 
+    "displayOrder" : NumberInt(367), 
+    "isDisabled" : false, 
+    "code" : "367", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "369", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.492+0000"), 
+    "displayName" : "保健门诊", 
+    "displayOrder" : NumberInt(369), 
+    "isDisabled" : false, 
+    "code" : "369", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "370", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.492+0000"), 
+    "displayName" : "保健门诊检验", 
+    "displayOrder" : NumberInt(370), 
+    "isDisabled" : false, 
+    "code" : "370", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "371", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.492+0000"), 
+    "displayName" : "保健门诊超声", 
+    "displayOrder" : NumberInt(371), 
+    "isDisabled" : false, 
+    "code" : "371", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "373", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.492+0000"), 
+    "displayName" : "保健门诊口腔", 
+    "displayOrder" : NumberInt(373), 
+    "isDisabled" : false, 
+    "code" : "373", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "375", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.492+0000"), 
+    "displayName" : "保健门诊心脏特检", 
+    "displayOrder" : NumberInt(375), 
+    "isDisabled" : false, 
+    "code" : "375", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "376", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.492+0000"), 
+    "displayName" : "保健门诊耳鼻喉", 
+    "displayOrder" : NumberInt(376), 
+    "isDisabled" : false, 
+    "code" : "376", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "377", 
+    "createdTime" : ISODate("2017-10-26T02:18:36.386+0000"), 
+    "displayName" : "儿科呼吸特检", 
+    "displayOrder" : NumberInt(377), 
+    "isDisabled" : false, 
+    "code" : "377", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "378", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.494+0000"), 
+    "displayName" : "全科医学科", 
+    "displayOrder" : NumberInt(378), 
+    "isDisabled" : false, 
+    "code" : "378", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "379", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.494+0000"), 
+    "displayName" : "儿内科心血管组特检", 
+    "displayOrder" : NumberInt(379), 
+    "isDisabled" : false, 
+    "code" : "379", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "380", 
+    "createdTime" : ISODate("2017-10-26T02:18:36.386+0000"), 
+    "displayName" : "男科", 
+    "displayOrder" : NumberInt(380), 
+    "isDisabled" : false, 
+    "code" : "380", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "382", 
+    "createdTime" : ISODate("2017-10-26T02:18:36.386+0000"), 
+    "displayName" : "肝胆外科", 
+    "displayOrder" : NumberInt(382), 
+    "isDisabled" : false, 
+    "code" : "382", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "383", 
+    "createdTime" : ISODate("2017-10-26T02:18:40.494+0000"), 
+    "displayName" : "规范化培训基地", 
+    "displayOrder" : NumberInt(383), 
+    "isDisabled" : false, 
+    "code" : "383", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "384", 
+    "createdTime" : ISODate("2017-10-26T02:18:36.386+0000"), 
+    "displayName" : "支助中心", 
+    "displayOrder" : NumberInt(384), 
+    "isDisabled" : false, 
+    "code" : "384", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "385", 
+    "createdTime" : ISODate("2017-10-26T02:18:36.386+0000"), 
+    "displayName" : "南院区超声检查室", 
+    "displayOrder" : NumberInt(385), 
+    "isDisabled" : false, 
+    "code" : "385", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "386", 
+    "createdTime" : ISODate("2017-10-26T02:18:36.386+0000"), 
+    "displayName" : "B超室门诊三楼产科", 
+    "displayOrder" : NumberInt(386), 
+    "isDisabled" : false, 
+    "code" : "386", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "387", 
+    "createdTime" : ISODate("2017-10-26T02:18:36.386+0000"), 
+    "displayName" : "造口伤口治疗室", 
+    "displayOrder" : NumberInt(387), 
+    "isDisabled" : false, 
+    "code" : "387", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "388", 
+    "createdTime" : ISODate("2017-10-26T02:18:36.386+0000"), 
+    "displayName" : "伽马刀中心", 
+    "displayOrder" : NumberInt(388), 
+    "isDisabled" : false, 
+    "code" : "388", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "389", 
+    "createdTime" : ISODate("2017-10-26T02:18:36.386+0000"), 
+    "displayName" : "基因与免疫治疗中心", 
+    "displayOrder" : NumberInt(389), 
+    "isDisabled" : false, 
+    "code" : "389", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "390", 
+    "createdTime" : ISODate("2017-10-26T02:18:36.386+0000"), 
+    "displayName" : "转化医学研究所", 
+    "displayOrder" : NumberInt(390), 
+    "isDisabled" : false, 
+    "code" : "390", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "391", 
+    "createdTime" : ISODate("2017-10-26T02:18:36.386+0000"), 
+    "displayName" : "呼吸内镜室", 
+    "displayOrder" : NumberInt(391), 
+    "isDisabled" : false, 
+    "code" : "391", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "392", 
+    "createdTime" : ISODate("2017-10-26T02:18:36.386+0000"), 
+    "displayName" : "南院区检验科", 
+    "displayOrder" : NumberInt(392), 
+    "isDisabled" : false, 
+    "code" : "392", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "393", 
+    "createdTime" : ISODate("2017-10-26T02:18:36.386+0000"), 
+    "displayName" : "南院区影像科", 
+    "displayOrder" : NumberInt(393), 
+    "isDisabled" : false, 
+    "code" : "393", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "394", 
+    "createdTime" : ISODate("2017-10-26T02:18:36.386+0000"), 
+    "displayName" : "南院区药房", 
+    "displayOrder" : NumberInt(394), 
+    "isDisabled" : false, 
+    "code" : "394", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "395", 
+    "createdTime" : ISODate("2017-10-26T02:18:36.386+0000"), 
+    "displayName" : "南院区门诊", 
+    "displayOrder" : NumberInt(395), 
+    "isDisabled" : false, 
+    "code" : "395", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "396", 
+    "createdTime" : ISODate("2017-10-26T02:18:36.387+0000"), 
+    "displayName" : "南院区急诊", 
+    "displayOrder" : NumberInt(396), 
+    "isDisabled" : false, 
+    "code" : "396", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "398", 
+    "createdTime" : ISODate("2017-10-26T02:18:36.387+0000"), 
+    "displayName" : "南院区老年病医学科", 
+    "displayOrder" : NumberInt(398), 
+    "isDisabled" : false, 
+    "code" : "398", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "399", 
+    "createdTime" : ISODate("2017-10-26T02:18:36.387+0000"), 
+    "displayName" : "南院区心脏特检", 
+    "displayOrder" : NumberInt(399), 
+    "isDisabled" : false, 
+    "code" : "399", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "400", 
+    "createdTime" : ISODate("2017-10-26T02:18:36.386+0000"), 
+    "displayName" : "南院区病区1", 
+    "displayOrder" : NumberInt(400), 
+    "isDisabled" : false, 
+    "code" : "400", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "401", 
+    "createdTime" : ISODate("2017-10-26T02:18:36.386+0000"), 
+    "displayName" : "南院区门诊护理", 
+    "displayOrder" : NumberInt(401), 
+    "isDisabled" : false, 
+    "code" : "401", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "402", 
+    "createdTime" : ISODate("2017-10-26T02:18:36.386+0000"), 
+    "displayName" : "肝病科特检", 
+    "displayOrder" : NumberInt(402), 
+    "isDisabled" : false, 
+    "code" : "402", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "403", 
+    "createdTime" : ISODate("2017-10-26T02:18:36.387+0000"), 
+    "displayName" : "儿科呼吸特检", 
+    "displayOrder" : NumberInt(403), 
+    "isDisabled" : false, 
+    "code" : "403", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "405", 
+    "createdTime" : ISODate("2017-10-26T02:18:36.386+0000"), 
+    "displayName" : "门诊导管室", 
+    "displayOrder" : NumberInt(405), 
+    "isDisabled" : false, 
+    "code" : "405", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "406", 
+    "createdTime" : ISODate("2017-10-26T02:18:36.386+0000"), 
+    "displayName" : "至善楼导管室", 
+    "displayOrder" : NumberInt(406), 
+    "isDisabled" : false, 
+    "code" : "406", 
+    "filter" : "Department"
+}
+{ 
+    "_id" : "407", 
+    "createdTime" : ISODate("2017-10-26T02:18:36.386+0000"), 
+    "displayName" : "PET-CT", 
+    "displayOrder" : NumberInt(407), 
+    "isDisabled" : false, 
+    "code" : "407", 
+    "filter" : "Department"
+}

@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{041C8767-901A-44B8-8B27-EC0FB88F6F8F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HealthCare.MongoData</RootNamespace>
+    <AssemblyName>HealthCare.MongoData</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ChnCharInfo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=18f031bd02e5e291, processorArchitecture=MSIL">
+      <HintPath>..\..\HealthCare.CenterService\packages\Microsoft.International.Converters.PinYinConverter.1.0.0\lib\ChnCharInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="DnsClient, Version=1.2.0.0, Culture=neutral, PublicKeyToken=4574bb5573c51424, processorArchitecture=MSIL">
+      <HintPath>..\packages\DnsClient.1.2.0\lib\net45\DnsClient.dll</HintPath>
+    </Reference>
+    <Reference Include="MongoDB.Bson, Version=2.7.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MongoDB.Bson.2.7.0\lib\net45\MongoDB.Bson.dll</HintPath>
+    </Reference>
+    <Reference Include="MongoDB.Driver, Version=2.7.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MongoDB.Driver.2.7.0\lib\net45\MongoDB.Driver.dll</HintPath>
+    </Reference>
+    <Reference Include="MongoDB.Driver.Core, Version=2.7.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MongoDB.Driver.Core.2.7.0\lib\net45\MongoDB.Driver.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.11.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.0\lib\netstandard1.1\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\HealthCare.CenterService\packages\System.Runtime.InteropServices.RuntimeInformation.4.3.0\lib\net45\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.5.0\lib\netstandard1.0\System.ValueTuple.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MongoContext.cs" />
+    <Compile Include="MongoModels.cs" />
+    <Compile Include="PinyinConverter.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SharedServiceModel.cs" />
+    <Compile Include="SyncObject.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Upgrade\DeleteColumns.js" />
+    <Content Include="Upgrade\UpgradeForSZGJ.js" />
+    <Content Include="同步服务\山东中医药大学第二附属医院\HealthCare.Data.Allocation_Oracle.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="同步服务\山东中医药大学第二附属医院\HealthCare.Data.Department_Oracle.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="同步服务\山东中医药大学第二附属医院\HealthCare.Data.Employee_Oracle.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="同步服务\山东中医药大学第二附属医院\HealthCare.Data.Goods_Oracle.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="同步服务\山东中医药大学第二附属医院\HealthCare.Data.OperationSchedule_Oracle.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="同步服务\山东中医药大学第二附属医院\HealthCare.Data.Patient_Oracle.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="同步服务\山东医学科学院附属医院\HealthCare.Data.Allocation_SQLServer.json" />
+    <None Include="同步服务\山东医学科学院附属医院\HealthCare.Data.Department_SQLServer.json" />
+    <None Include="同步服务\山东医学科学院附属医院\HealthCare.Data.Employee_SQLServer.json" />
+    <None Include="同步服务\山东医学科学院附属医院\HealthCare.Data.Goods_SQLServer.json" />
+    <None Include="同步服务\山东医学科学院附属医院\HealthCare.Data.Patient_SQLServer.json" />
+    <None Include="同步服务\山东医学科学院附属医院\HealthCare.Data.Prescription_SQLServer.json" />
+    <None Include="同步服务\山东大学附属济南市中心医院\HealthCare.Data.Allocation_SQLServer.json" />
+    <None Include="同步服务\山东大学附属济南市中心医院\HealthCare.Data.Department_SQLServer.json" />
+    <None Include="同步服务\山东大学附属济南市中心医院\HealthCare.Data.Employee_SQLServer.json" />
+    <None Include="同步服务\山东大学附属济南市中心医院\HealthCare.Data.Goods_SQLServer.json" />
+    <None Include="同步服务\山东大学附属济南市中心医院\HealthCare.Data.Patient_SQLServer.json" />
+    <None Include="同步服务\山东省滨州市人民医院\HealthCare.Data.Allocation_Oracle.json" />
+    <None Include="同步服务\山东省滨州市人民医院\HealthCare.Data.Department_Oracle.json" />
+    <None Include="同步服务\山东省滨州市人民医院\HealthCare.Data.Employee_Oracle.json" />
+    <None Include="同步服务\山东省滨州市人民医院\HealthCare.Data.Goods_Oracle.json" />
+    <None Include="同步服务\山东省滨州市人民医院\HealthCare.Data.Patient_Oracle.json" />
+    <None Include="同步服务\山东省滨州市人民医院\SDBZ 数据对接.md" />
+    <None Include="同步服务\江苏省苏州市广济医院\HealthCare.Data.Department_WebService.json" />
+    <None Include="同步服务\江苏省苏州市广济医院\HealthCare.Data.Employee_WebService.json" />
+    <None Include="同步服务\江苏省苏州市广济医院\HealthCare.Data.Goods_WebService.json" />
+    <None Include="同步服务\山东省立医院东院区\HealthCare.Data.Department_SQLServer.json" />
+    <None Include="同步服务\山东省立医院东院区\HealthCare.Data.Employee_SQLServer.json" />
+    <None Include="同步服务\山东省立医院东院区\HealthCare.Data.Goods_SQLServer.json" />
+    <None Include="同步服务\山东省立医院东院区\HealthCare.Data.OperationSchedule_SQLServer.json" />
+    <None Include="同步服务\山东省立医院东院区\HealthCare.Data.Patient_SQLServer.json" />
+    <None Include="同步服务\山东省立医院东院区\HealthCare.Data.Room_SQLServer.json" />
+    <None Include="同步服务\深圳大学总医院\HealthCare.Data.Department_HL7.json" />
+    <None Include="同步服务\深圳大学总医院\HealthCare.Data.Employee_HL7.json" />
+    <None Include="同步服务\深圳大学总医院\HealthCare.Data.Goods_HL7.json" />
+    <None Include="同步服务\深圳大学总医院\HealthCare.Data.OperationSchedule_HL7.json" />
+    <None Include="同步服务\首都医科大学附属北京天坛医院\HealthCare.Data.Department_Oracle.json" />
+    <None Include="同步服务\首都医科大学附属北京天坛医院\HealthCare.Data.Employee_Oracle.json" />
+    <None Include="同步服务\首都医科大学附属北京天坛医院\HealthCare.Data.Goods_Oracle.json" />
+    <None Include="同步服务\首都医科大学附属北京天坛医院\HealthCare.Data.Patient_Oracle.json" />
+    <None Include="基础数据\Menu.json" />
+    <None Include="基础数据\上海中山医院青浦分院\Menu.json" />
+    <None Include="基础数据\山东济南千佛山医院\Menu.json" />
+    <None Include="基础数据\山东省立医院北院区\Menu.json" />
+    <None Include="基础数据\江苏省南通市第三人民医院\Menu.json" />
+    <None Include="基础数据\山东医学科学院附属医院\Menu.json" />
+    <None Include="基础数据\山东大学附属济南市中心医院\Menu.json" />
+    <None Include="基础数据\山东省滕州市中心人民医院\Menu.json" />
+    <None Include="基础数据\山东省滨州市人民医院\Menu.json" />
+    <None Include="基础数据\山东省立医院东院区\Menu.json" />
+    <None Include="基础数据\山东中医药大学第二附属医院\Customer.json" />
+    <None Include="基础数据\山东中医药大学第二附属医院\Department.json" />
+    <None Include="基础数据\山东中医药大学第二附属医院\Menu.json" />
+    <None Include="基础数据\江苏省苏州市广济医院\Menu.json" />
+    <None Include="基础数据\深圳大学总医院\Menu.json" />
+    <None Include="基础数据\首都医科大学附属北京天坛医院\Menu.json" />
+    <None Include="基础数据\首都医科大学附属北京妇产医院\Menu.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="同步服务\上海中山医院青浦分院\" />
+    <Folder Include="同步服务\山东省滕州市中心人民医院\" />
+    <Folder Include="同步服务\江苏省南通市第三人民医院\" />
+    <Folder Include="同步服务\首都医科大学附属北京妇产医院\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

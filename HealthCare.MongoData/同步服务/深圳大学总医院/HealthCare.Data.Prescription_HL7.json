@@ -1,0 +1,356 @@
+﻿{
+  "AssemblyPath": "setting\\HealthCare.Data.Prescription.dll",
+  "IsLocked": false,
+  "IsSelected": false,
+  "IsTestPassed": true,
+  "ObjectFullName": "HealthCare.Data.Prescription",
+  "ObjectName": "Prescription",
+  "SelectedSource": {
+    "IsEffect": false,
+    "ResourceAddress": "MSH|^~\\&|CIS||SFRA||20181024081637||OMP^O09|CIS_227102982878_resend1|P|2.4\r\nPID||0000010261|^^^^PatientNO~0000010261^^^^IDCard~440522197510060038^^^^IdentifyNO||黄楚希||19751006000000|M|||||^^^^^^^^13828757516\r\nPV1||O|^^^0121^泌尿外科门诊||||100009||||||2|||||02|63299|||||||||||||||||||||||||20181024080134\r\nORC|NW|2113201||818146|0||^&ONCE^^^^^^^^^1||20181024081637|100009||100009|||20181024081637||0121||||0121\r\nRXO|F00000005279^(YB)⊙局部浸润麻醉（含表面麻醉）^n|1.0||   次\r\nRXR|\r\nFT1||||||||||||^^25\r\n",
+    "SourceEnum": 3
+  },
+  "TargetMemberDetails": [
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "#ORC_2",
+      "ExpressionValue": "2113201",
+      "ExpressionValueType": "String",
+      "FullPropertyName": "Prescription.UniqueId",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": null,
+      "ExpressionValue": null,
+      "ExpressionValueType": null,
+      "FullPropertyName": "Prescription.DisplayName",
+      "IsErrorExpression": null,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": null,
+      "ExpressionValue": -1,
+      "ExpressionValueType": "Int32",
+      "FullPropertyName": "Prescription.DisplayOrder",
+      "IsErrorExpression": null,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "#ORC_1==\"CA\" ? true: false;",
+      "ExpressionValue": false,
+      "ExpressionValueType": "Boolean",
+      "FullPropertyName": "Prescription.IsDisabled",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": null,
+      "ExpressionValue": "2018-10-17T17:37:31.2927023+08:00",
+      "ExpressionValueType": "DateTime",
+      "FullPropertyName": "Prescription.CreatedTime",
+      "IsErrorExpression": null,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "#ORC_4",
+      "ExpressionValue": "818146",
+      "ExpressionValueType": "String",
+      "FullPropertyName": "Prescription.TrackNumber",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": null,
+      "ExpressionValue": null,
+      "ExpressionValueType": null,
+      "FullPropertyName": "Prescription.ExchangeBarcode",
+      "IsErrorExpression": null,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": null,
+      "ExpressionValue": null,
+      "ExpressionValueType": null,
+      "FullPropertyName": "Prescription.Description",
+      "IsErrorExpression": null,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": null,
+      "ExpressionValue": null,
+      "ExpressionValueType": null,
+      "FullPropertyName": "Prescription.UsedFrequency",
+      "IsErrorExpression": null,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": null,
+      "ExpressionValue": null,
+      "ExpressionValueType": null,
+      "FullPropertyName": "Prescription.UsedPurpose",
+      "IsErrorExpression": null,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "",
+      "ExpressionValue": null,
+      "ExpressionValueType": null,
+      "FullPropertyName": "Prescription.UsedDosage",
+      "IsErrorExpression": null,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "DateTime.ParseExact(#ORC_15.ToString(), \"yyyyMMddHHmmss\", System.Globalization.CultureInfo.CurrentCulture)",
+      "ExpressionValue": "2018-10-24T08:16:37",
+      "ExpressionValueType": "DateTime",
+      "FullPropertyName": "Prescription.IssuedTime",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "DateTime.ParseExact(#ORC_15.ToString(), \"yyyyMMddHHmmss\", System.Globalization.CultureInfo.CurrentCulture)",
+      "ExpressionValue": "2018-10-24T08:16:37",
+      "ExpressionValueType": "DateTime",
+      "FullPropertyName": "Prescription.TimeFilter",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "#ORC_12",
+      "ExpressionValue": "100009",
+      "ExpressionValueType": "String",
+      "FullPropertyName": "Prescription.DoctorId",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "#PID_2",
+      "ExpressionValue": "0000010261",
+      "ExpressionValueType": "String",
+      "FullPropertyName": "Prescription.PatientId",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": null,
+      "ExpressionValue": null,
+      "ExpressionValueType": null,
+      "FullPropertyName": "Prescription.Diagnostic",
+      "IsErrorExpression": null,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "#RXO_1.ToString().Split('^')[0]",
+      "ExpressionValue": "F00000005279",
+      "ExpressionValueType": "String",
+      "FullPropertyName": "Prescription.GoodsId",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": null,
+      "ExpressionValue": "",
+      "ExpressionValueType": "String",
+      "FullPropertyName": "Prescription.BatchNumber",
+      "IsErrorExpression": null,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": null,
+      "ExpressionValue": "9999-12-31T00:00:00",
+      "ExpressionValueType": "DateTime",
+      "FullPropertyName": "Prescription.ExpiredDate",
+      "IsErrorExpression": null,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "ExchangeMode.CheckOut",
+      "ExpressionValue": 2,
+      "ExpressionValueType": "ExchangeMode",
+      "FullPropertyName": "Prescription.Mode",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "#RXO_4",
+      "ExpressionValue": "   次",
+      "ExpressionValueType": "String",
+      "FullPropertyName": "Prescription.GoodsUnit",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "Double.Parse(#RXO_2.ToString())",
+      "ExpressionValue": 1.0,
+      "ExpressionValueType": "Double",
+      "FullPropertyName": "Prescription.Qty",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": null,
+      "ExpressionValue": null,
+      "ExpressionValueType": null,
+      "FullPropertyName": "Prescription.GoodsBarcodes",
+      "IsErrorExpression": null,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "false",
+      "ExpressionValue": false,
+      "ExpressionValueType": "Boolean",
+      "FullPropertyName": "Prescription.IsWhole",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "#ORC_21",
+      "ExpressionValue": "0121",
+      "ExpressionValueType": "String",
+      "FullPropertyName": "Prescription.DepartmentSourceId",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": null,
+      "ExpressionValue": null,
+      "ExpressionValueType": null,
+      "FullPropertyName": "Prescription.FeeCollectorId",
+      "IsErrorExpression": null,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": null,
+      "ExpressionValue": null,
+      "ExpressionValueType": null,
+      "FullPropertyName": "Prescription.FeeTime",
+      "IsErrorExpression": null,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": null,
+      "ExpressionValue": null,
+      "ExpressionValueType": null,
+      "FullPropertyName": "Prescription.FeeType",
+      "IsErrorExpression": null,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "#RXO_8 == null ? \"\" :#RXO_8.ToString().Substring(#RXO_8.ToString().LastIndexOf('&')+1)",
+      "ExpressionValue": "",
+      "ExpressionValueType": "String",
+      "FullPropertyName": "Prescription.DepartmentDestinationId",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": null,
+      "ExpressionValue": null,
+      "ExpressionValueType": null,
+      "FullPropertyName": "Prescription.RecordType",
+      "IsErrorExpression": null,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": null,
+      "ExpressionValue": null,
+      "ExpressionValueType": null,
+      "FullPropertyName": "Prescription.AgentId",
+      "IsErrorExpression": null,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": null,
+      "ExpressionValue": null,
+      "ExpressionValueType": null,
+      "FullPropertyName": "Prescription.DispensingId",
+      "IsErrorExpression": null,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": null,
+      "ExpressionValue": null,
+      "ExpressionValueType": null,
+      "FullPropertyName": "Prescription.DispensingTime",
+      "IsErrorExpression": null,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": null,
+      "ExpressionValue": null,
+      "ExpressionValueType": null,
+      "FullPropertyName": "Prescription.DispensingNumber",
+      "IsErrorExpression": null,
+      "SelectedSubType": null
+    }
+  ],
+  "IsSyncing": false
+}

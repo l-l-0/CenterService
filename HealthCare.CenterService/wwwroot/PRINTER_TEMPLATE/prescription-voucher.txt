@@ -1,0 +1,11 @@
+﻿                   医嘱补录凭证
+医生 @doctorName，工号 @jobNo
+患者 @patientName，住院号 @hospitalNumber，床号 @bedNo
+------------------------------------------------
+医嘱 药品名称          规格         数量    单位
+loop:@serial @goodsName，@specification，@qty，@usedUnit
+------------------------------------------------
+打印时间 @printTime
+打印人   @printUser
+
+

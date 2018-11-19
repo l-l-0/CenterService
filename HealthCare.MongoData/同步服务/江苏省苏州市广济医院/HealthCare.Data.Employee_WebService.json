@@ -1,0 +1,206 @@
+﻿{
+  "AssemblyPath": "setting\\HealthCare.Data.Employee.dll",
+  "IsLocked": false,
+  "IsSelected": false,
+  "IsTestPassed": true,
+  "ObjectFullName": "HealthCare.Data.Employee",
+  "ObjectName": "Employee",
+  "SelectedSource": {
+    "IsEffect": false,
+    "ResourceAddress": "POST：http://localhost/HISWebService.asmx/getEmp\r\nPATH：ROWSET.ROW\r\nBODY：\r\n",
+    "SourceEnum": 2
+  },
+  "TargetMemberDetails": [
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "null",
+      "ExpressionValue": null,
+      "ExpressionValueType": null,
+      "FullPropertyName": "Employee.JobState",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "null",
+      "ExpressionValue": null,
+      "ExpressionValueType": null,
+      "FullPropertyName": "Employee.Signature",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "null",
+      "ExpressionValue": null,
+      "ExpressionValueType": null,
+      "FullPropertyName": "Employee.Nationality",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "null",
+      "ExpressionValue": null,
+      "ExpressionValueType": null,
+      "FullPropertyName": "Employee.Nation",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "null",
+      "ExpressionValue": null,
+      "ExpressionValueType": null,
+      "FullPropertyName": "Employee.Gender",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "null",
+      "ExpressionValue": null,
+      "ExpressionValueType": null,
+      "FullPropertyName": "Employee.Birthday",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "0",
+      "ExpressionValue": 0,
+      "ExpressionValueType": "Int32",
+      "FullPropertyName": "Employee.Age",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "null",
+      "ExpressionValue": null,
+      "ExpressionValueType": null,
+      "FullPropertyName": "Employee.Address",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "null",
+      "ExpressionValue": null,
+      "ExpressionValueType": null,
+      "FullPropertyName": "Employee.Post",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "null",
+      "ExpressionValue": null,
+      "ExpressionValueType": null,
+      "FullPropertyName": "Employee.CellPhone",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "null",
+      "ExpressionValue": null,
+      "ExpressionValueType": null,
+      "FullPropertyName": "Employee.Email",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "#departCode",
+      "ExpressionValue": "8201",
+      "ExpressionValueType": "String",
+      "FullPropertyName": "Employee.DepartmentId",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "#workNO",
+      "ExpressionValue": "4513",
+      "ExpressionValueType": "String",
+      "FullPropertyName": "Employee.JobNo",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "#position",
+      "ExpressionValue": "护士",
+      "ExpressionValueType": "String",
+      "FullPropertyName": "Employee.JobTitle",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "null",
+      "ExpressionValue": null,
+      "ExpressionValueType": null,
+      "FullPropertyName": "Employee.CertificateType",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "null",
+      "ExpressionValue": null,
+      "ExpressionValueType": null,
+      "FullPropertyName": "Employee.CertificateCode",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "null",
+      "ExpressionValue": null,
+      "ExpressionValueType": null,
+      "FullPropertyName": "Employee.Code",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "#name + #position + \"(\" + #workNO + \")\"",
+      "ExpressionValue": "小二护士(4513)",
+      "ExpressionValueType": "String",
+      "FullPropertyName": "Employee.DisplayName",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    },
+    {
+      "ChildTargetMemberDetails": [],
+      "ErrorMsg": null,
+      "Expression": "#workNO",
+      "ExpressionValue": "4513",
+      "ExpressionValueType": "String",
+      "FullPropertyName": "Employee.UniqueId",
+      "IsErrorExpression": false,
+      "SelectedSubType": null
+    }
+  ],
+  "IsSyncing": false
+}

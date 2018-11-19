@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<APPLYS>
+  <APPLY>
+    <!--申请信息,可以有多条-->
+    <RECORDNO>2017082101235</RECORDNO>
+    <!--发药单号-->
+    <OPERDATETIME>2017-08-21 14:28:13</OPERDATETIME>
+    <!--发药时间-->
+    <OPERNO>674</OPERNO>
+    <!--发药员工号-->
+    <OPERNAME>陆怡雯</OPERNAME>
+    <!--发药员姓名-->
+    <PATDEPCODE>8222</PATDEPCODE>
+    <!--患者科室编码-->
+    <PATDEPNAME>二十二病区</PATDEPNAME>
+    <!--科室名称-->
+    <DRUGDEPCODE>409</DRUGDEPCODE>
+    <!--药品科室编码-->
+    <DRUGDEPNAME>中心药房</DRUGDEPNAME>
+    <!--药品科室名称-->
+    <DIAGNOSE>抑郁症抑郁症</DIAGNOSE>
+    <!--诊断-->
+    <PID>2017082100001</PID>
+    <!--患者ID-->
+    <INPATIENTNO>55380</INPATIENTNO>
+    <!--住院号-->
+    <OUTPATIENTNO>89917</OUTPATIENTNO>
+    <!--门诊号-->
+    <PATNAME>倪双女</PATNAME>
+    <!--病人姓名-->
+    <DATEOFBIRTH>2016-07-01 00:00:00.0</DATEOFBIRTH>
+    <!--出生日期-->
+    <bedno>12D</bedno>
+    <!--床号-->
+    <ROWSET>
+      <ROW>
+        <DOCTORADVICEDETAILID>18576057</DOCTORADVICEDETAILID>
+        <!--医嘱ID-->
+        <CONTENT>0.9%氯化钠注射液250ml　250　ml　St.　I.v.gtt</CONTENT>
+        <!--医嘱内容-->
+        <DRUG_ID>7944</DRUG_ID>
+        <!--药品内容-->
+        <CODE>2001205</CODE>
+        <!--药品编码-->
+        <NAME>0.9%氯化钠注射液250ml</NAME>
+        <!--药品名称-->
+        <INPUTDOCNUM>0022</INPUTDOCNUM>
+        <!--开嘱医生工号-->
+        <INPUTDOCNAME>沈建红</INPUTDOCNAME>
+        <!--开嘱医生姓名-->
+        <STARTDATETIME>2017-08-21 02:08:10</STARTDATETIME>
+        <!--开嘱时间-->
+        <AMOUNT>1</AMOUNT>
+        <!--数量 退药时为负数-->
+        <UNIT>瓶</UNIT>
+        <!--单位-->
+        <OUTPRICE>5.65</OUTPRICE>
+        <!--单价-->
+      </ROW>
+      <ROW>
+        <DOCTORADVICEDETAILID>18576060</DOCTORADVICEDETAILID>
+        <CONTENT>曲克芦丁注射液（维脑路通）　300　mg　St.　I.v.gtt</CONTENT>
+        <DRUG_ID>7443</DRUG_ID>
+        <CODE>2001078</CODE>
+        <NAME>曲克芦丁注射液（维脑路通）</NAME>
+        <INPUTDOCNUM>0022</INPUTDOCNUM>
+        <INPUTDOCNAME>沈建红</INPUTDOCNAME>
+        <STARTDATETIME>2017-08-21 02:08:25</STARTDATETIME>
+        <AMOUNT>-5</AMOUNT>
+        <UNIT>支</UNIT>
+        <OUTPRICE>0.18</OUTPRICE>
+      </ROW>
+    </ROWSET>
+  </APPLY>
+</APPLYS>

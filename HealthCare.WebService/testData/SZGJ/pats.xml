@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ROWSET>
+  <ROW>
+    <PID>2017082100001</PID>
+    <!--患者ID-->
+    <INPATIENTNO>55380</INPATIENTNO>
+    <!--住院号-->
+    <OUTPATIENTNO>89917</OUTPATIENTNO>
+    <!--门诊号-->
+    <PATNAME>倪双女</PATNAME>
+    <!--病人姓名-->
+    <DATEOFBIRTH>2016-07-01 00:00:00.0</DATEOFBIRTH>
+    <!--出生日期-->
+    <PATDEPCODE>8222</PATDEPCODE>
+    <!--患者科室编码-->
+    <PATDEPNAME>二十二病区</PATDEPNAME>
+    <!--科室名称-->
+    <bedno>12D</bedno>
+    <!--床号-->
+  </ROW>
+  <ROW>
+    <PID>2017082100001</PID>
+    <!--患者ID-->
+    <INPATIENTNO>55380</INPATIENTNO>
+    <!--住院号-->
+    <OUTPATIENTNO>89917</OUTPATIENTNO>
+    <!--门诊号-->
+    <PATNAME>倪双女</PATNAME>
+    <!--病人姓名-->
+    <DATEOFBIRTH>2016-07-01 00:00:00.0</DATEOFBIRTH>
+    <!--出生日期-->
+    <PATDEPCODE>8222</PATDEPCODE>
+    <!--患者科室编码-->
+    <PATDEPNAME>二十二病区</PATDEPNAME>
+    <!--科室名称-->
+    <bedno>12D</bedno>
+    <!--床号-->
+  </ROW>
+</ROWSET>
