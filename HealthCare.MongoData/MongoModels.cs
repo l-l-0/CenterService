@@ -614,7 +614,6 @@ namespace HealthCare.Data
         /// <summary>
         ///     药方
         /// </summary>
-        [Obsolete]
         Medication = 3,
     }
 
@@ -1071,19 +1070,16 @@ namespace HealthCare.Data
         ///     当 <see cref="Exchange.Mode"/>为<see cref="ExchangeMode.Medication"/>时，记录关联的预支取药记录
         /// </summary>
         [BsonIgnoreIfNull]
-        [Obsolete]
         public string[] CheckOutIds { get; set; }
         /// <summary>
         ///     当 <see cref="Exchange.Mode"/>为<see cref="ExchangeMode.Medication"/>时，记录关联的预支退回记录
         /// </summary>
         [BsonIgnoreIfNull]
-        [Obsolete]
         public string CheckInId { get; set; }
         /// <summary>
         ///     取退平衡。 预支、取退、消耗平衡
         /// </summary>
         [BsonIgnoreIfNull]
-        [Obsolete]
         public bool? InOutBalance { get; set; }
         /// <summary>
         ///     急症补录时上传的图片的地址
@@ -2367,6 +2363,14 @@ namespace HealthCare.Data
         ///     接收空安瓿的人
         /// </summary>
         public string ReceivePerson { get; set; }
+        /// <summary>
+        ///     残液量
+        /// </summary>
+        public string Certifier { get; set; }
+        /// <summary>
+        ///     证明人
+        /// </summary>
+        public string Raffinate { get; set; }
     }
 
     /// <summary>

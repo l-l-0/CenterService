@@ -1,15 +1,15 @@
-{ 
-    "_id" : "platform",
-    "displayName" : "平台管理", 
-    "displayOrder" : NumberInt(1), 
-    "isDisabled" : false, 
-    "filter" : "Menu", 
-    "uri" : "platform", 
-    "icon" : "fa fa-jsfiddle", 
-    "isModule" : true
+{
+  "_id": "platform",
+  "displayName": "平台管理",
+  "displayOrder": "NumberInt(1)",
+  "isDisabled": false,
+  "filter": "Menu",
+  "uri": "platform",
+  "icon": "fa fa-jsfiddle",
+  "isModule": true
 }
 { 
-    "_id" : "/platform/setting-cabinet-ownership",
+    "_id" : "/platform/setting-cabinet-ownership", 
     "displayName" : "客户信息管理", 
     "displayOrder" : NumberInt(11), 
     "isDisabled" : false, 
@@ -20,7 +20,7 @@
     "parentId" : "platform"
 }
 { 
-    "_id" : "/platform/running-message",
+    "_id" : "/platform/running-message", 
     "displayName" : "本地系统消息", 
     "displayOrder" : NumberInt(12), 
     "isDisabled" : false, 
@@ -31,7 +31,7 @@
     "parentId" : "platform"
 }
 { 
-    "_id" : "/platform/user-mgr",
+    "_id" : "/platform/user-mgr", 
     "displayName" : "系统用户管理", 
     "displayOrder" : NumberInt(13), 
     "isDisabled" : false, 
@@ -42,7 +42,7 @@
     "parentId" : "platform"
 }
 { 
-    "_id" : "/platform/role-mgr",
+    "_id" : "/platform/role-mgr", 
     "displayName" : "角色权限管理", 
     "displayOrder" : NumberInt(14), 
     "isDisabled" : false, 
@@ -53,7 +53,7 @@
     "parentId" : "platform"
 }
 { 
-    "_id" : "data",
+    "_id" : "data", 
     "displayName" : "数据管理", 
     "displayOrder" : NumberInt(2), 
     "isDisabled" : false, 
@@ -63,7 +63,7 @@
     "isModule" : true
 }
 { 
-    "_id" : "/data/goods-mgr",
+    "_id" : "/data/goods-mgr", 
     "displayName" : "物品信息管理", 
     "displayOrder" : NumberInt(21), 
     "isDisabled" : false, 
@@ -74,7 +74,7 @@
     "parentId" : "data"
 }
 { 
-    "_id" : "/data/goods-category-mgr",
+    "_id" : "/data/goods-category-mgr", 
     "displayName" : "物品分组管理", 
     "displayOrder" : NumberInt(22), 
     "isDisabled" : false, 
@@ -85,7 +85,7 @@
     "parentId" : "data"
 }
 { 
-    "_id" : "/data/goods-kit-mgr",
+    "_id" : "/data/goods-kit-mgr", 
     "displayName" : "物品套装管理", 
     "displayOrder" : NumberInt(23), 
     "isDisabled" : false, 
@@ -96,7 +96,7 @@
     "parentId" : "data"
 }
 { 
-    "_id" : "/data/department-mgr",
+    "_id" : "/data/department-mgr", 
     "displayName" : "科室病区管理", 
     "displayOrder" : NumberInt(24), 
     "isDisabled" : false, 
@@ -107,7 +107,7 @@
     "parentId" : "data"
 }
 { 
-    "_id" : "/data/employee-mgr",
+    "_id" : "/data/employee-mgr", 
     "displayName" : "员工信息管理", 
     "displayOrder" : NumberInt(25), 
     "isDisabled" : false, 
@@ -118,7 +118,7 @@
     "parentId" : "data"
 }
 { 
-    "_id" : "/data/operation-schedule-mgr",
+    "_id" : "/data/operation-schedule-mgr", 
     "displayName" : "手术排班管理", 
     "displayOrder" : NumberInt(26), 
     "isDisabled" : false, 
@@ -129,12 +129,12 @@
     "parentId" : "data"
 }
 { 
-    "_id" : "/data/labels-print-mgr",
+    "_id" : "/data/labels-print-mgr", 
     "displayName" : "标签打印管理", 
     "displayOrder" : NumberInt(27), 
     "isDisabled" : false, 
     "filter" : "Menu", 
-    "uri" : "labels-print-mgr/BJFC", 
+    "uri" : "labels-print-mgr/BJTT", 
     "icon" : "fa fa-tags", 
     "isModule" : false, 
     "parentId" : "data"
@@ -146,12 +146,23 @@
     "isDisabled" : false, 
     "filter" : "Menu", 
     "uri" : "printer-mgr", 
-    "icon" : "fa fa-print", 
+    "icon" : "fa fa-print",     
+    "isModule" : false, 
+    "parentId" : "data"
+}
+{
+    "_id" : "/data/data-sync-mgr", 
+    "displayName" : "同步配置管理", 
+    "displayOrder" : NumberInt(29), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "data-sync-mgr/BJTT", 
+    "icon" : "fa fa-telegram", 
     "isModule" : false, 
     "parentId" : "data"
 }
 { 
-    "_id" : "storage",
+    "_id" : "storage", 
     "displayName" : "存储配置", 
     "displayOrder" : NumberInt(3), 
     "isDisabled" : false, 
@@ -161,7 +172,7 @@
     "isModule" : true
 }
 { 
-    "_id" : "/storage/cabinet-testing",
+    "_id" : "/storage/cabinet-testing", 
     "displayName" : "智能药柜测试", 
     "displayOrder" : NumberInt(30), 
     "isDisabled" : false, 
@@ -172,7 +183,7 @@
     "parentId" : "storage"
 }
 { 
-    "_id" : "/storage/setting-goods-scope",
+    "_id" : "/storage/setting-goods-scope", 
     "displayName" : "终端药品配置", 
     "displayOrder" : NumberInt(31), 
     "isDisabled" : false, 
@@ -183,7 +194,7 @@
     "parentId" : "storage"
 }
 { 
-    "_id" : "/storage/setting-intelligent-storage",
+    "_id" : "/storage/setting-intelligent-storage", 
     "displayName" : "智能药柜配置", 
     "displayOrder" : NumberInt(32), 
     "isDisabled" : false, 
@@ -194,7 +205,7 @@
     "parentId" : "storage"
 }
 { 
-    "_id" : "/storage/setting-storage-unit",
+    "_id" : "/storage/setting-storage-unit", 
     "displayName" : "终端物品占位", 
     "displayOrder" : NumberInt(33), 
     "isDisabled" : false, 
@@ -205,7 +216,7 @@
     "parentId" : "storage"
 }
 { 
-    "_id" : "inventory",
+    "_id" : "inventory", 
     "displayName" : "库存管理", 
     "displayOrder" : NumberInt(4), 
     "isDisabled" : false, 
@@ -215,7 +226,7 @@
     "isModule" : true
 }
 { 
-    "_id" : "/inventory/generate-pharmacy-allot",
+    "_id" : "/inventory/generate-pharmacy-allot", 
     "displayName" : "护 士 补 药", 
     "displayOrder" : NumberInt(41), 
     "isDisabled" : false, 
@@ -225,52 +236,52 @@
     "isModule" : false, 
     "parentId" : "inventory"
 }
-{
-    "_id" : "/inventory/pharmacy-transfer",
-    "displayName" : "调拨出入库",
-    "displayOrder" : NumberInt(42),
-    "isDisabled" : false,
-    "filter" : "Menu",
-    "uri" : "pharmacy-transfer/BJTT?unit=usage",
-    "icon" : "fa fa-cloud-download",
-    "isModule" : false,
-    "parentId" : "inventory"
-}
-{
-    "_id" : "/inventory/storage-transfer",
-    "displayName" : "位置出入库",
-    "displayOrder" : NumberInt(43),
-    "isDisabled" : false,
-    "filter" : "Menu",
-    "uri" : "storage-transfer/BJTT?manual=true&unit=usage",
-    "icon" : "fa fa-cube",
-    "isModule" : false,
-    "parentId" : "inventory"
-}
-{
-    "_id" : "/inventory/goods-transfer",
-    "displayName" : "物品出入库",
-    "displayOrder" : NumberInt(44),
-    "isDisabled" : false,
-    "filter" : "Menu",
-    "uri" : "goods-transfer/BJTT?manual=true&unit=usage",
-    "icon" : "fa fa-clipboard",
-    "isModule" : false,
-    "parentId" : "inventory"
-}
-{
-    "_id" : "/inventory/storage-check",
-    "displayName" : "库 存 清 点",
-    "displayOrder" : NumberInt(45),
-    "isDisabled" : false,
-    "filter" : "Menu",
-    "uri" : "storage-check/BJTT?unit=usage",
-    "icon" : "fa fa-hand-paper-o",
-    "isModule" : false,
+{ 
+    "_id" : "/inventory/pharmacy-transfer", 
+    "displayName" : "调拨出入库", 
+    "displayOrder" : NumberInt(42), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "pharmacy-transfer/BJTT?unit=usage", 
+    "icon" : "fa fa-cloud-download", 
+    "isModule" : false, 
     "parentId" : "inventory"
 }
 { 
-    "_id" : "prescription",
+    "_id" : "/inventory/storage-transfer", 
+    "displayName" : "位置出入库", 
+    "displayOrder" : NumberInt(43), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "storage-transfer/BJTT?manual=true&unit=usage", 
+    "icon" : "fa fa-cube", 
+    "isModule" : false, 
+    "parentId" : "inventory"
+}
+{ 
+    "_id" : "/inventory/goods-transfer", 
+    "displayName" : "物品出入库", 
+    "displayOrder" : NumberInt(44), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "goods-transfer/BJTT?manual=true&unit=usage", 
+    "icon" : "fa fa-clipboard", 
+    "isModule" : false, 
+    "parentId" : "inventory"
+}
+{ 
+    "_id" : "/inventory/storage-check", 
+    "displayName" : "库 存 清 点", 
+    "displayOrder" : NumberInt(45), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "storage-check/BJTT?unit=usage", 
+    "icon" : "fa fa-hand-paper-o", 
+    "isModule" : false, 
+    "parentId" : "inventory"
+}
+{ 
+    "_id" : "prescription", 
     "displayName" : "物品取退", 
     "displayOrder" : NumberInt(5), 
     "isDisabled" : false, 
@@ -280,7 +291,7 @@
     "isModule" : true
 }
 { 
-    "_id" : "/prescription/temp-for-doctor",
+    "_id" : "/prescription/temp-for-doctor", 
     "displayName" : "医生预支", 
     "displayOrder" : NumberInt(51), 
     "isDisabled" : false, 
@@ -291,7 +302,7 @@
     "parentId" : "prescription"
 }
 { 
-    "_id" : "/prescription/temp-for-operation",
+    "_id" : "/prescription/temp-for-operation", 
     "displayName" : "手术预支", 
     "displayOrder" : NumberInt(52), 
     "isDisabled" : false, 
@@ -302,18 +313,18 @@
     "parentId" : "prescription"
 }
 { 
-    "_id" : "/prescription/ampoule-recycle",
+    "_id" : "/prescription/ampoule-recycle", 
     "displayName" : "空安瓿回收", 
     "displayOrder" : NumberInt(53), 
     "isDisabled" : false, 
     "filter" : "Menu", 
-    "uri" : "ampoule-recycle/BJTT", 
+    "uri" : "ampoule-recycle/BJTT?residue=true&dataType=Prescription", 
     "icon" : "fa fa-thermometer-empty", 
     "isModule" : false, 
     "parentId" : "prescription"
 }
 { 
-    "_id" : "report",
+    "_id" : "report", 
     "displayName" : "报表管理", 
     "displayOrder" : NumberInt(6), 
     "isDisabled" : false, 
@@ -323,7 +334,7 @@
     "isModule" : true
 }
 { 
-    "_id" : "/report/action-details",
+    "_id" : "/report/action-details", 
     "displayName" : "操作记录明细", 
     "displayOrder" : NumberInt(61), 
     "isDisabled" : false, 
@@ -334,7 +345,7 @@
     "parentId" : "report"
 }
 { 
-    "_id" : "/report/goods-quota-details",
+    "_id" : "/report/goods-quota-details", 
     "displayName" : "药品基数明细", 
     "displayOrder" : NumberInt(62), 
     "isDisabled" : false, 
@@ -345,7 +356,7 @@
     "parentId" : "report"
 }
 { 
-    "_id" : "/report/transfer-details",
+    "_id" : "/report/transfer-details", 
     "displayName" : "库存清点记录", 
     "displayOrder" : NumberInt(63), 
     "isDisabled" : false, 
@@ -356,7 +367,7 @@
     "parentId" : "report"
 }
 { 
-    "_id" : "/report/inventory-details",
+    "_id" : "/report/inventory-details", 
     "displayName" : "入库记录明细", 
     "displayOrder" : NumberInt(64), 
     "isDisabled" : false, 
@@ -389,20 +400,31 @@
     "parentId": "report"
 }
 {
-    "_id" : "/report/recycle-details",
-    "displayName" : "空安瓿(废贴)回收登记表",
-    "displayOrder" : NumberInt(67),
-    "isDisabled" : false,
-    "filter" : "Menu",
-    "uri" : "BJTT/recycle-details",
-    "icon" : "fa fa-viacoin",
-    "isModule" : false,
+  "_id": "/report/recycle-details",
+  "displayName": "空安瓿(废贴)回收登记表",
+  "displayOrder": NumberInt(67),
+  "isDisabled": false,
+  "filter": "Menu",
+  "uri": "BJTT/recycle-details",
+  "icon": "fa fa-viacoin",
+  "isModule": false,
+  "parentId": "report"
+}
+{ 
+    "_id" : "/report/destory-details", 
+    "displayName" : "空安瓿(废贴)销毁登记表", 
+    "displayOrder" : NumberInt(68), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "BJTT/destory-details", 
+    "icon" : "fa fa-chain-broken", 
+    "isModule" : false, 
     "parentId" : "report"
 }
 { 
-    "_id" : "/report/goods-quota-summary",
+    "_id" : "/report/goods-quota-summary", 
     "displayName" : "手术室药品汇总", 
-    "displayOrder" : NumberInt(68), 
+    "displayOrder" : NumberInt(69), 
     "isDisabled" : false, 
     "filter" : "Menu", 
     "uri" : "BJTT/goods-quota-summary", 
@@ -410,3 +432,4 @@
     "isModule" : false, 
     "parentId" : "report"
 }
+

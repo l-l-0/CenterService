@@ -750,12 +750,12 @@ namespace HealthCare.CenterService.Controllers
             string templateUrl = Path.Combine(Path.Combine("http://api.sframed.com:8000/", "wwwroot", "EPSON_TEMPLATE"), fileName + ".png");
             if (isColor)
             {
-                using (Bitmap b1 = new Bitmap(1054, 376))
+                using (Bitmap b1 = new Bitmap(472, 177))    //1054, 376
                 {
                     using (Graphics g1 = Graphics.FromImage(b1))
                     {
                         Brush brush = new SolidBrush(ColorTranslator.FromHtml(color));      //Color.FromArgb(216, 204, 44)
-                        g1.FillRectangle(brush, new Rectangle(0, 0, 1054, 376));
+                        g1.FillRectangle(brush, new Rectangle(0, 0, 472, 177));
                     }
                     b1.Save(writeUrl, System.Drawing.Imaging.ImageFormat.Png);
                 }
@@ -833,8 +833,14 @@ namespace HealthCare.CenterService.Controllers
 
         [HttpPut]
         [ActionName("modify-operation-schedule")]
-        public async Task<bool> ModifyOperationScheduleAsync([FromBody]OperationSchedule schedule)
+        public async Task<bool> ModifyOperationScheduleAsync([FromBody]OperationSchedule schedule, string hospital = null)
         {
+            var department = DepartmentId;
+
+            if (hospital == Hospital.BJTT)
+            {
+                schedule.RoomId = department;
+            }
             if (mongo.OperationScheduleCollection.AsQueryable().Any(o => o.UniqueId == schedule.UniqueId))
             {
                 mongo.OperationScheduleCollection.UpdateOne(o => o.UniqueId == schedule.UniqueId, Builders<OperationSchedule>.Update

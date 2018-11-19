@@ -1955,7 +1955,7 @@ namespace HealthCare.CenterService.Controllers
         /// <returns></returns>
         [HttpGet]
         [ActionName("search-recycle-ampoules-by-date-range")]
-        public PatientRecycleAmpoules[] SearchRecycleAmpoulesByDateRange(string hospital, DateTime start, DateTime end, string department, string recycleType)
+        public PatientRecycleAmpoules[] SearchRecycleAmpoulesByDateRange(string hospital, DateTime start, DateTime end, string department, string recycleType = null)
         {
             var departments = mongo.DepartmentCollection.AsQueryable().ToList();
             var ampoules = mongo.AmpouleCollection.AsQueryable().Where(x => x.CreatedTime >= start && x.CreatedTime < end && x.DepartmentId == department).ToList();
@@ -1963,7 +1963,7 @@ namespace HealthCare.CenterService.Controllers
             var ampouleIds = ampoules.Select(x => x.UniqueId).Distinct().ToList();
             var goods = mongo.GoodsCollection.AsQueryable().Where(x => goodsIds.Contains(x.UniqueId)).ToList();
 
-            var records = mongo.PrescriptionCollection.AsQueryable().Where(x => x.DepartmentDestinationId == department).SelectMany(x => x.AssignAmpouleRecords).Where(y => ampouleIds.Contains(y.AmpouleId) && y.RecycleType == recycleType).ToList();
+            var records = mongo.PrescriptionCollection.AsQueryable().Where(x => x.DepartmentDestinationId == department).SelectMany(x => x.AssignAmpouleRecords).Where(y => ampouleIds.Contains(y.AmpouleId) && (y.RecycleType == recycleType || string.IsNullOrEmpty(recycleType))).ToList();
             var prescriptionsId = records.Select(x => x.OwnerCode).ToList();
             var prescriptions = mongo.PrescriptionCollection.AsQueryable().Where(x => prescriptionsId.Contains(x.UniqueId)).ToList();
             var patientIds = prescriptions.Select(x => x.PatientId).Distinct().ToList();
@@ -1995,7 +1995,7 @@ namespace HealthCare.CenterService.Controllers
                     PrimaryUserName = x.Key.PrimaryUserName,
                     SecondaryUserName = x.Key.SecondaryUserName,
                     IssuedTime = x.Key.TimeFilter,
-                    DispensingName = x.Key.DispensingId != null ? persons.Where(u => u.LoginId == x.Key.DispensingId).FirstOrDefault()?.Employee.DisplayName : "",
+                    DispensingName = x.Key.DispensingId != null ? persons.Where(u => u.LoginId == x.Key.DispensingId).FirstOrDefault()?.Employee?.DisplayName : "",
                     Qty = x.Sum(y => y.ActualQty)
                 };
             }).ToArray();

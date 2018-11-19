@@ -107,6 +107,17 @@
     "parentId" : "data"
 }
 { 
+    "_id" : "/data/operation-schedule-mgr",
+    "displayName" : "手术排班管理", 
+    "displayOrder" : NumberInt(26), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "operation-schedule-mgr/BJTT", 
+    "icon" : "fa fa-calendar", 
+    "isModule" : false, 
+    "parentId" : "data"
+}
+{ 
     "_id" : "/data/goods-kit-mgr",
     "displayName" : "物品套装管理", 
     "displayOrder" : NumberInt(25), 
@@ -125,6 +136,17 @@
     "filter" : "Menu", 
     "uri" : "evaluate-rule-mgr/BJFC", 
     "icon" : "fa fa-etsy", 
+    "isModule" : false, 
+    "parentId" : "data"
+}
+{ 
+    "_id" : "/data/data-sync-mgr", 
+    "displayName" : "同步配置管理", 
+    "displayOrder" : NumberInt(26), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "data-sync-mgr/BJFC", 
+    "icon" : "fa fa-telegram", 
     "isModule" : false, 
     "parentId" : "data"
 }

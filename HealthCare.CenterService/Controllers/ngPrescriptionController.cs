@@ -405,14 +405,16 @@ namespace HealthCare.CenterService.Controllers
             }
             return true;
         }
+
         /// <summary>
         /// 未执行的取药处方和退药处方能够相互冲抵
         /// </summary>
         /// <param name="terminal"></param>
+        /// <param name="deleted">抵消之后是否删除（即不参与报表统计等计算，某些医院精麻药品不允许退药）</param>
         /// <returns></returns>
         [HttpPut]
         [ActionName("modify-offset-prescription-out-in")]
-        public async Task<bool> ModifyOffsetPrescriptionOutInAsync(string terminal = null)
+        public async Task<bool> ModifyOffsetPrescriptionOutInAsync(string terminal = null, bool deleted = false)
         {
             Terminal = terminal ?? Terminal;
             var department = DepartmentId;
@@ -420,15 +422,15 @@ namespace HealthCare.CenterService.Controllers
             var preOut = prescriptions.Where(p => p.Mode == ExchangeMode.CheckOut).ToArray();
             var preIn = prescriptions.Where(p => p.Mode == ExchangeMode.CheckIn).ToArray();
             var find = preIn.Join(preOut, a => new { a.DoctorId, a.PatientId, a.GoodsId, a.Qty }, b => new { b.DoctorId, b.PatientId, b.GoodsId, b.Qty }, (a, b) => b).Select(f => f.UniqueId).ToList();
-            var data = await SearchPositionAsync(nameof(Prescription), new PositionArg { Exchanges = find, Boxes = new List<string>(), IsRecycle = false });
+            var data = find.Any() ? await SearchPositionAsync(nameof(Prescription), new PositionArg { Exchanges = find, Boxes = new List<string>(), IsRecycle = false }) : new PositionResult { Exchanges = new PostionExchange[0], GoodsBarcodes = new string[0], };
 
             var outf = mongo.PrescriptionCollection.AsQueryable().Where(d => find.Contains(d.UniqueId)).ToArray();
             outf = outf.Join(data.Exchanges, a => a.UniqueId, b => b.ExchangeId, (a, b) => new { a, b }).Select(p =>
-              {
-                  p.a.Plans.ForEach(d => d.IsExecuted = true);
-                  p.a.QtyActual = p.b.Plans.Sum(d => d.Qty);
-                  return p.a;
-              }).ToArray();
+            {
+                p.a.Plans.ForEach(d => d.IsExecuted = true);
+                p.a.QtyActual = p.b.Plans.Sum(d => d.Qty);
+                return p.a;
+            }).ToArray();
             var result = outf.Join(preIn, a => new { a.DoctorId, a.PatientId, a.GoodsId }, b => new { b.DoctorId, b.PatientId, b.GoodsId }, (a, b) => new { a, b }).Select(p =>
             {
                 p.b.Plans = p.a.Plans;
@@ -437,7 +439,8 @@ namespace HealthCare.CenterService.Controllers
             }).Union(outf).ToArray();
             foreach (var item in result)
             {
-                mongo.PrescriptionCollection.FindOneAndReplace<Prescription>(x => x.UniqueId == item.UniqueId, item, new FindOneAndReplaceOptions<Prescription, Prescription> { IsUpsert = true });
+                mongo.PrescriptionCollection.UpdateOne(x => x.UniqueId == item.UniqueId,
+                    Builders<Prescription>.Update.Set(p => p.Plans, item.Plans).Set(p => p.QtyActual, item.QtyActual).Set(p => p.IsDisabled, deleted));
             }
             return true;
         }
@@ -994,13 +997,15 @@ namespace HealthCare.CenterService.Controllers
         public async Task<string[]> ModifyPrescriptionsAsync([FromBody] Prescription[] prescriptions, string terminal = null)
         {
             Terminal = terminal ?? Terminal;
+            var department = DepartmentId;
+
             foreach (var pre in prescriptions)
             {
                 pre.UniqueId = pre.UniqueId ?? SfraObject.GenerateId();
                 pre.Computer = pre.Computer ?? Terminal;
                 pre.GoodsBarcodes = pre.GoodsBarcodes ?? new List<string>();
-                pre.BatchNumber = pre.BatchNumber;
-                pre.ExpiredDate = pre.ExpiredDate;
+                pre.DepartmentDestinationId = DepartmentId;
+                pre.DepartmentSourceId = DepartmentId;
                 pre.CustomerId = pre.CustomerId ?? mongo.CustomerCollection.AsQueryable().Where(c => !c.IsDisabled).SelectMany(c => c.Cabinets).Where(c => c.Computer == Terminal).Select(c => c.OwnerCode).FirstOrDefault();
                 pre.Doctor = mongo.EmployeeCollection.AsQueryable().FirstOrDefault(f => f.UniqueId == pre.DoctorId);
                 pre.Patient = mongo.PatientCollection.AsQueryable().FirstOrDefault(f => f.UniqueId == pre.PatientId);
@@ -1515,7 +1520,6 @@ namespace HealthCare.CenterService.Controllers
             var prs = pres.Where(p => p.Mode == ExchangeMode.CheckOut).SelectMany(p =>
             {
                 var inActions = pres.Where(o => o.Mode == ExchangeMode.CheckIn && o.DoctorId == p.DoctorId && o.PatientId == p.PatientId && o.GoodsId == p.GoodsId).SelectMany(o => o.Plans ?? new List<ActionPlan>()).Where(o => o.IsExecuted).ToList();
-
                 var plans = (p.Plans ?? new List<ActionPlan>()).Where(o => o.IsExecuted).GroupBy(o =>
                 {
                     var fill = o.Box.Fills.First(f => f.GoodsId == p.GoodsId);
@@ -1527,17 +1531,23 @@ namespace HealthCare.CenterService.Controllers
                     // 1. 减去退药医嘱的数量 (医嘱，医生、患者、药品相等，即为对应的退药医嘱)
                     Qty = o.Sum(x => x.Qty) - inActions.Where(f => f.Box.Fills.Any(x => x.BatchNumber == o.Key.BatchNumber && x.ExpiredDate == o.Key.ExpiredDate)).Sum(a => a.Qty),
                 }).ToList();
-
                 return plans.Select(o =>
                 {
                     // 2. 减去已经回收了的空安瓿数量
                     var qty = o.Qty - (p.AssignAmpouleRecords ?? new List<Exchange.AmpouleRecord>()).Where(a => a.BatchNumber == o.BatchNumber && a.ExpiredDate == o.ExpiredDate).Sum(a => a.Qty);
                     return new { p.UniqueId, p.DepartmentDestinationId, p.DoctorId, p.PatientId, p.GoodsId, Qty = qty, o.BatchNumber, o.ExpiredDate, p.IssuedTime, Collection = nameof(Prescription), };
                 }).Where(o => o.Qty > 0);
+
+
             }).ToList();
 
-            var als = alos.Where(a => a.Mode == ExchangeMode.CheckOut).SelectMany(a =>
+            var prsp = pres.Where(p => p.Mode == ExchangeMode.CheckOut && p.Plans == null && p.QtyActual > 0).Select(p =>
             {
+                return new { p.UniqueId, p.DepartmentDestinationId, p.DoctorId, p.PatientId, p.GoodsId, Qty = p.QtyActual, p.BatchNumber, p.ExpiredDate, p.IssuedTime, Collection = nameof(Prescription), };
+            }).Where(o => o.Qty > 0).ToList();
+
+            var als = alos.Where(a => a.Mode == ExchangeMode.CheckOut).SelectMany(a =>
+             {
                 var inActions = alos.Where(o => o.Mode == ExchangeMode.CheckIn && o.GoodsId == a.GoodsId).SelectMany(o => o.Plans ?? new List<ActionPlan>()).Where(o => o.IsExecuted).ToList();
 
                 var plans = (a.Plans ?? new List<ActionPlan>()).Where(o => o.IsExecuted).GroupBy(o =>
@@ -1550,13 +1560,12 @@ namespace HealthCare.CenterService.Controllers
                     o.Key.ExpiredDate,
                     Qty = o.Sum(x => x.Qty) - inActions.Where(f => f.Box.Fills.Any(x => x.BatchNumber == o.Key.BatchNumber && x.ExpiredDate == o.Key.ExpiredDate)).Sum(f => f.Qty),
                 }).ToList();
-
                 return plans.Select(o =>
                 {
                     var qty = o.Qty - (a.AssignAmpouleRecords ?? new List<Exchange.AmpouleRecord>()).Where(p => p.BatchNumber == o.BatchNumber && p.ExpiredDate == o.ExpiredDate).Sum(p => p.Qty);
                     return new { a.UniqueId, a.DepartmentDestinationId, DoctorId = (string)null, PatientId = (string)null, a.GoodsId, Qty = qty, o.BatchNumber, o.ExpiredDate, IssuedTime = a.CreatedTime, Collection = nameof(Allocation) };
                 }).Where(o => o.Qty > 0);
-            }).ToList();
+              }).ToList();
 
             var mds = meds.Where(m => m.Mode == ExchangeMode.CheckOut).SelectMany(m =>
             {
@@ -1582,7 +1591,7 @@ namespace HealthCare.CenterService.Controllers
                 }).Where(o => o.Qty > 0);
             }).ToList();
 
-            var data = prs.Concat(als).Concat(mds).OrderBy(x => x.IssuedTime).ToList();
+            var data = prs.Concat(prsp).Concat(als).Concat(mds).OrderBy(x => x.IssuedTime).ToList();
 
             var finds = mongo.CustomerCollection.AsQueryable().Where(c => !c.IsDisabled).SelectMany(c => c.Cabinets).ToList();
             var departIds = data.Select(d => d.DepartmentDestinationId).Where(d => !string.IsNullOrEmpty(d)).Distinct().ToArray();
@@ -1800,11 +1809,14 @@ namespace HealthCare.CenterService.Controllers
         /// <param name="repaird">归还空安瓿的人</param>
         /// <param name="receive">接收空安瓿的人</param>
         /// <param name="recycleType">回收类型</param>
+        /// <param name="certifier"></param>
+        /// <param name="raffinate"></param>
         /// <returns></returns>
         [HttpPut]
         [ActionName("modify-ampoule-records")]
-        public async Task<bool> ModifyAmpouleRecordsAsync([FromBody] RecycleAmpoule[] recycleAmpoule, double ActualQty, string repaird, string recycleType, string receive = null)
+        public async Task<bool> ModifyAmpouleRecordsAsync([FromBody] RecycleAmpoule[] recycleAmpoule, double ActualQty, string repaird, string recycleType, string certifier, string raffinate, string receive = null)
         {
+
             foreach (var item in recycleAmpoule)
             {
                 Exchange find = null;
@@ -1836,6 +1848,8 @@ namespace HealthCare.CenterService.Controllers
                     FinishedDestory = false,
                     RepaidPerson = repaird,
                     ReceivePerson = receive,
+                    Certifier = certifier,
+                    Raffinate = raffinate,
                 };
                 await mongo.AmpouleCollection.InsertOneAsync(ampoule);
 

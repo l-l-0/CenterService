@@ -107,6 +107,17 @@
     "parentId" : "data"
 }
 { 
+    "_id" : "/data/data-sync-mgr", 
+    "displayName" : "同步配置管理", 
+    "displayOrder" : NumberInt(25), 
+    "isDisabled" : false, 
+    "filter" : "Menu", 
+    "uri" : "data-sync-mgr/SDJN", 
+    "icon" : "fa fa-telegram", 
+    "isModule" : false, 
+    "parentId" : "data"
+}
+{ 
     "_id" : "storage",
     "displayName" : "存储配置", 
     "displayOrder" : NumberInt(3), 
